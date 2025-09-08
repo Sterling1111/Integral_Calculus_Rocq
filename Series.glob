@@ -1,0 +1,404 @@
+DIGEST 6140b486f0d232875e864f7561319e24
+FSeries
+R15:21 Imports <> <> lib
+R23:26 Sums <> <> lib
+R28:35 Sequence <> <> lib
+R37:46 Reals_util <> <> lib
+R48:56 Chapter34 <> <> lib
+R58:66 Notations <> <> lib
+def 102:112 <> partial_sum
+R119:126 Sequence <> sequence def
+binder 115:115 <> a:1
+R134:136 Corelib.Init.Datatypes <> nat ind
+binder 130:130 <> n:2
+R142:145 Sums <> :::'∑'_x_x_x not
+R147:147 Sums <> :::'∑'_x_x_x not
+R149:149 Sums <> :::'∑'_x_x_x not
+R148:148 Series <> n:2 var
+R150:150 Series <> a:1 var
+def 165:180 <> series_converges
+R187:194 Sequence <> sequence def
+binder 183:183 <> a:3
+R209:227 Sequence <> convergent_sequence def
+R230:240 Series <> partial_sum def
+R242:242 Series <> a:3 var
+def 258:272 <> series_diverges
+R279:286 Sequence <> sequence def
+binder 275:275 <> a:4
+R301:318 Sequence <> divergent_sequence def
+R321:331 Series <> partial_sum def
+R333:333 Series <> a:4 var
+def 349:358 <> series_sum
+R365:372 Sequence <> sequence def
+binder 361:361 <> a:5
+R380:380 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 376:376 <> L:6
+R395:409 Sequence <> :::'⟦'_'lim_s'_'⟧'_x_'='_x not
+R423:426 Sequence <> :::'⟦'_'lim_s'_'⟧'_x_'='_x not
+R410:420 Series <> partial_sum def
+R422:422 Series <> a:5 var
+R427:427 Series <> L:6 var
+R468:477 Series <> series_sum def
+not 440:440 <> :::'∑'_'0'_'∞'_x_'='_x
+sec 576:587 <> section_35_2
+var 596:596 section_35_2 a
+R600:607 Sequence <> sequence def
+binder 617:617 <> n:7
+def 637:650 <> example_35_2_1
+R683:685 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R654:656 Corelib.Lists.ListDef <> map def
+R675:677 Corelib.Lists.ListDef <> seq def
+R659:669 Series <> partial_sum def
+R671:671 Series <> section_35_2.a var
+R686:686 Stdlib.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R688:689 Stdlib.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R691:692 Stdlib.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R694:695 Stdlib.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R697:697 Stdlib.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+prf 867:898 <> nth_term_in_series_sequence_35_2
+binder 909:909 <> n:8
+R927:930 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R940:940 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R912:922 Series <> partial_sum def
+R924:924 Series <> section_35_2.a var
+R926:926 Series <> n:8 var
+R936:938 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R931:933 Stdlib.Reals.Raxioms <> INR def
+R935:935 Series <> n:8 var
+R963:973 Series <> partial_sum def
+R976:976 Series <> a vardef
+R1048:1059 Sums <> sum_f_i_Sn_f thm
+R1048:1059 Sums <> sum_f_i_Sn_f thm
+R1048:1059 Sums <> sum_f_i_Sn_f thm
+R1048:1059 Sums <> sum_f_i_Sn_f thm
+prf 1110:1147 <> sequence_of_partial_sums_diverges_35_2
+R1151:1165 Series <> series_diverges def
+R1167:1167 Series <> section_35_2.a var
+R1244:1256 Stdlib.Reals.RIneq <> INR_unbounded thm
+R1259:1262 Stdlib.Reals.Rbasic_fun <> Rmax def
+R1244:1256 Stdlib.Reals.RIneq <> INR_unbounded thm
+R1259:1262 Stdlib.Reals.Rbasic_fun <> Rmax def
+R1320:1351 Series <> nth_term_in_series_sequence_35_2 thm
+R1320:1351 Series <> nth_term_in_series_sequence_35_2 thm
+R1320:1351 Series <> nth_term_in_series_sequence_35_2 thm
+R1367:1369 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R1362:1364 Stdlib.Reals.Raxioms <> INR def
+R1367:1369 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R1362:1364 Stdlib.Reals.Raxioms <> INR def
+R1415:1426 Series section_35_2 <> sec
+sec 1438:1449 <> section_35_3
+var 1458:1458 section_35_3 b
+R1462:1469 Sequence <> sequence def
+binder 1479:1479 <> n:9
+R1499:1501 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R1485:1488 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R1498:1498 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R1494:1496 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R1489:1491 Stdlib.Reals.Raxioms <> INR def
+R1493:1493 Series <> n:9 var
+R1503:1506 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R1516:1516 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R1512:1514 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R1507:1509 Stdlib.Reals.Raxioms <> INR def
+R1511:1511 Series <> n:9 var
+def 1531:1544 <> example_35_3_1
+R1563:1565 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1548:1550 Corelib.Lists.ListDef <> map def
+R1555:1557 Corelib.Lists.ListDef <> seq def
+R1552:1552 Series <> section_35_3.b var
+R1566:1566 Stdlib.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1572:1573 Stdlib.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1579:1580 Stdlib.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1587:1588 Stdlib.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1595:1595 Stdlib.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1568:1570 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R1575:1577 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R1582:1584 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R1590:1592 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+def 1634:1647 <> example_35_3_2
+R1680:1682 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1651:1653 Corelib.Lists.ListDef <> map def
+R1672:1674 Corelib.Lists.ListDef <> seq def
+R1656:1666 Series <> partial_sum def
+R1668:1668 Series <> section_35_3.b var
+R1683:1683 Stdlib.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1687:1688 Stdlib.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1692:1693 Stdlib.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1697:1698 Stdlib.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1702:1703 Stdlib.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1707:1707 Stdlib.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1685:1685 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R1690:1690 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R1695:1695 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R1700:1700 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R1705:1705 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+prf 1744:1775 <> nth_term_in_series_sequence_35_3
+binder 1786:1786 <> n:10
+R1804:1806 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1789:1799 Series <> partial_sum def
+R1801:1801 Series <> section_35_3.b var
+R1803:1803 Series <> n:10 var
+R1808:1811 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R1827:1827 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R1813:1816 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R1826:1826 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R1822:1824 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R1817:1819 Stdlib.Reals.Raxioms <> INR def
+R1821:1821 Series <> n:10 var
+R1850:1860 Series <> partial_sum def
+R1863:1863 Series <> b vardef
+R1935:1946 Sums <> sum_f_i_Sn_f thm
+R1935:1946 Sums <> sum_f_i_Sn_f thm
+R1935:1946 Sums <> sum_f_i_Sn_f thm
+R1935:1946 Sums <> sum_f_i_Sn_f thm
+R1979:1982 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R1983:1985 Stdlib.Reals.Raxioms <> INR def
+R2000:2006 Stdlib.Reals.RIneq <> pos_INR thm
+R1979:1982 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R1983:1985 Stdlib.Reals.Raxioms <> INR def
+R2000:2006 Stdlib.Reals.RIneq <> pos_INR thm
+prf 2037:2075 <> sequence_of_partial_sums_converges_35_3
+R2079:2094 Series <> series_converges def
+R2096:2096 Series <> section_35_3.b var
+R2150:2152 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R2145:2147 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R2150:2152 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R2145:2147 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R2178:2209 Series <> nth_term_in_series_sequence_35_3 thm
+R2178:2209 Series <> nth_term_in_series_sequence_35_3 thm
+R2178:2209 Series <> nth_term_in_series_sequence_35_3 thm
+R2227:2233 Stdlib.Reals.RIneq <> pos_INR thm
+R2227:2233 Stdlib.Reals.RIneq <> pos_INR thm
+R2268:2270 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R2254:2257 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R2267:2267 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R2263:2265 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R2258:2260 Stdlib.Reals.Raxioms <> INR def
+R2268:2270 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R2254:2257 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R2267:2267 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R2263:2265 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R2258:2260 Stdlib.Reals.Raxioms <> INR def
+R2289:2300 Stdlib.Reals.RIneq <> Rdiv_neg_pos thm
+R2289:2300 Stdlib.Reals.RIneq <> Rdiv_neg_pos thm
+R2328:2329 Notations <> ::R_scope:'|'_x_'|' not
+R2353:2354 Notations <> ::R_scope:'|'_x_'|' not
+R2349:2351 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R2331:2333 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R2335:2338 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R2348:2348 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R2344:2346 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R2339:2341 Stdlib.Reals.Raxioms <> INR def
+R2365:2368 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R2378:2378 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R2374:2376 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R2369:2371 Stdlib.Reals.Raxioms <> INR def
+R2328:2329 Notations <> ::R_scope:'|'_x_'|' not
+R2353:2354 Notations <> ::R_scope:'|'_x_'|' not
+R2349:2351 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R2331:2333 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R2335:2338 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R2348:2348 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R2344:2346 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R2339:2341 Stdlib.Reals.Raxioms <> INR def
+R2365:2368 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R2378:2378 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R2374:2376 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R2369:2371 Stdlib.Reals.Raxioms <> INR def
+R2403:2419 Stdlib.Reals.RIneq <> Rplus_gt_compat_r thm
+R2448:2464 Stdlib.Reals.RIneq <> Rmult_gt_compat_r thm
+R2527:2529 Stdlib.Reals.Rdefinitions <> ::R_scope:'/'_x not
+R2539:2539 Stdlib.Reals.Rdefinitions <> ::R_scope:'/'_x not
+R2535:2537 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R2530:2532 Stdlib.Reals.Raxioms <> INR def
+R2498:2514 Stdlib.Reals.RIneq <> Rmult_gt_compat_r thm
+R2403:2419 Stdlib.Reals.RIneq <> Rplus_gt_compat_r thm
+R2448:2464 Stdlib.Reals.RIneq <> Rmult_gt_compat_r thm
+R2527:2529 Stdlib.Reals.Rdefinitions <> ::R_scope:'/'_x not
+R2539:2539 Stdlib.Reals.Rdefinitions <> ::R_scope:'/'_x not
+R2535:2537 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R2530:2532 Stdlib.Reals.Raxioms <> INR def
+R2498:2514 Stdlib.Reals.RIneq <> Rmult_gt_compat_r thm
+R2527:2529 Stdlib.Reals.Rdefinitions <> ::R_scope:'/'_x not
+R2539:2539 Stdlib.Reals.Rdefinitions <> ::R_scope:'/'_x not
+R2535:2537 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R2530:2532 Stdlib.Reals.Raxioms <> INR def
+R2498:2514 Stdlib.Reals.RIneq <> Rmult_gt_compat_r thm
+R2591:2602 Series section_35_3 <> sec
+sec 2614:2625 <> section_35_5
+var 2634:2634 section_35_5 a
+R2638:2645 Sequence <> sequence def
+binder 2655:2655 <> n:11
+R2661:2663 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R2665:2667 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R2668:2668 Series <> n:11 var
+def 2683:2696 <> example_35_5_1
+R2729:2731 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2700:2702 Corelib.Lists.ListDef <> map def
+R2721:2723 Corelib.Lists.ListDef <> seq def
+R2705:2715 Series <> partial_sum def
+R2717:2717 Series <> section_35_5.a var
+R2732:2732 Stdlib.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2734:2735 Stdlib.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2739:2740 Stdlib.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2744:2745 Stdlib.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2750:2750 Stdlib.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2737:2737 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R2742:2742 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R2748:2748 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+prf 2787:2818 <> nth_term_in_series_sequence_35_5
+binder 2829:2829 <> n:12
+R2847:2850 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2864:2864 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2832:2842 Series <> partial_sum def
+R2844:2844 Series <> section_35_5.a var
+R2846:2846 Series <> n:12 var
+R2852:2854 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R2856:2858 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R2860:2862 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R2863:2863 Series <> n:12 var
+R2887:2897 Series <> partial_sum def
+R2900:2900 Series <> a vardef
+R2964:2975 Sums <> sum_f_i_Sn_f thm
+R2964:2975 Sums <> sum_f_i_Sn_f thm
+R2964:2975 Sums <> sum_f_i_Sn_f thm
+R2964:2975 Sums <> sum_f_i_Sn_f thm
+R3010:3013 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R3008:3008 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R3010:3013 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R3008:3008 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R3082:3093 Series section_35_5 <> sec
+prf 3103:3117 <> partial_sum_rec
+binder 3128:3128 <> a:13
+binder 3130:3130 <> n:14
+R3146:3149 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R3137:3139 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R3136:3136 Series <> n:14 var
+R3165:3167 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3150:3160 Series <> partial_sum def
+R3162:3162 Series <> a:13 var
+R3164:3164 Series <> n:14 var
+R3189:3191 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R3168:3178 Series <> partial_sum def
+R3180:3180 Series <> a:13 var
+R3184:3186 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R3183:3183 Series <> n:14 var
+R3192:3192 Series <> a:13 var
+R3194:3194 Series <> n:14 var
+R3228:3238 Series <> partial_sum def
+R3257:3257 Corelib.Init.Datatypes <> S constr
+R3261:3263 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R3257:3257 Corelib.Init.Datatypes <> S constr
+R3261:3263 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R3286:3297 Sums <> sum_f_i_Sn_f thm
+R3286:3297 Sums <> sum_f_i_Sn_f thm
+R3286:3297 Sums <> sum_f_i_Sn_f thm
+R3286:3297 Sums <> sum_f_i_Sn_f thm
+R3318:3318 Corelib.Init.Datatypes <> S constr
+R3322:3324 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R3318:3318 Corelib.Init.Datatypes <> S constr
+R3322:3324 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+prf 3666:3677 <> theorem_35_6
+R3692:3699 Sequence <> sequence def
+binder 3688:3688 <> a:15
+R3722:3725 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R3704:3719 Series <> series_converges def
+R3721:3721 Series <> a:15 var
+R3726:3739 Sequence <> :::'⟦'_'lim_s'_'⟧'_x_'='_x not
+R3741:3743 Sequence <> :::'⟦'_'lim_s'_'⟧'_x_'='_x not
+R3740:3740 Series <> a:15 var
+R3797:3799 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R3797:3799 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R3836:3839 Stdlib.Reals.Rbasic_fun <> Rmax def
+R3845:3847 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R3836:3839 Stdlib.Reals.Rbasic_fun <> Rmax def
+R3845:3847 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R3872:3879 Sequence <> Rmax_Rgt thm
+R3872:3879 Sequence <> Rmax_Rgt thm
+R3920:3922 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R3909:3911 Stdlib.Reals.Raxioms <> INR def
+R3915:3917 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R3920:3922 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R3909:3911 Stdlib.Reals.Raxioms <> INR def
+R3915:3917 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R3952:3957 Stdlib.Reals.RIneq <> INR_le thm
+R3952:3957 Stdlib.Reals.RIneq <> INR_le thm
+R4028:4030 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R4028:4030 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R4069:4071 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R4069:4071 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R4095:4100 Stdlib.Reals.RIneq <> INR_lt thm
+R4095:4100 Stdlib.Reals.RIneq <> INR_lt thm
+R4124:4138 Series <> partial_sum_rec thm
+R4124:4138 Series <> partial_sum_rec thm
+R4124:4138 Series <> partial_sum_rec thm
+R4124:4138 Series <> partial_sum_rec thm
+prf 4183:4194 <> theorem_35_7
+R4209:4216 Sequence <> sequence def
+binder 4205:4205 <> a:16
+R4242:4245 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R4221:4222 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R4223:4236 Sequence <> :::'⟦'_'lim_s'_'⟧'_x_'='_x not
+R4238:4240 Sequence <> :::'⟦'_'lim_s'_'⟧'_x_'='_x not
+R4237:4237 Series <> a:16 var
+R4246:4260 Series <> series_diverges def
+R4262:4262 Series <> a:16 var
+R4298:4309 Series <> theorem_35_6 thm
+R4298:4309 Series <> theorem_35_6 thm
+R4326:4333 Chapter7 <> contra_2 thm
+R4326:4333 Chapter7 <> contra_2 thm
+R4357:4371 Series <> series_diverges def
+R4380:4401 Sequence <> divergent_sequence_iff thm
+R4380:4401 Sequence <> divergent_sequence_iff thm
+R4434:4449 Series <> series_converges def
+def 4472:4483 <> example_35_8
+R4487:4501 Series <> series_diverges def
+binder 4508:4508 <> n:17
+R4524:4526 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R4513:4515 Stdlib.Reals.Raxioms <> INR def
+R4519:4521 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R4518:4518 Series <> n:17 var
+R4527:4529 Stdlib.Reals.Raxioms <> INR def
+R4537:4539 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R4533:4535 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R4536:4536 Series <> n:17 var
+R4561:4572 Series <> theorem_35_7 thm
+R4561:4572 Series <> theorem_35_7 thm
+R4597:4613 Sequence <> Proposition_34_19 thm
+R4597:4613 Sequence <> Proposition_34_19 thm
+R4633:4635 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4637:4637 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R4633:4635 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4637:4637 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+binder 4696:4696 <> n:18
+R4712:4714 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R4701:4703 Stdlib.Reals.Raxioms <> INR def
+R4707:4709 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R4706:4706 Series <> n:18 var
+R4715:4717 Stdlib.Reals.Raxioms <> INR def
+R4725:4727 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R4721:4723 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R4724:4724 Series <> n:18 var
+R4656:4679 Sequence <> limit_of_sequence_unique thm
+binder 4696:4696 <> n:19
+R4712:4714 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R4701:4703 Stdlib.Reals.Raxioms <> INR def
+R4707:4709 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R4706:4706 Series <> n:19 var
+R4715:4717 Stdlib.Reals.Raxioms <> INR def
+R4725:4727 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R4721:4723 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R4724:4724 Series <> n:19 var
+R4656:4679 Sequence <> limit_of_sequence_unique thm
+def 4763:4774 <> example_35_9
+R4778:4792 Series <> series_diverges def
+binder 4799:4799 <> n:20
+R4804:4804 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R4807:4810 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R4811:4811 Series <> n:20 var
+R4830:4841 Series <> theorem_35_7 thm
+R4830:4841 Series <> theorem_35_7 thm
+R4866:4882 Sequence <> proposition_34_16 thm
+R4866:4882 Sequence <> proposition_34_16 thm
+R4918:4942 Sequence <> not_limit_of_sequence_iff thm
+R4918:4942 Sequence <> not_limit_of_sequence_iff thm

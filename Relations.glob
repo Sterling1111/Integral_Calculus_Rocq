@@ -1,0 +1,405 @@
+DIGEST f2c8312cb1ba9f9f87f4a72053d283a7
+FRelations
+R15:21 Imports <> <> lib
+R23:26 Sets <> <> lib
+R28:36 Notations <> <> lib
+R47:58 Sets SetNotations <> mod
+def 73:80 <> Relation
+binder 83:83 <> A:1
+binder 85:85 <> B:2
+R99:102 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R98:98 Relations <> A:1 var
+R104:107 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R103:103 Relations <> B:2 var
+def 126:134 <> Reflexive
+binder 137:137 <> A:3
+R145:152 Relations <> Relation def
+R154:154 Relations <> A:3 var
+R156:156 Relations <> A:3 var
+binder 141:141 <> R:4
+binder 176:176 <> x:5
+R179:179 Relations <> R:4 var
+R181:181 Relations <> x:5 var
+R183:183 Relations <> x:5 var
+def 197:205 <> Symmetric
+binder 208:208 <> A:6
+R216:223 Relations <> Relation def
+R225:225 Relations <> A:6 var
+R227:227 Relations <> A:6 var
+binder 212:212 <> R:7
+binder 247:247 <> x:8
+binder 249:249 <> y:9
+R257:260 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R252:252 Relations <> R:7 var
+R254:254 Relations <> x:8 var
+R256:256 Relations <> y:9 var
+R261:261 Relations <> R:7 var
+R263:263 Relations <> y:9 var
+R265:265 Relations <> x:8 var
+def 279:288 <> Transitive
+binder 291:291 <> A:10
+R299:306 Relations <> Relation def
+R308:308 Relations <> A:10 var
+R310:310 Relations <> A:10 var
+binder 295:295 <> R:11
+binder 330:330 <> x:12
+binder 332:332 <> y:13
+binder 334:334 <> z:14
+R342:345 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R337:337 Relations <> R:11 var
+R339:339 Relations <> x:12 var
+R341:341 Relations <> y:13 var
+R351:354 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R346:346 Relations <> R:11 var
+R348:348 Relations <> y:13 var
+R350:350 Relations <> z:14 var
+R355:355 Relations <> R:11 var
+R357:357 Relations <> x:12 var
+R359:359 Relations <> z:14 var
+def 373:385 <> Antisymmetric
+binder 388:388 <> A:15
+R396:403 Relations <> Relation def
+R405:405 Relations <> A:15 var
+R407:407 Relations <> A:15 var
+binder 392:392 <> R:16
+binder 427:427 <> x:17
+binder 429:429 <> y:18
+R437:440 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R432:432 Relations <> R:16 var
+R434:434 Relations <> x:17 var
+R436:436 Relations <> y:18 var
+R446:449 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R441:441 Relations <> R:16 var
+R443:443 Relations <> y:18 var
+R445:445 Relations <> x:17 var
+R451:453 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R450:450 Relations <> x:17 var
+R454:454 Relations <> y:18 var
+def 469:480 <> Reflexive_On
+binder 483:483 <> A:19
+R491:498 Relations <> Relation def
+R500:500 Relations <> A:19 var
+R502:502 Relations <> A:19 var
+binder 487:487 <> R:20
+R510:517 Stdlib.Sets.Ensembles <> Ensemble def
+R519:519 Relations <> A:19 var
+binder 506:506 <> E:21
+binder 542:542 <> x:22
+R552:555 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R546:550 Sets SetNotations ::set_scope:x_'∈'_x not
+R551:551 Relations <> E:21 var
+R545:545 Relations <> x:22 var
+R556:556 Relations <> R:20 var
+R558:558 Relations <> x:22 var
+R560:560 Relations <> x:22 var
+def 575:586 <> Symmetric_On
+binder 589:589 <> A:23
+R597:604 Relations <> Relation def
+R606:606 Relations <> A:23 var
+R608:608 Relations <> A:23 var
+binder 593:593 <> R:24
+R616:623 Stdlib.Sets.Ensembles <> Ensemble def
+R625:625 Relations <> A:23 var
+binder 612:612 <> E:25
+binder 647:647 <> x:26
+binder 649:649 <> y:27
+R659:662 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R653:657 Sets SetNotations ::set_scope:x_'∈'_x not
+R658:658 Relations <> E:25 var
+R652:652 Relations <> x:26 var
+R670:673 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R664:668 Sets SetNotations ::set_scope:x_'∈'_x not
+R669:669 Relations <> E:25 var
+R663:663 Relations <> y:27 var
+R679:682 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R674:674 Relations <> R:24 var
+R676:676 Relations <> x:26 var
+R678:678 Relations <> y:27 var
+R683:683 Relations <> R:24 var
+R685:685 Relations <> y:27 var
+R687:687 Relations <> x:26 var
+def 702:714 <> Transitive_On
+binder 717:717 <> A:28
+R725:732 Relations <> Relation def
+R734:734 Relations <> A:28 var
+R736:736 Relations <> A:28 var
+binder 721:721 <> R:29
+R744:751 Stdlib.Sets.Ensembles <> Ensemble def
+R753:753 Relations <> A:28 var
+binder 740:740 <> E:30
+binder 775:775 <> x:31
+binder 777:777 <> y:32
+binder 779:779 <> z:33
+R789:792 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R783:787 Sets SetNotations ::set_scope:x_'∈'_x not
+R788:788 Relations <> E:30 var
+R782:782 Relations <> x:31 var
+R800:803 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R794:798 Sets SetNotations ::set_scope:x_'∈'_x not
+R799:799 Relations <> E:30 var
+R793:793 Relations <> y:32 var
+R811:814 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R805:809 Sets SetNotations ::set_scope:x_'∈'_x not
+R810:810 Relations <> E:30 var
+R804:804 Relations <> z:33 var
+R820:823 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R815:815 Relations <> R:29 var
+R817:817 Relations <> x:31 var
+R819:819 Relations <> y:32 var
+R829:832 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R824:824 Relations <> R:29 var
+R826:826 Relations <> y:32 var
+R828:828 Relations <> z:33 var
+R833:833 Relations <> R:29 var
+R835:835 Relations <> x:31 var
+R837:837 Relations <> z:33 var
+def 852:867 <> Antisymmetric_On
+binder 870:870 <> A:34
+R878:885 Relations <> Relation def
+R887:887 Relations <> A:34 var
+R889:889 Relations <> A:34 var
+binder 874:874 <> R:35
+R897:904 Stdlib.Sets.Ensembles <> Ensemble def
+R906:906 Relations <> A:34 var
+binder 893:893 <> E:36
+binder 928:928 <> x:37
+binder 930:930 <> y:38
+R940:943 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R934:938 Sets SetNotations ::set_scope:x_'∈'_x not
+R939:939 Relations <> E:36 var
+R933:933 Relations <> x:37 var
+R951:954 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R945:949 Sets SetNotations ::set_scope:x_'∈'_x not
+R950:950 Relations <> E:36 var
+R944:944 Relations <> y:38 var
+R960:963 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R955:955 Relations <> R:35 var
+R957:957 Relations <> x:37 var
+R959:959 Relations <> y:38 var
+R969:972 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R964:964 Relations <> R:35 var
+R966:966 Relations <> y:38 var
+R968:968 Relations <> x:37 var
+R974:976 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R973:973 Relations <> x:37 var
+R977:977 Relations <> y:38 var
+prf 987:1006 <> Relation_is_Ensemble
+binder 1017:1017 <> A:39
+binder 1019:1019 <> B:40
+R1034:1036 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1022:1029 Relations <> Relation def
+R1031:1031 Relations <> A:39 var
+R1033:1033 Relations <> B:40 var
+R1037:1044 Stdlib.Sets.Ensembles <> Ensemble def
+R1048:1050 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R1047:1047 Relations <> A:39 var
+R1051:1051 Relations <> B:40 var
+R1084:1093 Imports <> univalence prfax
+R1084:1093 Imports <> univalence prfax
+R1115:1122 Relations <> Relation def
+binder 1111:1111 <> r:41
+R1135:1137 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+binder 1130:1130 <> p:42
+R1144:1144 Relations <> r:41 var
+R1147:1149 Corelib.Init.Datatypes <> fst def
+R1151:1151 Relations <> p:42 var
+R1155:1157 Corelib.Init.Datatypes <> snd def
+R1159:1159 Relations <> p:42 var
+R1180:1187 Stdlib.Sets.Ensembles <> Ensemble def
+R1191:1193 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+binder 1176:1176 <> e:43
+binder 1199:1199 <> x:44
+binder 1206:1206 <> y:45
+R1216:1216 Relations <> e:43 var
+R1218:1218 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1220:1220 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1222:1222 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1219:1219 Relations <> x:44 var
+R1221:1221 Relations <> y:45 var
+R1115:1122 Relations <> Relation def
+binder 1111:1111 <> r:46
+R1135:1137 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+binder 1130:1130 <> p:47
+R1144:1144 Relations <> r:46 var
+R1147:1149 Corelib.Init.Datatypes <> fst def
+R1151:1151 Relations <> p:47 var
+R1155:1157 Corelib.Init.Datatypes <> snd def
+R1159:1159 Relations <> p:47 var
+R1180:1187 Stdlib.Sets.Ensembles <> Ensemble def
+R1191:1193 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+binder 1176:1176 <> e:48
+binder 1199:1199 <> x:49
+binder 1206:1206 <> y:50
+R1216:1216 Relations <> e:48 var
+R1218:1218 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1220:1220 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1222:1222 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1219:1219 Relations <> x:49 var
+R1221:1221 Relations <> y:50 var
+R1272:1296 Stdlib.Logic.FunctionalExtensionality <> functional_extensionality thm
+R1272:1296 Stdlib.Logic.FunctionalExtensionality <> functional_extensionality thm
+def 1350:1359 <> rel_to_ens
+binder 1362:1362 <> A:51
+binder 1364:1364 <> B:52
+R1372:1379 Relations <> Relation def
+R1381:1381 Relations <> A:51 var
+R1383:1383 Relations <> B:52 var
+binder 1368:1368 <> R:53
+R1388:1395 Stdlib.Sets.Ensembles <> Ensemble def
+R1399:1401 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R1398:1398 Relations <> A:51 var
+R1402:1402 Relations <> B:52 var
+binder 1415:1415 <> p:54
+R1420:1420 Relations <> R:53 var
+R1423:1425 Corelib.Init.Datatypes <> fst def
+R1427:1427 Relations <> p:54 var
+R1431:1433 Corelib.Init.Datatypes <> snd def
+R1435:1435 Relations <> p:54 var
+def 1448:1457 <> ens_to_rel
+binder 1460:1460 <> A:55
+binder 1462:1462 <> B:56
+R1470:1477 Stdlib.Sets.Ensembles <> Ensemble def
+R1481:1483 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R1480:1480 Relations <> A:55 var
+R1484:1484 Relations <> B:56 var
+binder 1466:1466 <> E:57
+R1490:1497 Relations <> Relation def
+R1499:1499 Relations <> A:55 var
+R1501:1501 Relations <> B:56 var
+binder 1513:1513 <> x:58
+binder 1515:1515 <> y:59
+R1520:1520 Relations <> E:57 var
+R1522:1522 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1524:1524 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1526:1526 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1523:1523 Relations <> x:58 var
+R1525:1525 Relations <> y:59 var
+prf 1536:1549 <> ens_rel_ens_id
+binder 1560:1560 <> A:60
+binder 1562:1562 <> B:61
+R1569:1576 Stdlib.Sets.Ensembles <> Ensemble def
+R1580:1582 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R1579:1579 Relations <> A:60 var
+R1583:1583 Relations <> B:61 var
+binder 1565:1565 <> E:62
+R1615:1617 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1590:1599 Relations <> rel_to_ens coe
+R1602:1611 Relations <> ens_to_rel coe
+R1613:1613 Relations <> E:62 var
+R1618:1618 Relations <> E:62 var
+R1650:1662 Sets <> set_equal_def thm
+R1650:1662 Sets <> set_equal_def thm
+prf 1698:1711 <> rel_ens_rel_id
+binder 1722:1722 <> A:63
+binder 1724:1724 <> B:64
+R1731:1738 Relations <> Relation def
+R1740:1740 Relations <> A:63 var
+R1742:1742 Relations <> B:64 var
+binder 1727:1727 <> R:65
+R1773:1775 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1748:1757 Relations <> ens_to_rel coe
+R1760:1769 Relations <> rel_to_ens coe
+R1771:1771 Relations <> R:65 var
+R1776:1776 Relations <> R:65 var
+prf 1808:1825 <> x_y_In_implies_rel
+binder 1836:1836 <> A:66
+binder 1838:1838 <> B:67
+R1845:1852 Relations <> Relation def
+R1854:1854 Relations <> A:66 var
+R1856:1856 Relations <> B:67 var
+binder 1841:1841 <> R:68
+binder 1859:1859 <> x:69
+binder 1861:1861 <> y:70
+R1876:1880 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R1870:1874 Sets SetNotations ::set_scope:x_'∈'_x not
+R1875:1875 Relations <> R:68 var
+R1864:1864 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1866:1867 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1869:1869 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1865:1865 Relations <> x:69 var
+R1868:1868 Relations <> y:70 var
+R1881:1881 Relations <> R:68 var
+R1883:1883 Relations <> x:69 var
+R1885:1885 Relations <> y:70 var
+def 1935:1945 <> mk_relation
+binder 1948:1948 <> U:71
+binder 1950:1950 <> V:72
+R1959:1962 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R1958:1958 Relations <> U:71 var
+R1964:1967 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R1963:1963 Relations <> V:72 var
+binder 1954:1954 <> f:73
+R1976:1983 Relations <> Relation def
+R1985:1985 Relations <> U:71 var
+R1987:1987 Relations <> V:72 var
+R1992:1992 Relations <> f:73 var
+mod 2003:2019 <> RelationNotations
+R2153:2163 Relations <> mk_relation def
+binder 2175:2175 <> x:74
+binder 2181:2181 <> y:75
+not 2107:2107 RelationNotations :::'❴'_'('_x_','_x_')'_'∈'_x_'⨯'_x_'|'_x_'❵'
+R2217:2233 Relations RelationNotations <> mod
+prf 2243:2250 <> tessssst
+binder 2262:2262 <> U:76
+R2277:2284 Stdlib.Sets.Ensembles <> Ensemble def
+R2286:2286 Relations <> U:76 var
+binder 2273:2273 <> A:77
+R2304:2310 Sets SetNotations subType rec
+R2312:2312 Relations <> A:77 var
+binder 2299:2299 <> x:78
+R2323:2327 Sets SetNotations ::set_scope:x_'∈'_x not
+R2328:2328 Relations <> A:77 var
+R2316:2318 Sets SetNotations val proj
+R2322:2322 Relations <> x:78 var
+R2320:2320 Relations <> A:77 var
+prf 2379:2383 <> test2
+binder 2395:2395 <> U:79
+R2410:2417 Stdlib.Sets.Ensembles <> Ensemble def
+R2419:2419 Relations <> U:79 var
+binder 2406:2406 <> A:80
+R2436:2436 Relations <> U:79 var
+binder 2432:2432 <> x:81
+R2446:2449 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R2440:2444 Sets SetNotations ::set_scope:x_'∈'_x not
+R2445:2445 Relations <> A:80 var
+R2439:2439 Relations <> x:81 var
+R2450:2457 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R2474:2475 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R2462:2468 Sets SetNotations subType rec
+R2470:2470 Relations <> A:80 var
+binder 2458:2458 <> y:82
+binder 2473:2473 <> H:83
+R2477:2479 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2476:2476 Relations <> y:82 var
+R2480:2488 Sets SetNotations mkSubType constr
+R2490:2490 Relations <> U:79 var
+R2492:2492 Relations <> A:80 var
+R2494:2494 Relations <> x:81 var
+R2496:2496 Relations <> H:83 var
+R2533:2541 Sets SetNotations mkSubType constr
+R2533:2541 Sets SetNotations mkSubType constr
+prf 2590:2625 <> subType_eqivalence_proof_irrelevance
+binder 2640:2640 <> U:84
+R2655:2662 Stdlib.Sets.Ensembles <> Ensemble def
+R2664:2664 Relations <> U:84 var
+binder 2651:2651 <> A:85
+R2672:2672 Relations <> U:84 var
+binder 2668:2668 <> x:86
+R2685:2689 Sets SetNotations ::set_scope:x_'∈'_x not
+R2690:2690 Relations <> A:85 var
+R2684:2684 Relations <> x:86 var
+binder 2676:2677 <> H1:87
+binder 2679:2680 <> H2:88
+R2716:2718 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2698:2706 Sets SetNotations mkSubType constr
+R2708:2708 Relations <> U:84 var
+R2710:2710 Relations <> A:85 var
+R2712:2712 Relations <> x:86 var
+R2714:2715 Relations <> H1:87 var
+R2719:2727 Sets SetNotations mkSubType constr
+R2729:2729 Relations <> U:84 var
+R2731:2731 Relations <> A:85 var
+R2733:2733 Relations <> x:86 var
+R2735:2736 Relations <> H2:88 var
+R2807:2823 Stdlib.Logic.Classical_Prop <> proof_irrelevance thm
+R2807:2823 Stdlib.Logic.Classical_Prop <> proof_irrelevance thm

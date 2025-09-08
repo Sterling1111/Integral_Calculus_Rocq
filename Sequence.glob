@@ -1,0 +1,3255 @@
+DIGEST b2b6fcdbd1d6ea5a19fbfecaa85e5368
+FSequence
+R15:21 Imports <> <> lib
+R23:32 Reals_util <> <> lib
+R34:45 Completeness <> <> lib
+R47:55 Chapter13 <> <> lib
+R57:60 Sums <> <> lib
+R62:70 Notations <> <> lib
+R72:75 Sets <> <> lib
+R85:96 Sets SetNotations <> mod
+def 132:139 <> sequence
+R147:150 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R144:146 Corelib.Init.Datatypes <> nat ind
+R151:151 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+def 166:175 <> decreasing
+R182:189 Sequence <> sequence def
+binder 178:178 <> a:1
+R215:217 Corelib.Init.Datatypes <> nat ind
+binder 211:211 <> n:2
+R223:226 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R220:220 Sequence <> a:1 var
+R222:222 Sequence <> n:2 var
+R227:227 Sequence <> a:1 var
+R230:230 Corelib.Init.Datatypes <> S constr
+R232:232 Sequence <> n:2 var
+def 248:257 <> increasing
+R264:271 Sequence <> sequence def
+binder 260:260 <> a:3
+R297:299 Corelib.Init.Datatypes <> nat ind
+binder 293:293 <> n:4
+R305:308 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R302:302 Sequence <> a:3 var
+R304:304 Sequence <> n:4 var
+R309:309 Sequence <> a:3 var
+R312:312 Corelib.Init.Datatypes <> S constr
+R314:314 Sequence <> n:4 var
+def 330:342 <> bounded_below
+R349:356 Sequence <> sequence def
+binder 345:345 <> a:5
+R371:377 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R384:385 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R383:383 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 378:379 <> LB:6
+R397:399 Corelib.Init.Datatypes <> nat ind
+binder 393:393 <> n:7
+R404:407 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R402:403 Sequence <> LB:6 var
+R408:408 Sequence <> a:5 var
+R410:410 Sequence <> n:7 var
+def 425:437 <> bounded_above
+R444:451 Sequence <> sequence def
+binder 440:440 <> a:8
+R467:473 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R480:481 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R479:479 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 474:475 <> UB:9
+R493:495 Corelib.Init.Datatypes <> nat ind
+binder 489:489 <> n:10
+R500:503 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R498:499 Sequence <> UB:9 var
+R504:504 Sequence <> a:8 var
+R506:506 Sequence <> n:10 var
+def 521:527 <> bounded
+R534:541 Sequence <> sequence def
+binder 530:530 <> a:11
+R571:574 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R556:568 Sequence <> bounded_below def
+R570:570 Sequence <> a:11 var
+R575:587 Sequence <> bounded_above def
+R589:589 Sequence <> a:11 var
+def 604:618 <> unbounded_above
+R625:632 Sequence <> sequence def
+binder 621:621 <> a:12
+R659:659 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 654:655 <> UB:13
+R662:668 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R676:677 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R673:675 Corelib.Init.Datatypes <> nat ind
+binder 669:669 <> n:14
+R681:683 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R678:678 Sequence <> a:12 var
+R680:680 Sequence <> n:14 var
+R684:685 Sequence <> UB:13 var
+def 700:714 <> unbounded_below
+R721:728 Sequence <> sequence def
+binder 717:717 <> a:15
+R755:755 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 750:751 <> LB:16
+R758:764 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R772:773 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R769:771 Corelib.Init.Datatypes <> nat ind
+binder 765:765 <> n:17
+R777:779 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R774:774 Sequence <> a:15 var
+R776:776 Sequence <> n:17 var
+R780:781 Sequence <> LB:16 var
+def 796:804 <> unbounded
+R811:818 Sequence <> sequence def
+binder 807:807 <> a:18
+R850:853 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R833:847 Sequence <> unbounded_above def
+R849:849 Sequence <> a:18 var
+R854:868 Sequence <> unbounded_below def
+R870:870 Sequence <> a:18 var
+def 885:905 <> eventually_decreasing
+R912:919 Sequence <> sequence def
+binder 908:908 <> a:19
+R934:941 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R949:955 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R946:948 Corelib.Init.Datatypes <> nat ind
+binder 942:942 <> N:20
+R968:970 Corelib.Init.Datatypes <> nat ind
+binder 964:964 <> n:21
+R986:989 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R976:979 Corelib.Init.Peano <> ::nat_scope:x_'>='_x not
+R975:975 Sequence <> n:21 var
+R980:980 Sequence <> N:20 var
+R993:996 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R990:990 Sequence <> a:19 var
+R992:992 Sequence <> n:21 var
+R997:997 Sequence <> a:19 var
+R1000:1000 Corelib.Init.Datatypes <> S constr
+R1002:1002 Sequence <> n:21 var
+def 1018:1038 <> eventually_increasing
+R1045:1052 Sequence <> sequence def
+binder 1041:1041 <> a:22
+R1067:1074 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R1082:1088 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R1079:1081 Corelib.Init.Datatypes <> nat ind
+binder 1075:1075 <> N:23
+R1101:1103 Corelib.Init.Datatypes <> nat ind
+binder 1097:1097 <> n:24
+R1119:1122 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R1109:1112 Corelib.Init.Peano <> ::nat_scope:x_'>='_x not
+R1108:1108 Sequence <> n:24 var
+R1113:1113 Sequence <> N:23 var
+R1126:1129 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R1123:1123 Sequence <> a:22 var
+R1125:1125 Sequence <> n:24 var
+R1130:1130 Sequence <> a:22 var
+R1133:1133 Corelib.Init.Datatypes <> S constr
+R1135:1135 Sequence <> n:24 var
+def 1151:1169 <> arithmetic_sequence
+R1176:1183 Sequence <> sequence def
+binder 1172:1172 <> a:25
+R1193:1193 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 1187:1187 <> c:26
+binder 1189:1189 <> d:27
+R1209:1212 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1235:1235 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1208:1208 Sequence <> a:25 var
+binder 1217:1217 <> n:28
+R1223:1225 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R1222:1222 Sequence <> c:26 var
+R1227:1229 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R1226:1226 Sequence <> d:27 var
+R1230:1232 Stdlib.Reals.Raxioms <> INR def
+R1234:1234 Sequence <> n:28 var
+def 1250:1267 <> geometric_sequence
+R1274:1281 Sequence <> sequence def
+binder 1270:1270 <> a:29
+R1291:1291 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 1285:1285 <> c:30
+binder 1287:1287 <> r:31
+R1307:1310 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1331:1331 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1306:1306 Sequence <> a:29 var
+binder 1315:1315 <> n:32
+R1321:1324 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R1330:1330 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R1320:1320 Sequence <> c:30 var
+R1326:1328 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R1325:1325 Sequence <> r:31 var
+R1329:1329 Sequence <> n:32 var
+def 1346:1350 <> lim_s
+R1357:1364 Sequence <> sequence def
+binder 1353:1353 <> a:33
+R1372:1372 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 1368:1368 <> L:34
+R1399:1399 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 1394:1395 <> ε:35
+R1408:1415 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R1404:1406 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R1402:1403 Sequence <> ε:35 var
+R1416:1422 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R1428:1429 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R1427:1427 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 1423:1423 <> N:36
+R1441:1443 Corelib.Init.Datatypes <> nat ind
+binder 1437:1437 <> n:37
+R1455:1458 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R1451:1453 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R1446:1448 Stdlib.Reals.Raxioms <> INR def
+R1450:1450 Sequence <> n:37 var
+R1454:1454 Sequence <> N:36 var
+R1468:1470 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R1459:1459 Notations <> ::R_scope:'|'_x_'|' not
+R1467:1467 Notations <> ::R_scope:'|'_x_'|' not
+R1463:1465 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R1460:1460 Sequence <> a:33 var
+R1462:1462 Sequence <> n:37 var
+R1466:1466 Sequence <> L:34 var
+R1471:1472 Sequence <> ε:35 var
+def 1487:1505 <> convergent_sequence
+R1512:1519 Sequence <> sequence def
+binder 1508:1508 <> a:38
+R1534:1541 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R1547:1549 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R1546:1546 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 1542:1542 <> L:39
+R1550:1554 Sequence <> lim_s def
+R1556:1556 Sequence <> a:38 var
+R1558:1558 Sequence <> L:39 var
+def 1573:1593 <> not_limit_of_sequence
+R1600:1607 Sequence <> sequence def
+binder 1596:1596 <> a:40
+R1615:1615 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 1611:1611 <> L:41
+R1630:1636 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R1643:1644 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R1642:1642 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 1637:1638 <> ε:42
+R1651:1658 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R1647:1649 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R1645:1646 Sequence <> ε:42 var
+R1670:1670 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 1666:1666 <> N:43
+R1673:1679 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R1687:1688 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R1684:1686 Corelib.Init.Datatypes <> nat ind
+binder 1680:1680 <> n:44
+R1698:1701 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R1694:1696 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R1689:1691 Stdlib.Reals.Raxioms <> INR def
+R1693:1693 Sequence <> n:44 var
+R1697:1697 Sequence <> N:43 var
+R1711:1714 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R1702:1702 Notations <> ::R_scope:'|'_x_'|' not
+R1710:1710 Notations <> ::R_scope:'|'_x_'|' not
+R1706:1708 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R1703:1703 Sequence <> a:40 var
+R1705:1705 Sequence <> n:44 var
+R1709:1709 Sequence <> L:41 var
+R1715:1716 Sequence <> ε:42 var
+def 1731:1748 <> divergent_sequence
+R1755:1762 Sequence <> sequence def
+binder 1751:1751 <> a:45
+R1788:1788 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 1784:1784 <> L:46
+R1791:1811 Sequence <> not_limit_of_sequence def
+R1813:1813 Sequence <> a:45 var
+R1815:1815 Sequence <> L:46 var
+def 1830:1840 <> lower_bound
+R1847:1854 Sequence <> sequence def
+binder 1843:1843 <> a:47
+R1863:1863 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 1858:1859 <> LB:48
+R1889:1891 Corelib.Init.Datatypes <> nat ind
+binder 1885:1885 <> n:49
+R1896:1899 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R1894:1895 Sequence <> LB:48 var
+R1900:1900 Sequence <> a:47 var
+R1902:1902 Sequence <> n:49 var
+def 1917:1927 <> upper_bound
+R1934:1941 Sequence <> sequence def
+binder 1930:1930 <> a:50
+R1950:1950 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 1945:1946 <> UB:51
+R1976:1978 Corelib.Init.Datatypes <> nat ind
+binder 1972:1972 <> n:52
+R1983:1986 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R1981:1982 Sequence <> UB:51 var
+R1987:1987 Sequence <> a:50 var
+R1989:1989 Sequence <> n:52 var
+def 2004:2023 <> a_bounded_above_by_b
+R2032:2039 Sequence <> sequence def
+binder 2026:2026 <> a:53
+binder 2028:2028 <> b:54
+R2065:2067 Corelib.Init.Datatypes <> nat ind
+binder 2061:2061 <> n:55
+R2073:2076 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R2070:2070 Sequence <> a:53 var
+R2072:2072 Sequence <> n:55 var
+R2077:2077 Sequence <> b:54 var
+R2079:2079 Sequence <> n:55 var
+def 2094:2113 <> a_bounded_below_by_b
+R2122:2129 Sequence <> sequence def
+binder 2116:2116 <> a:56
+binder 2118:2118 <> b:57
+R2155:2157 Corelib.Init.Datatypes <> nat ind
+binder 2151:2151 <> n:58
+R2163:2166 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R2160:2160 Sequence <> a:56 var
+R2162:2162 Sequence <> n:58 var
+R2167:2167 Sequence <> b:57 var
+R2169:2169 Sequence <> n:58 var
+def 2184:2214 <> a_eventually_bounded_above_by_b
+R2223:2230 Sequence <> sequence def
+binder 2217:2217 <> a:59
+binder 2219:2219 <> b:60
+R2245:2252 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R2258:2260 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R2257:2257 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 2253:2253 <> N:61
+R2272:2274 Corelib.Init.Datatypes <> nat ind
+binder 2268:2268 <> n:62
+R2286:2289 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R2282:2284 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R2277:2279 Stdlib.Reals.Raxioms <> INR def
+R2281:2281 Sequence <> n:62 var
+R2285:2285 Sequence <> N:61 var
+R2293:2296 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R2290:2290 Sequence <> a:59 var
+R2292:2292 Sequence <> n:62 var
+R2297:2297 Sequence <> b:60 var
+R2299:2299 Sequence <> n:62 var
+def 2314:2344 <> a_eventually_bounded_below_by_b
+R2353:2360 Sequence <> sequence def
+binder 2347:2347 <> a:63
+binder 2349:2349 <> b:64
+R2375:2382 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R2388:2390 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R2387:2387 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 2383:2383 <> N:65
+R2402:2404 Corelib.Init.Datatypes <> nat ind
+binder 2398:2398 <> n:66
+R2416:2419 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R2412:2414 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R2407:2409 Stdlib.Reals.Raxioms <> INR def
+R2411:2411 Sequence <> n:66 var
+R2415:2415 Sequence <> N:65 var
+R2423:2426 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R2420:2420 Sequence <> a:63 var
+R2422:2422 Sequence <> n:66 var
+R2427:2427 Sequence <> b:64 var
+R2429:2429 Sequence <> n:66 var
+R2475:2479 Sequence <> lim_s def
+not 2442:2442 <> :::'⟦'_'lim_s'_'⟧'_x_'='_x
+prf 2583:2604 <> divergent_sequence_iff
+binder 2615:2615 <> a:67
+R2638:2642 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R2618:2635 Sequence <> divergent_sequence def
+R2637:2637 Sequence <> a:67 var
+R2643:2644 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R2645:2663 Sequence <> convergent_sequence def
+R2665:2665 Sequence <> a:67 var
+R2887:2905 Sequence <> convergent_sequence def
+R2920:2933 Stdlib.Logic.Classical_Pred_Type <> not_ex_all_not thm
+R2920:2933 Stdlib.Logic.Classical_Pred_Type <> not_ex_all_not thm
+R2966:2979 Stdlib.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R2966:2979 Stdlib.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R3005:3018 Stdlib.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R3005:3018 Stdlib.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R3082:3095 Stdlib.Logic.Classical_Pred_Type <> not_ex_all_not thm
+R3082:3095 Stdlib.Logic.Classical_Pred_Type <> not_ex_all_not thm
+R3128:3141 Stdlib.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R3128:3141 Stdlib.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R3176:3187 Stdlib.Logic.Classical_Prop <> imply_to_and thm
+R3176:3187 Stdlib.Logic.Classical_Prop <> imply_to_and thm
+prf 3213:3237 <> not_limit_of_sequence_iff
+binder 3248:3248 <> a:68
+binder 3250:3250 <> L:69
+R3278:3282 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R3253:3273 Sequence <> not_limit_of_sequence def
+R3275:3275 Sequence <> a:68 var
+R3277:3277 Sequence <> L:69 var
+R3283:3284 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R3285:3298 Sequence <> :::'⟦'_'lim_s'_'⟧'_x_'='_x not
+R3300:3302 Sequence <> :::'⟦'_'lim_s'_'⟧'_x_'='_x not
+R3299:3299 Sequence <> a:68 var
+R3303:3303 Sequence <> L:69 var
+R3490:3503 Stdlib.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R3490:3503 Stdlib.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R3533:3544 Stdlib.Logic.Classical_Prop <> imply_to_and thm
+R3533:3544 Stdlib.Logic.Classical_Prop <> imply_to_and thm
+R3616:3619 Stdlib.Reals.Rbasic_fun <> Rmax def
+R3616:3619 Stdlib.Reals.Rbasic_fun <> Rmax def
+R3635:3648 Stdlib.Logic.Classical_Pred_Type <> not_ex_all_not thm
+R3635:3648 Stdlib.Logic.Classical_Pred_Type <> not_ex_all_not thm
+R3681:3694 Stdlib.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R3681:3694 Stdlib.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R3719:3730 Stdlib.Logic.Classical_Prop <> imply_to_and thm
+R3719:3730 Stdlib.Logic.Classical_Prop <> imply_to_and thm
+R3773:3776 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R3773:3776 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+prf 3843:3865 <> divergent_sequence_iff'
+binder 3876:3876 <> a:70
+R3899:3903 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R3879:3896 Sequence <> divergent_sequence def
+R3898:3898 Sequence <> a:70 var
+binder 3911:3911 <> L:71
+R3914:3915 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R3916:3929 Sequence <> :::'⟦'_'lim_s'_'⟧'_x_'='_x not
+R3931:3933 Sequence <> :::'⟦'_'lim_s'_'⟧'_x_'='_x not
+R3930:3930 Sequence <> a:70 var
+R3934:3934 Sequence <> L:71 var
+R3989:4010 Sequence <> divergent_sequence_iff thm
+R3989:4010 Sequence <> divergent_sequence_iff thm
+R4072:4096 Sequence <> not_limit_of_sequence_iff thm
+R4072:4096 Sequence <> not_limit_of_sequence_iff thm
+prf 4121:4139 <> unbounded_above_iff
+binder 4150:4150 <> a:72
+R4170:4174 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R4153:4167 Sequence <> unbounded_above def
+R4169:4169 Sequence <> a:72 var
+R4175:4176 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R4177:4189 Sequence <> bounded_above def
+R4191:4191 Sequence <> a:72 var
+R4323:4335 Sequence <> bounded_above def
+R4350:4363 Stdlib.Logic.Classical_Pred_Type <> not_ex_all_not thm
+R4350:4363 Stdlib.Logic.Classical_Pred_Type <> not_ex_all_not thm
+R4397:4410 Stdlib.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R4397:4410 Stdlib.Logic.Classical_Pred_Type <> not_all_ex_not thm
+prf 4456:4474 <> unbounded_below_iff
+binder 4485:4485 <> a:73
+R4505:4509 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R4488:4502 Sequence <> unbounded_below def
+R4504:4504 Sequence <> a:73 var
+R4510:4511 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R4512:4524 Sequence <> bounded_below def
+R4526:4526 Sequence <> a:73 var
+R4658:4670 Sequence <> bounded_below def
+R4685:4698 Stdlib.Logic.Classical_Pred_Type <> not_ex_all_not thm
+R4685:4698 Stdlib.Logic.Classical_Pred_Type <> not_ex_all_not thm
+R4732:4745 Stdlib.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R4732:4745 Stdlib.Logic.Classical_Pred_Type <> not_all_ex_not thm
+prf 4791:4807 <> bounded_below_iff
+binder 4818:4818 <> a:74
+R4836:4840 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R4821:4833 Sequence <> bounded_below def
+R4835:4835 Sequence <> a:74 var
+R4841:4842 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R4843:4857 Sequence <> unbounded_below def
+R4859:4859 Sequence <> a:74 var
+R4898:4913 Chapter7 <> contra_2_reverse thm
+R4898:4913 Chapter7 <> contra_2_reverse thm
+R4933:4936 Stdlib.Logic.Classical_Prop <> NNPP thm
+R4933:4936 Stdlib.Logic.Classical_Prop <> NNPP thm
+R4951:4969 Sequence <> unbounded_below_iff thm
+R4951:4969 Sequence <> unbounded_below_iff thm
+R4988:5003 Chapter7 <> contra_2_reverse thm
+R4988:5003 Chapter7 <> contra_2_reverse thm
+R5036:5054 Sequence <> unbounded_below_iff thm
+R5036:5054 Sequence <> unbounded_below_iff thm
+prf 5075:5091 <> bounded_above_iff
+binder 5102:5102 <> a:75
+R5120:5124 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R5105:5117 Sequence <> bounded_above def
+R5119:5119 Sequence <> a:75 var
+R5125:5126 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R5127:5141 Sequence <> unbounded_above def
+R5143:5143 Sequence <> a:75 var
+R5182:5197 Chapter7 <> contra_2_reverse thm
+R5182:5197 Chapter7 <> contra_2_reverse thm
+R5217:5220 Stdlib.Logic.Classical_Prop <> NNPP thm
+R5217:5220 Stdlib.Logic.Classical_Prop <> NNPP thm
+R5235:5253 Sequence <> unbounded_above_iff thm
+R5235:5253 Sequence <> unbounded_above_iff thm
+R5272:5287 Chapter7 <> contra_2_reverse thm
+R5272:5287 Chapter7 <> contra_2_reverse thm
+R5320:5338 Sequence <> unbounded_above_iff thm
+R5320:5338 Sequence <> unbounded_above_iff thm
+prf 5359:5369 <> bounded_iff
+binder 5380:5380 <> a:76
+R5392:5396 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R5383:5389 Sequence <> bounded def
+R5391:5391 Sequence <> a:76 var
+R5397:5398 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R5399:5407 Sequence <> unbounded def
+R5409:5409 Sequence <> a:76 var
+R5501:5517 Sequence <> bounded_above_iff thm
+R5501:5517 Sequence <> bounded_above_iff thm
+R5545:5561 Sequence <> bounded_below_iff thm
+R5545:5561 Sequence <> bounded_below_iff thm
+R5611:5627 Sequence <> bounded_below_iff thm
+R5611:5627 Sequence <> bounded_below_iff thm
+R5677:5693 Sequence <> bounded_above_iff thm
+R5677:5693 Sequence <> bounded_above_iff thm
+prf 5741:5749 <> Rinv_lt_0
+binder 5760:5760 <> r:77
+R5773:5776 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R5769:5771 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R5766:5767 Stdlib.Reals.Rdefinitions <> ::R_scope:'/'_x not
+R5768:5768 Sequence <> r:77 var
+R5778:5780 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R5777:5777 Sequence <> r:77 var
+R5818:5829 Stdlib.Reals.RIneq <> Rtotal_order thm
+R5818:5829 Stdlib.Reals.RIneq <> Rtotal_order thm
+R5896:5901 Stdlib.Reals.RIneq <> Rinv_0 thm
+R5896:5901 Stdlib.Reals.RIneq <> Rinv_0 thm
+R5896:5901 Stdlib.Reals.RIneq <> Rinv_0 thm
+R5925:5940 Stdlib.Reals.RIneq <> Rinv_0_lt_compat thm
+R5925:5940 Stdlib.Reals.RIneq <> Rinv_0_lt_compat thm
+prf 5968:5976 <> Rinv_gt_0
+binder 5987:5987 <> r:78
+R5999:6002 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R5995:5997 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R5992:5993 Stdlib.Reals.Rdefinitions <> ::R_scope:'/'_x not
+R5994:5994 Sequence <> r:78 var
+R6004:6006 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R6003:6003 Sequence <> r:78 var
+R6044:6055 Stdlib.Reals.RIneq <> Rtotal_order thm
+R6044:6055 Stdlib.Reals.RIneq <> Rtotal_order thm
+R6102:6117 Stdlib.Reals.RIneq <> Rinv_0_lt_compat thm
+R6102:6117 Stdlib.Reals.RIneq <> Rinv_0_lt_compat thm
+R6134:6141 Stdlib.Reals.RIneq <> Rinv_inv thm
+R6134:6141 Stdlib.Reals.RIneq <> Rinv_inv thm
+R6134:6141 Stdlib.Reals.RIneq <> Rinv_inv thm
+R6185:6190 Stdlib.Reals.RIneq <> Rinv_0 thm
+R6185:6190 Stdlib.Reals.RIneq <> Rinv_0 thm
+R6185:6190 Stdlib.Reals.RIneq <> Rinv_0 thm
+prf 6218:6230 <> theorem_34_12
+R6234:6248 Sequence <> :::'⟦'_'lim_s'_'⟧'_x_'='_x not
+R6267:6270 Sequence <> :::'⟦'_'lim_s'_'⟧'_x_'='_x not
+binder 6253:6253 <> n:79
+R6259:6261 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R6262:6264 Stdlib.Reals.Raxioms <> INR def
+R6266:6266 Sequence <> n:79 var
+R6305:6306 Stdlib.Reals.Rdefinitions <> ::R_scope:'/'_x not
+R6305:6306 Stdlib.Reals.Rdefinitions <> ::R_scope:'/'_x not
+R6337:6339 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R6333:6334 Stdlib.Reals.Rdefinitions <> ::R_scope:'/'_x not
+R6359:6366 Stdlib.Reals.RIneq <> Rinv_pos thm
+R6337:6339 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R6333:6334 Stdlib.Reals.Rdefinitions <> ::R_scope:'/'_x not
+R6359:6366 Stdlib.Reals.RIneq <> Rinv_pos thm
+R6386:6395 Stdlib.Reals.RIneq <> Rminus_0_r thm
+R6386:6395 Stdlib.Reals.RIneq <> Rminus_0_r thm
+R6386:6395 Stdlib.Reals.RIneq <> Rminus_0_r thm
+R6405:6408 Stdlib.Reals.Rbasic_fun <> Rabs def
+R6421:6429 Stdlib.Reals.Rbasic_fun <> Rcase_abs thm
+R6433:6435 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R6436:6438 Stdlib.Reals.Raxioms <> INR def
+R6421:6429 Stdlib.Reals.Rbasic_fun <> Rcase_abs thm
+R6433:6435 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R6436:6438 Stdlib.Reals.Raxioms <> INR def
+R6484:6486 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R6475:6476 Stdlib.Reals.Rdefinitions <> ::R_scope:'/'_x not
+R6477:6478 Stdlib.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R6479:6481 Stdlib.Reals.Raxioms <> INR def
+R6484:6486 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R6475:6476 Stdlib.Reals.Rdefinitions <> ::R_scope:'/'_x not
+R6477:6478 Stdlib.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R6479:6481 Stdlib.Reals.Raxioms <> INR def
+R6499:6506 Stdlib.Reals.RIneq <> Rinv_pos thm
+R6499:6506 Stdlib.Reals.RIneq <> Rinv_pos thm
+R6517:6524 Stdlib.Reals.RIneq <> Rdiv_1_l thm
+R6517:6524 Stdlib.Reals.RIneq <> Rdiv_1_l thm
+R6517:6524 Stdlib.Reals.RIneq <> Rdiv_1_l thm
+R6539:6547 Sequence <> Rinv_lt_0 thm
+R6539:6547 Sequence <> Rinv_lt_0 thm
+R6585:6588 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R6580:6582 Stdlib.Reals.Raxioms <> INR def
+R6585:6588 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R6580:6582 Stdlib.Reals.Raxioms <> INR def
+R6608:6610 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R6603:6605 Stdlib.Reals.Raxioms <> INR def
+R6608:6610 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R6603:6605 Stdlib.Reals.Raxioms <> INR def
+R6625:6632 Stdlib.Reals.RIneq <> Rdiv_1_l thm
+R6625:6632 Stdlib.Reals.RIneq <> Rdiv_1_l thm
+R6625:6632 Stdlib.Reals.RIneq <> Rdiv_1_l thm
+R6647:6655 Sequence <> Rinv_lt_0 thm
+R6647:6655 Sequence <> Rinv_lt_0 thm
+R6688:6704 Stdlib.Reals.RIneq <> Rmult_gt_compat_r thm
+R6688:6704 Stdlib.Reals.RIneq <> Rmult_gt_compat_r thm
+R6776:6777 Stdlib.Reals.Rdefinitions <> ::R_scope:'/'_x not
+R6778:6779 Stdlib.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R6780:6782 Stdlib.Reals.Raxioms <> INR def
+R6747:6763 Stdlib.Reals.RIneq <> Rmult_gt_compat_r thm
+R6776:6777 Stdlib.Reals.Rdefinitions <> ::R_scope:'/'_x not
+R6778:6779 Stdlib.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R6780:6782 Stdlib.Reals.Raxioms <> INR def
+R6747:6763 Stdlib.Reals.RIneq <> Rmult_gt_compat_r thm
+R6815:6822 Stdlib.Reals.RIneq <> Rinv_opp thm
+R6815:6822 Stdlib.Reals.RIneq <> Rinv_opp thm
+R6815:6822 Stdlib.Reals.RIneq <> Rinv_opp thm
+R6882:6884 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R6875:6876 Stdlib.Reals.Rdefinitions <> ::R_scope:'/'_x not
+R6877:6879 Stdlib.Reals.Raxioms <> INR def
+R6882:6884 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R6875:6876 Stdlib.Reals.Rdefinitions <> ::R_scope:'/'_x not
+R6877:6879 Stdlib.Reals.Raxioms <> INR def
+R6897:6904 Stdlib.Reals.RIneq <> Rinv_pos thm
+R6897:6904 Stdlib.Reals.RIneq <> Rinv_pos thm
+R6915:6922 Stdlib.Reals.RIneq <> Rdiv_1_l thm
+R6915:6922 Stdlib.Reals.RIneq <> Rdiv_1_l thm
+R6915:6922 Stdlib.Reals.RIneq <> Rdiv_1_l thm
+R6960:6963 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R6955:6957 Stdlib.Reals.Raxioms <> INR def
+R6960:6963 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R6955:6957 Stdlib.Reals.Raxioms <> INR def
+R6987:7003 Stdlib.Reals.RIneq <> Rmult_gt_compat_r thm
+R6987:7003 Stdlib.Reals.RIneq <> Rmult_gt_compat_r thm
+R7075:7076 Stdlib.Reals.Rdefinitions <> ::R_scope:'/'_x not
+R7077:7079 Stdlib.Reals.Raxioms <> INR def
+R7046:7062 Stdlib.Reals.RIneq <> Rmult_gt_compat_r thm
+R7075:7076 Stdlib.Reals.Rdefinitions <> ::R_scope:'/'_x not
+R7077:7079 Stdlib.Reals.Raxioms <> INR def
+R7046:7062 Stdlib.Reals.RIneq <> Rmult_gt_compat_r thm
+prf 7154:7170 <> proposition_34_13
+R7174:7188 Sequence <> :::'⟦'_'lim_s'_'⟧'_x_'='_x not
+R7211:7214 Sequence <> :::'⟦'_'lim_s'_'⟧'_x_'='_x not
+binder 7193:7193 <> n:80
+R7199:7201 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R7203:7205 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R7206:7208 Stdlib.Reals.Raxioms <> INR def
+R7210:7210 Sequence <> n:80 var
+R7250:7252 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R7250:7252 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R7295:7297 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R7283:7285 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R7287:7289 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R7290:7292 Stdlib.Reals.Raxioms <> INR def
+R7310:7312 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R7313:7315 Stdlib.Reals.Raxioms <> INR def
+R7295:7297 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R7283:7285 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R7287:7289 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R7290:7292 Stdlib.Reals.Raxioms <> INR def
+R7310:7312 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R7313:7315 Stdlib.Reals.Raxioms <> INR def
+R7349:7351 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R7344:7346 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R7365:7380 Stdlib.Reals.RIneq <> Rdiv_lt_0_compat thm
+R7349:7351 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R7344:7346 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R7365:7380 Stdlib.Reals.RIneq <> Rdiv_lt_0_compat thm
+R7409:7411 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R7404:7406 Stdlib.Reals.Raxioms <> INR def
+R7409:7411 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R7404:7406 Stdlib.Reals.Raxioms <> INR def
+R7446:7448 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R7438:7440 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R7441:7443 Stdlib.Reals.Raxioms <> INR def
+R7446:7448 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R7438:7440 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R7441:7443 Stdlib.Reals.Raxioms <> INR def
+R7463:7474 Stdlib.Reals.RIneq <> Rdiv_neg_pos thm
+R7463:7474 Stdlib.Reals.RIneq <> Rdiv_neg_pos thm
+R7494:7497 Stdlib.Reals.Rbasic_fun <> Rabs def
+R7510:7518 Stdlib.Reals.Rbasic_fun <> Rcase_abs thm
+R7524:7526 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R7527:7529 Stdlib.Reals.Raxioms <> INR def
+R7510:7518 Stdlib.Reals.Rbasic_fun <> Rcase_abs thm
+R7524:7526 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R7527:7529 Stdlib.Reals.Raxioms <> INR def
+R7593:7609 Stdlib.Reals.RIneq <> Rmult_gt_compat_r thm
+R7593:7609 Stdlib.Reals.RIneq <> Rmult_gt_compat_r thm
+R7682:7684 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R7679:7680 Stdlib.Reals.Rdefinitions <> ::R_scope:'/'_x not
+R7685:7686 Stdlib.Reals.Rdefinitions <> ::R_scope:'/'_x not
+R7687:7689 Stdlib.Reals.Raxioms <> INR def
+R7650:7666 Stdlib.Reals.RIneq <> Rmult_gt_compat_r thm
+R7682:7684 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R7679:7680 Stdlib.Reals.Rdefinitions <> ::R_scope:'/'_x not
+R7685:7686 Stdlib.Reals.Rdefinitions <> ::R_scope:'/'_x not
+R7687:7689 Stdlib.Reals.Raxioms <> INR def
+R7650:7666 Stdlib.Reals.RIneq <> Rmult_gt_compat_r thm
+prf 7755:7766 <> Odd_not_even
+binder 7777:7777 <> n:81
+R7789:7792 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R7780:7786 Stdlib.Arith.PeanoNat Nat Odd def
+R7788:7788 Sequence <> n:81 var
+R7803:7805 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7793:7800 Stdlib.Arith.PeanoNat Nat even def
+R7802:7802 Sequence <> n:81 var
+R7806:7810 Corelib.Init.Datatypes <> false constr
+R7857:7868 Stdlib.Arith.PeanoNat Nat even_odd thm
+R7857:7868 Stdlib.Arith.PeanoNat Nat even_odd thm
+prf 7889:7905 <> proposition_34_15
+R7909:7923 Sequence <> :::'⟦'_'lim_s'_'⟧'_x_'='_x not
+R7968:7971 Sequence <> :::'⟦'_'lim_s'_'⟧'_x_'='_x not
+binder 7928:7928 <> n:82
+R7936:7943 Stdlib.Arith.PeanoNat Nat even def
+R7945:7945 Sequence <> n:82 var
+R7960:7962 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R7963:7965 Stdlib.Reals.Raxioms <> INR def
+R7967:7967 Sequence <> n:82 var
+R8009:8021 Sequence <> theorem_34_12 thm
+R8009:8021 Sequence <> theorem_34_12 thm
+R8076:8090 Stdlib.Arith.PeanoNat Nat Even_or_Odd thm
+R8076:8090 Stdlib.Arith.PeanoNat Nat Even_or_Odd thm
+R8118:8130 Stdlib.Arith.PeanoNat Nat even_spec thm
+R8118:8130 Stdlib.Arith.PeanoNat Nat even_spec thm
+R8159:8168 Stdlib.Reals.RIneq <> Rminus_0_r thm
+R8159:8168 Stdlib.Reals.RIneq <> Rminus_0_r thm
+R8159:8168 Stdlib.Reals.RIneq <> Rminus_0_r thm
+R8179:8185 Stdlib.Reals.Rbasic_fun <> Rabs_R0 thm
+R8179:8185 Stdlib.Reals.Rbasic_fun <> Rabs_R0 thm
+R8179:8185 Stdlib.Reals.Rbasic_fun <> Rabs_R0 thm
+R8203:8214 Sequence <> Odd_not_even thm
+R8203:8214 Sequence <> Odd_not_even thm
+prf 8259:8275 <> proposition_34_16
+R8279:8296 Sequence <> divergent_sequence def
+binder 8303:8303 <> n:83
+R8308:8308 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R8311:8314 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R8315:8315 Sequence <> n:83 var
+R8334:8355 Sequence <> divergent_sequence_iff thm
+R8334:8355 Sequence <> divergent_sequence_iff thm
+R8390:8390 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R8390:8390 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R8430:8442 Stdlib.Reals.RIneq <> INR_unbounded thm
+R8430:8442 Stdlib.Reals.RIneq <> INR_unbounded thm
+R8466:8469 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R8470:8472 Stdlib.Reals.Raxioms <> INR def
+R8466:8469 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R8470:8472 Stdlib.Reals.Raxioms <> INR def
+R8504:8506 Stdlib.Reals.Raxioms <> INR def
+R8504:8506 Stdlib.Reals.Raxioms <> INR def
+R8526:8531 Stdlib.Reals.RIneq <> le_INR thm
+R8526:8531 Stdlib.Reals.RIneq <> le_INR thm
+R8557:8560 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R8552:8555 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R8562:8564 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R8557:8560 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R8552:8555 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R8562:8564 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R8609:8609 Corelib.Init.Datatypes <> S constr
+R8613:8615 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R8609:8609 Corelib.Init.Datatypes <> S constr
+R8613:8615 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R8647:8655 Stdlib.Reals.Rfunctions <> pow_1_odd thm
+R8647:8655 Stdlib.Reals.Rfunctions <> pow_1_odd thm
+R8647:8655 Stdlib.Reals.Rfunctions <> pow_1_odd thm
+R8674:8682 Stdlib.Reals.Rbasic_fun <> Rabs_def2 thm
+R8674:8682 Stdlib.Reals.Rbasic_fun <> Rabs_def2 thm
+R8727:8729 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R8727:8729 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R8764:8773 Stdlib.Reals.Rfunctions <> pow_1_even thm
+R8764:8773 Stdlib.Reals.Rfunctions <> pow_1_even thm
+R8764:8773 Stdlib.Reals.Rfunctions <> pow_1_even thm
+R8792:8800 Stdlib.Reals.Rbasic_fun <> Rabs_def2 thm
+R8792:8800 Stdlib.Reals.Rbasic_fun <> Rabs_def2 thm
+prf 8836:8843 <> Rmax_Rgt
+binder 8854:8854 <> x:84
+binder 8856:8856 <> y:85
+binder 8858:8858 <> z:86
+R8873:8876 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R8862:8864 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R8861:8861 Sequence <> z:86 var
+R8865:8868 Stdlib.Reals.Rbasic_fun <> Rmax def
+R8870:8870 Sequence <> x:84 var
+R8872:8872 Sequence <> y:85 var
+R8882:8885 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R8878:8880 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R8877:8877 Sequence <> z:86 var
+R8881:8881 Sequence <> x:84 var
+R8887:8889 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R8886:8886 Sequence <> z:86 var
+R8890:8890 Sequence <> y:85 var
+R8926:8929 Stdlib.Reals.Rbasic_fun <> Rmax def
+R8948:8954 Stdlib.Reals.RIneq <> Rle_dec thm
+R8948:8954 Stdlib.Reals.RIneq <> Rle_dec thm
+prf 8985:9001 <> Proposition_34_19
+R9005:9019 Sequence <> :::'⟦'_'lim_s'_'⟧'_x_'='_x not
+R9059:9062 Sequence <> :::'⟦'_'lim_s'_'⟧'_x_'='_x not
+binder 9024:9024 <> n:87
+R9040:9042 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R9029:9031 Stdlib.Reals.Raxioms <> INR def
+R9035:9037 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R9034:9034 Sequence <> n:87 var
+R9043:9045 Stdlib.Reals.Raxioms <> INR def
+R9053:9055 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R9049:9051 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R9052:9052 Sequence <> n:87 var
+R9064:9064 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R9101:9104 Stdlib.Reals.Rbasic_fun <> Rmax def
+R9109:9109 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R9114:9114 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R9127:9131 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R9138:9138 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R9117:9119 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R9122:9124 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R9133:9135 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R9101:9104 Stdlib.Reals.Rbasic_fun <> Rmax def
+R9109:9109 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R9114:9114 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R9127:9131 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R9138:9138 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R9117:9119 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R9122:9124 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R9133:9135 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R9174:9181 Sequence <> Rmax_Rgt thm
+R9174:9181 Sequence <> Rmax_Rgt thm
+R9247:9249 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9241:9243 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R9222:9224 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R9211:9213 Stdlib.Reals.Raxioms <> INR def
+R9217:9219 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R9225:9227 Stdlib.Reals.Raxioms <> INR def
+R9235:9237 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R9231:9233 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R9245:9245 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R9252:9254 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R9255:9257 Stdlib.Reals.Raxioms <> INR def
+R9265:9267 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R9261:9263 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R9247:9249 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9241:9243 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R9222:9224 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R9211:9213 Stdlib.Reals.Raxioms <> INR def
+R9217:9219 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R9225:9227 Stdlib.Reals.Raxioms <> INR def
+R9235:9237 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R9231:9233 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R9245:9245 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R9252:9254 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R9255:9257 Stdlib.Reals.Raxioms <> INR def
+R9265:9267 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R9261:9263 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R9304:9306 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R9325:9330 Stdlib.Reals.RIneq <> INR_lt thm
+R9304:9306 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R9325:9330 Stdlib.Reals.RIneq <> INR_lt thm
+R9304:9306 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R9325:9330 Stdlib.Reals.RIneq <> INR_lt thm
+R9304:9306 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R9325:9330 Stdlib.Reals.RIneq <> INR_lt thm
+R9304:9306 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R9325:9330 Stdlib.Reals.RIneq <> INR_lt thm
+R9395:9397 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R9379:9381 Stdlib.Reals.Raxioms <> INR def
+R9389:9391 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R9385:9387 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R9431:9433 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R9452:9457 Stdlib.Reals.RIneq <> INR_lt thm
+R9395:9397 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R9379:9381 Stdlib.Reals.Raxioms <> INR def
+R9389:9391 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R9385:9387 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R9431:9433 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R9452:9457 Stdlib.Reals.RIneq <> INR_lt thm
+R9492:9495 Stdlib.Reals.Rbasic_fun <> Rabs def
+R9508:9516 Stdlib.Reals.Rbasic_fun <> Rcase_abs thm
+R9521:9523 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R9524:9526 Stdlib.Reals.Raxioms <> INR def
+R9534:9536 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R9530:9532 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R9508:9516 Stdlib.Reals.Rbasic_fun <> Rcase_abs thm
+R9521:9523 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R9524:9526 Stdlib.Reals.Raxioms <> INR def
+R9534:9536 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R9530:9532 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R9572:9583 Stdlib.Reals.RIneq <> Rdiv_pos_pos thm
+R9589:9591 Stdlib.Reals.Raxioms <> INR def
+R9599:9601 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R9595:9597 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R9572:9583 Stdlib.Reals.RIneq <> Rdiv_pos_pos thm
+R9589:9591 Stdlib.Reals.Raxioms <> INR def
+R9599:9601 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R9595:9597 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R9658:9660 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R9642:9644 Stdlib.Reals.Raxioms <> INR def
+R9652:9654 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R9648:9650 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R9663:9665 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R9658:9660 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R9642:9644 Stdlib.Reals.Raxioms <> INR def
+R9652:9654 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R9648:9650 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R9663:9665 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R9709:9717 Stdlib.Reals.Raxioms <> Rplus_0_l thm
+R9709:9717 Stdlib.Reals.Raxioms <> Rplus_0_l thm
+R9709:9717 Stdlib.Reals.Raxioms <> Rplus_0_l thm
+R9751:9767 Stdlib.Reals.RIneq <> Rmult_gt_compat_r thm
+R9751:9767 Stdlib.Reals.RIneq <> Rmult_gt_compat_r thm
+R9846:9846 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R9859:9862 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R9854:9856 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R9849:9851 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R9880:9882 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R9875:9877 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R9846:9846 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R9859:9862 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R9854:9856 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R9849:9851 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R9880:9882 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R9875:9877 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R9931:9933 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R9952:9957 Stdlib.Reals.RIneq <> INR_lt thm
+R9931:9933 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R9952:9957 Stdlib.Reals.RIneq <> INR_lt thm
+R9998:10014 Stdlib.Reals.RIneq <> Rmult_gt_compat_r thm
+R9998:10014 Stdlib.Reals.RIneq <> Rmult_gt_compat_r thm
+R10086:10086 Stdlib.Reals.Rdefinitions <> ::R_scope:'/'_x not
+R10087:10089 Stdlib.Reals.Raxioms <> INR def
+R10097:10099 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R10093:10095 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R10057:10073 Stdlib.Reals.RIneq <> Rmult_gt_compat_r thm
+R10086:10086 Stdlib.Reals.Rdefinitions <> ::R_scope:'/'_x not
+R10087:10089 Stdlib.Reals.Raxioms <> INR def
+R10097:10099 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R10093:10095 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R10057:10073 Stdlib.Reals.RIneq <> Rmult_gt_compat_r thm
+R10158:10165 Stdlib.Reals.RIneq <> Rinv_pos thm
+R10158:10165 Stdlib.Reals.RIneq <> Rinv_pos thm
+prf 10185:10197 <> increasing_ge
+R10213:10220 Sequence <> sequence def
+binder 10209:10209 <> a:88
+R10232:10234 Corelib.Init.Datatypes <> nat ind
+binder 10224:10225 <> n1:89
+binder 10227:10228 <> n2:90
+R10252:10255 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R10240:10249 Sequence <> increasing def
+R10251:10251 Sequence <> a:88 var
+R10270:10273 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R10259:10262 Corelib.Init.Peano <> ::nat_scope:x_'>='_x not
+R10257:10258 Sequence <> n1:89 var
+R10263:10264 Sequence <> n2:90 var
+R10278:10281 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R10274:10274 Sequence <> a:88 var
+R10276:10277 Sequence <> n1:89 var
+R10282:10282 Sequence <> a:88 var
+R10284:10285 Sequence <> n2:90 var
+R10326:10335 Sequence <> increasing def
+R10393:10396 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R10389:10389 Corelib.Init.Datatypes <> S constr
+R10393:10396 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R10389:10389 Corelib.Init.Datatypes <> S constr
+R10415:10420 Stdlib.Reals.RIneq <> Rle_ge thm
+R10415:10420 Stdlib.Reals.RIneq <> Rle_ge thm
+prf 10456:10468 <> decreasing_le
+R10484:10491 Sequence <> sequence def
+binder 10480:10480 <> a:91
+R10503:10505 Corelib.Init.Datatypes <> nat ind
+binder 10495:10496 <> n1:92
+binder 10498:10499 <> n2:93
+R10523:10526 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R10511:10520 Sequence <> decreasing def
+R10522:10522 Sequence <> a:91 var
+R10541:10544 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R10530:10533 Corelib.Init.Peano <> ::nat_scope:x_'>='_x not
+R10528:10529 Sequence <> n1:92 var
+R10534:10535 Sequence <> n2:93 var
+R10549:10552 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R10545:10545 Sequence <> a:91 var
+R10547:10548 Sequence <> n1:92 var
+R10553:10553 Sequence <> a:91 var
+R10555:10556 Sequence <> n2:93 var
+R10597:10606 Sequence <> decreasing def
+R10664:10667 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R10660:10660 Corelib.Init.Datatypes <> S constr
+R10664:10667 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R10660:10660 Corelib.Init.Datatypes <> S constr
+R10686:10691 Stdlib.Reals.RIneq <> Rge_le thm
+R10686:10691 Stdlib.Reals.RIneq <> Rge_le thm
+prf 10727:10750 <> eventually_decreasing_le
+R10766:10773 Sequence <> sequence def
+binder 10762:10762 <> a:94
+R10802:10809 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R10779:10799 Sequence <> eventually_decreasing def
+R10801:10801 Sequence <> a:94 var
+R10810:10817 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R10825:10834 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R10822:10824 Corelib.Init.Datatypes <> nat ind
+binder 10818:10818 <> N:95
+R10851:10853 Corelib.Init.Datatypes <> nat ind
+binder 10843:10844 <> n1:96
+binder 10846:10847 <> n2:97
+R10870:10873 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R10860:10863 Corelib.Init.Peano <> ::nat_scope:x_'>='_x not
+R10858:10859 Sequence <> n2:97 var
+R10864:10864 Sequence <> N:95 var
+R10888:10891 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R10877:10880 Corelib.Init.Peano <> ::nat_scope:x_'>='_x not
+R10875:10876 Sequence <> n1:96 var
+R10881:10882 Sequence <> n2:97 var
+R10896:10899 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R10892:10892 Sequence <> a:94 var
+R10894:10895 Sequence <> n1:96 var
+R10900:10900 Sequence <> a:94 var
+R10902:10903 Sequence <> n2:97 var
+R10939:10959 Sequence <> eventually_decreasing def
+R11057:11060 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R11053:11053 Corelib.Init.Datatypes <> S constr
+R11057:11060 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R11053:11053 Corelib.Init.Datatypes <> S constr
+R11079:11084 Stdlib.Reals.RIneq <> Rge_le thm
+R11079:11084 Stdlib.Reals.RIneq <> Rge_le thm
+prf 11125:11148 <> eventually_increasing_ge
+R11164:11171 Sequence <> sequence def
+binder 11160:11160 <> a:98
+R11200:11207 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R11177:11197 Sequence <> eventually_increasing def
+R11199:11199 Sequence <> a:98 var
+R11208:11215 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R11223:11232 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R11220:11222 Corelib.Init.Datatypes <> nat ind
+binder 11216:11216 <> N:99
+R11249:11251 Corelib.Init.Datatypes <> nat ind
+binder 11241:11242 <> n1:100
+binder 11244:11245 <> n2:101
+R11268:11271 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R11258:11261 Corelib.Init.Peano <> ::nat_scope:x_'>='_x not
+R11256:11257 Sequence <> n2:101 var
+R11262:11262 Sequence <> N:99 var
+R11286:11289 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R11275:11278 Corelib.Init.Peano <> ::nat_scope:x_'>='_x not
+R11273:11274 Sequence <> n1:100 var
+R11279:11280 Sequence <> n2:101 var
+R11294:11297 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R11290:11290 Sequence <> a:98 var
+R11292:11293 Sequence <> n1:100 var
+R11298:11298 Sequence <> a:98 var
+R11300:11301 Sequence <> n2:101 var
+R11337:11357 Sequence <> eventually_increasing def
+R11455:11458 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R11451:11451 Corelib.Init.Datatypes <> S constr
+R11455:11458 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R11451:11451 Corelib.Init.Datatypes <> S constr
+R11477:11482 Stdlib.Reals.RIneq <> Rle_ge thm
+R11477:11482 Stdlib.Reals.RIneq <> Rle_ge thm
+prf 11989:12025 <> Monotonic_Sequence_Theorem_Increasing
+R12041:12048 Sequence <> sequence def
+binder 12037:12037 <> a:102
+R12066:12069 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R12054:12063 Sequence <> increasing def
+R12065:12065 Sequence <> a:102 var
+R12085:12088 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R12070:12082 Sequence <> bounded_above def
+R12084:12084 Sequence <> a:102 var
+R12089:12107 Sequence <> convergent_sequence def
+R12109:12109 Sequence <> a:102 var
+R12144:12156 Sequence <> bounded_above def
+R12204:12217 Completeness <> is_upper_bound def
+binder 12224:12224 <> x:103
+R12229:12235 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R12237:12238 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 12236:12236 <> n:104
+R12242:12244 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R12241:12241 Sequence <> n:104 var
+R12245:12245 Sequence <> x:103 var
+R12204:12217 Completeness <> is_upper_bound def
+binder 12224:12224 <> x:105
+R12229:12235 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R12237:12238 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 12236:12236 <> n:106
+R12242:12244 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R12241:12241 Sequence <> n:106 var
+R12245:12245 Sequence <> x:105 var
+R12264:12277 Completeness <> is_upper_bound def
+R12318:12323 Stdlib.Reals.RIneq <> Rge_le thm
+R12318:12323 Stdlib.Reals.RIneq <> Rge_le thm
+R12353:12357 Stdlib.Reals.Raxioms <> bound def
+binder 12364:12364 <> x:107
+R12369:12375 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R12383:12384 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R12380:12382 Corelib.Init.Datatypes <> nat ind
+binder 12376:12376 <> n:108
+R12388:12390 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R12387:12387 Sequence <> n:108 var
+R12391:12391 Sequence <> x:107 var
+R12353:12357 Stdlib.Reals.Raxioms <> bound def
+binder 12364:12364 <> x:109
+R12369:12375 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R12383:12384 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R12380:12382 Corelib.Init.Datatypes <> nat ind
+binder 12376:12376 <> n:110
+R12388:12390 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R12387:12387 Sequence <> n:110 var
+R12391:12391 Sequence <> x:109 var
+R12407:12411 Stdlib.Reals.Raxioms <> bound def
+R12452:12452 Corelib.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R12454:12456 Corelib.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R12458:12460 Corelib.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R12504:12504 Corelib.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R12457:12457 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 12453:12453 <> L:111
+R12461:12466 Completeness <> is_lub def
+binder 12473:12473 <> x:112
+R12478:12484 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R12492:12493 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R12489:12491 Corelib.Init.Datatypes <> nat ind
+binder 12485:12485 <> n:113
+R12497:12499 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R12496:12496 Sequence <> n:113 var
+R12500:12500 Sequence <> x:112 var
+R12503:12503 Sequence <> L:111 var
+R12452:12452 Corelib.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R12454:12456 Corelib.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R12458:12460 Corelib.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R12504:12504 Corelib.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R12457:12457 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 12453:12453 <> L:114
+R12461:12466 Completeness <> is_lub def
+binder 12473:12473 <> x:115
+R12478:12484 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R12492:12493 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R12489:12491 Corelib.Init.Datatypes <> nat ind
+binder 12485:12485 <> n:116
+R12497:12499 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R12496:12496 Sequence <> n:116 var
+R12500:12500 Sequence <> x:115 var
+R12503:12503 Sequence <> L:114 var
+R12518:12529 Stdlib.Reals.Raxioms <> completeness thm
+R12518:12529 Stdlib.Reals.Raxioms <> completeness thm
+R12621:12626 Completeness <> is_lub def
+R12666:12679 Completeness <> is_upper_bound def
+R12697:12715 Sequence <> convergent_sequence def
+R12759:12761 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R12815:12815 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R12762:12775 Completeness <> is_upper_bound def
+binder 12782:12782 <> x:117
+R12787:12793 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R12795:12796 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 12794:12794 <> n:118
+R12800:12802 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R12799:12799 Sequence <> n:118 var
+R12803:12803 Sequence <> x:117 var
+R12808:12810 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R12759:12761 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R12815:12815 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R12762:12775 Completeness <> is_upper_bound def
+binder 12782:12782 <> x:119
+R12787:12793 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R12795:12796 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 12794:12794 <> n:120
+R12800:12802 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R12799:12799 Sequence <> n:120 var
+R12803:12803 Sequence <> x:119 var
+R12808:12810 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R12830:12832 Corelib.Init.Logic <> not def
+R12867:12869 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R12867:12869 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R12913:12926 Completeness <> is_upper_bound def
+R12942:12944 Corelib.Init.Logic <> not def
+R12969:12975 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R12983:12984 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R12980:12982 Corelib.Init.Datatypes <> nat ind
+binder 12976:12976 <> N:121
+R12988:12990 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R12987:12987 Sequence <> N:121 var
+R12992:12994 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R12969:12975 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R12983:12984 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R12980:12982 Corelib.Init.Datatypes <> nat ind
+binder 12976:12976 <> N:122
+R12988:12990 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R12987:12987 Sequence <> N:122 var
+R12992:12994 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R13016:13029 Stdlib.Logic.Classical_Pred_Type <> not_all_not_ex thm
+R13016:13029 Stdlib.Logic.Classical_Pred_Type <> not_all_not_ex thm
+R13039:13041 Corelib.Init.Logic <> not def
+R13154:13163 Stdlib.Reals.RIneq <> Rnot_gt_le thm
+R13154:13163 Stdlib.Reals.RIneq <> Rnot_gt_le thm
+R13173:13175 Corelib.Init.Logic <> not def
+R13245:13247 Corelib.Init.Datatypes <> nat ind
+binder 13241:13241 <> n:123
+R13262:13265 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R13252:13255 Corelib.Init.Peano <> ::nat_scope:x_'>='_x not
+R13251:13251 Sequence <> n:123 var
+R13269:13271 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R13268:13268 Sequence <> n:123 var
+R13273:13275 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R13245:13247 Corelib.Init.Datatypes <> nat ind
+binder 13241:13241 <> n:124
+R13262:13265 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R13252:13255 Corelib.Init.Peano <> ::nat_scope:x_'>='_x not
+R13251:13251 Sequence <> n:124 var
+R13269:13271 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R13268:13268 Sequence <> n:124 var
+R13273:13275 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R13309:13312 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R13309:13312 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R13325:13337 Sequence <> increasing_ge thm
+R13325:13337 Sequence <> increasing_ge thm
+R13389:13391 Corelib.Init.Datatypes <> nat ind
+binder 13385:13385 <> n:125
+R13406:13409 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R13396:13399 Corelib.Init.Peano <> ::nat_scope:x_'>='_x not
+R13395:13395 Sequence <> n:125 var
+R13413:13416 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R13412:13412 Sequence <> n:125 var
+R13389:13391 Corelib.Init.Datatypes <> nat ind
+binder 13385:13385 <> n:126
+R13406:13409 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R13396:13399 Corelib.Init.Peano <> ::nat_scope:x_'>='_x not
+R13395:13395 Sequence <> n:126 var
+R13413:13416 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R13412:13412 Sequence <> n:126 var
+R13525:13527 Corelib.Init.Datatypes <> nat ind
+binder 13521:13521 <> n:127
+R13542:13545 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R13532:13535 Corelib.Init.Peano <> ::nat_scope:x_'>='_x not
+R13531:13531 Sequence <> n:127 var
+R13547:13550 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x_'<'_x not
+R13558:13560 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x_'<'_x not
+R13552:13554 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R13557:13557 Sequence <> n:127 var
+R13552:13554 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R13557:13557 Sequence <> n:127 var
+R13525:13527 Corelib.Init.Datatypes <> nat ind
+binder 13521:13521 <> n:128
+R13542:13545 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R13532:13535 Corelib.Init.Peano <> ::nat_scope:x_'>='_x not
+R13531:13531 Sequence <> n:128 var
+R13547:13550 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x_'<'_x not
+R13558:13560 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x_'<'_x not
+R13552:13554 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R13557:13557 Sequence <> n:128 var
+R13552:13554 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R13557:13557 Sequence <> n:128 var
+R13607:13607 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R13616:13620 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R13611:13614 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R13622:13625 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R13627:13629 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R13607:13607 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R13616:13620 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R13611:13614 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R13622:13625 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R13627:13629 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R13691:13691 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R13705:13709 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R13695:13697 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R13699:13701 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R13717:13719 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R13711:13713 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R13691:13691 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R13705:13709 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R13695:13697 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R13699:13701 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R13717:13719 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R13711:13713 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R13776:13778 Stdlib.Reals.Raxioms <> INR def
+R13776:13778 Stdlib.Reals.Raxioms <> INR def
+R13825:13828 Stdlib.Reals.Rbasic_fun <> Rabs def
+R13840:13848 Stdlib.Reals.Rbasic_fun <> Rcase_abs thm
+R13866:13868 Stdlib.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R13876:13876 Stdlib.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R13872:13874 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R13886:13888 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R13866:13868 Stdlib.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R13876:13876 Stdlib.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R13872:13874 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R13886:13888 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R13919:13924 Stdlib.Reals.RIneq <> Rgt_lt thm
+R13919:13924 Stdlib.Reals.RIneq <> Rgt_lt thm
+R13940:13945 Stdlib.Reals.RIneq <> INR_lt thm
+R13940:13945 Stdlib.Reals.RIneq <> INR_lt thm
+R13983:13986 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R13983:13986 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R14015:14018 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R14015:14018 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R14042:14047 Stdlib.Reals.RIneq <> Rgt_lt thm
+R14042:14047 Stdlib.Reals.RIneq <> Rgt_lt thm
+R14063:14068 Stdlib.Reals.RIneq <> INR_lt thm
+R14063:14068 Stdlib.Reals.RIneq <> INR_lt thm
+prf 14109:14145 <> Monotonic_Sequence_Theorem_Decreasing
+R14161:14168 Sequence <> sequence def
+binder 14157:14157 <> a:129
+R14186:14189 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R14174:14183 Sequence <> decreasing def
+R14185:14185 Sequence <> a:129 var
+R14205:14208 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R14190:14202 Sequence <> bounded_below def
+R14204:14204 Sequence <> a:129 var
+R14209:14227 Sequence <> convergent_sequence def
+R14229:14229 Sequence <> a:129 var
+R14274:14286 Sequence <> bounded_below def
+R14350:14363 Completeness <> is_lower_bound def
+binder 14370:14370 <> x:130
+R14375:14381 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R14383:14384 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 14382:14382 <> n:131
+R14388:14390 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R14387:14387 Sequence <> n:131 var
+R14391:14391 Sequence <> x:130 var
+R14350:14363 Completeness <> is_lower_bound def
+binder 14370:14370 <> x:132
+R14375:14381 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R14383:14384 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 14382:14382 <> n:133
+R14388:14390 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R14387:14387 Sequence <> n:133 var
+R14391:14391 Sequence <> x:132 var
+R14410:14423 Completeness <> is_lower_bound def
+R14464:14469 Stdlib.Reals.RIneq <> Rle_ge thm
+R14464:14469 Stdlib.Reals.RIneq <> Rle_ge thm
+R14501:14515 Completeness <> has_lower_bound def
+binder 14522:14522 <> x:134
+R14527:14533 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R14541:14542 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R14538:14540 Corelib.Init.Datatypes <> nat ind
+binder 14534:14534 <> n:135
+R14546:14548 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R14545:14545 Sequence <> n:135 var
+R14549:14549 Sequence <> x:134 var
+R14501:14515 Completeness <> has_lower_bound def
+binder 14522:14522 <> x:136
+R14527:14533 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R14541:14542 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R14538:14540 Corelib.Init.Datatypes <> nat ind
+binder 14534:14534 <> n:137
+R14546:14548 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R14545:14545 Sequence <> n:137 var
+R14549:14549 Sequence <> x:136 var
+R14565:14579 Completeness <> has_lower_bound def
+R14621:14621 Corelib.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R14623:14625 Corelib.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R14627:14629 Corelib.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R14673:14673 Corelib.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R14626:14626 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 14622:14622 <> L:138
+R14630:14635 Completeness <> is_glb def
+binder 14642:14642 <> x:139
+R14647:14653 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R14661:14662 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R14658:14660 Corelib.Init.Datatypes <> nat ind
+binder 14654:14654 <> n:140
+R14666:14668 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R14665:14665 Sequence <> n:140 var
+R14669:14669 Sequence <> x:139 var
+R14672:14672 Sequence <> L:138 var
+R14621:14621 Corelib.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R14623:14625 Corelib.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R14627:14629 Corelib.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R14673:14673 Corelib.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R14626:14626 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 14622:14622 <> L:141
+R14630:14635 Completeness <> is_glb def
+binder 14642:14642 <> x:142
+R14647:14653 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R14661:14662 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R14658:14660 Corelib.Init.Datatypes <> nat ind
+binder 14654:14654 <> n:143
+R14666:14668 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R14665:14665 Sequence <> n:143 var
+R14669:14669 Sequence <> x:142 var
+R14672:14672 Sequence <> L:141 var
+R14687:14710 Completeness <> completeness_lower_bound thm
+R14687:14710 Completeness <> completeness_lower_bound thm
+R14729:14740 Sets <> not_Empty_In thm
+R14729:14740 Sets <> not_Empty_In thm
+R14823:14828 Completeness <> is_glb def
+R14868:14881 Completeness <> is_lower_bound def
+R14900:14918 Sequence <> convergent_sequence def
+R14962:14964 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R15018:15018 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R14965:14978 Completeness <> is_lower_bound def
+binder 14985:14985 <> x:144
+R14990:14996 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R14998:14999 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 14997:14997 <> n:145
+R15003:15005 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R15002:15002 Sequence <> n:145 var
+R15006:15006 Sequence <> x:144 var
+R15011:15013 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R14962:14964 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R15018:15018 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R14965:14978 Completeness <> is_lower_bound def
+binder 14985:14985 <> x:146
+R14990:14996 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R14998:14999 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 14997:14997 <> n:147
+R15003:15005 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R15002:15002 Sequence <> n:147 var
+R15006:15006 Sequence <> x:146 var
+R15011:15013 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R15033:15035 Corelib.Init.Logic <> not def
+R15070:15072 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R15070:15072 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R15117:15130 Completeness <> is_lower_bound def
+R15146:15148 Corelib.Init.Logic <> not def
+R15173:15179 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R15187:15188 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R15184:15186 Corelib.Init.Datatypes <> nat ind
+binder 15180:15180 <> N:148
+R15192:15194 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R15191:15191 Sequence <> N:148 var
+R15196:15198 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R15173:15179 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R15187:15188 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R15184:15186 Corelib.Init.Datatypes <> nat ind
+binder 15180:15180 <> N:149
+R15192:15194 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R15191:15191 Sequence <> N:149 var
+R15196:15198 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R15220:15233 Stdlib.Logic.Classical_Pred_Type <> not_all_not_ex thm
+R15220:15233 Stdlib.Logic.Classical_Pred_Type <> not_all_not_ex thm
+R15243:15245 Corelib.Init.Logic <> not def
+R15358:15367 Stdlib.Reals.RIneq <> Rnot_lt_ge thm
+R15358:15367 Stdlib.Reals.RIneq <> Rnot_lt_ge thm
+R15377:15379 Corelib.Init.Logic <> not def
+R15449:15451 Corelib.Init.Datatypes <> nat ind
+binder 15445:15445 <> n:150
+R15466:15469 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R15456:15459 Corelib.Init.Peano <> ::nat_scope:x_'>='_x not
+R15455:15455 Sequence <> n:150 var
+R15473:15475 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R15472:15472 Sequence <> n:150 var
+R15477:15479 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R15449:15451 Corelib.Init.Datatypes <> nat ind
+binder 15445:15445 <> n:151
+R15466:15469 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R15456:15459 Corelib.Init.Peano <> ::nat_scope:x_'>='_x not
+R15455:15455 Sequence <> n:151 var
+R15473:15475 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R15472:15472 Sequence <> n:151 var
+R15477:15479 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R15513:15516 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R15513:15516 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R15529:15541 Sequence <> decreasing_le thm
+R15529:15541 Sequence <> decreasing_le thm
+R15596:15598 Corelib.Init.Datatypes <> nat ind
+binder 15592:15592 <> n:152
+R15613:15616 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R15603:15606 Corelib.Init.Peano <> ::nat_scope:x_'>='_x not
+R15602:15602 Sequence <> n:152 var
+R15620:15623 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R15619:15619 Sequence <> n:152 var
+R15596:15598 Corelib.Init.Datatypes <> nat ind
+binder 15592:15592 <> n:153
+R15613:15616 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R15603:15606 Corelib.Init.Peano <> ::nat_scope:x_'>='_x not
+R15602:15602 Sequence <> n:153 var
+R15620:15623 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R15619:15619 Sequence <> n:153 var
+R15733:15735 Corelib.Init.Datatypes <> nat ind
+binder 15729:15729 <> n:154
+R15750:15753 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R15740:15743 Corelib.Init.Peano <> ::nat_scope:x_'>='_x not
+R15739:15739 Sequence <> n:154 var
+R15755:15758 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x_'<'_x not
+R15766:15768 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x_'<'_x not
+R15762:15764 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R15761:15761 Sequence <> n:154 var
+R15762:15764 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R15761:15761 Sequence <> n:154 var
+R15733:15735 Corelib.Init.Datatypes <> nat ind
+binder 15729:15729 <> n:155
+R15750:15753 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R15740:15743 Corelib.Init.Peano <> ::nat_scope:x_'>='_x not
+R15739:15739 Sequence <> n:155 var
+R15755:15758 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x_'<'_x not
+R15766:15768 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x_'<'_x not
+R15762:15764 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R15761:15761 Sequence <> n:155 var
+R15762:15764 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R15761:15761 Sequence <> n:155 var
+R15815:15815 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R15824:15828 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R15819:15822 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R15830:15833 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R15837:15839 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R15815:15815 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R15824:15828 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R15819:15822 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R15830:15833 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R15837:15839 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R15899:15899 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R15913:15917 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R15903:15905 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R15907:15909 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R15925:15927 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R15921:15923 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R15899:15899 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R15913:15917 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R15903:15905 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R15907:15909 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R15925:15927 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R15921:15923 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R15987:15989 Stdlib.Reals.Raxioms <> INR def
+R15987:15989 Stdlib.Reals.Raxioms <> INR def
+R16036:16041 Stdlib.Reals.Rfunctions <> Rdist def
+R16053:16056 Stdlib.Reals.Rbasic_fun <> Rabs def
+R16068:16076 Stdlib.Reals.Rbasic_fun <> Rcase_abs thm
+R16092:16094 Stdlib.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R16102:16102 Stdlib.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R16098:16100 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R16112:16114 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R16092:16094 Stdlib.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R16102:16102 Stdlib.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R16098:16100 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R16112:16114 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R16145:16148 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R16145:16148 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R16176:16181 Stdlib.Reals.RIneq <> Rgt_lt thm
+R16176:16181 Stdlib.Reals.RIneq <> Rgt_lt thm
+R16197:16202 Stdlib.Reals.RIneq <> INR_lt thm
+R16197:16202 Stdlib.Reals.RIneq <> INR_lt thm
+R16245:16250 Stdlib.Reals.RIneq <> Rgt_lt thm
+R16245:16250 Stdlib.Reals.RIneq <> Rgt_lt thm
+R16266:16271 Stdlib.Reals.RIneq <> INR_lt thm
+R16266:16271 Stdlib.Reals.RIneq <> INR_lt thm
+prf 16672:16719 <> Monotonic_Sequence_Theorem_Increasing_Eventually
+R16735:16742 Sequence <> sequence def
+binder 16731:16731 <> a:156
+R16771:16774 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R16748:16768 Sequence <> eventually_increasing def
+R16770:16770 Sequence <> a:156 var
+R16790:16793 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R16775:16787 Sequence <> bounded_above def
+R16789:16789 Sequence <> a:156 var
+R16794:16812 Sequence <> convergent_sequence def
+R16814:16814 Sequence <> a:156 var
+R16893:16900 Sequence <> sequence def
+binder 16869:16869 <> n:157
+R16879:16881 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R16878:16878 Sequence <> n:157 var
+R16893:16900 Sequence <> sequence def
+binder 16869:16869 <> n:158
+R16879:16881 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R16878:16878 Sequence <> n:158 var
+R16920:16929 Sequence <> increasing def
+R16920:16929 Sequence <> increasing def
+R16979:16991 Sequence <> bounded_above def
+R16979:16991 Sequence <> bounded_above def
+R17048:17066 Sequence <> convergent_sequence def
+R17048:17066 Sequence <> convergent_sequence def
+R17082:17118 Sequence <> Monotonic_Sequence_Theorem_Increasing thm
+R17082:17118 Sequence <> Monotonic_Sequence_Theorem_Increasing thm
+R17276:17278 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R17271:17273 Stdlib.Reals.Raxioms <> INR def
+R17279:17282 Stdlib.Reals.Rbasic_fun <> Rmax def
+R17276:17278 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R17271:17273 Stdlib.Reals.Raxioms <> INR def
+R17279:17282 Stdlib.Reals.Rbasic_fun <> Rmax def
+R17323:17325 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R17323:17325 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R17367:17370 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R17363:17365 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R17373:17376 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R17367:17370 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R17363:17365 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R17373:17376 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R17414:17417 Stdlib.Reals.Rbasic_fun <> Rmax def
+R17414:17417 Stdlib.Reals.Rbasic_fun <> Rmax def
+R17453:17462 Stdlib.Reals.Rbasic_fun <> Rmax_right thm
+R17453:17462 Stdlib.Reals.Rbasic_fun <> Rmax_right thm
+R17453:17462 Stdlib.Reals.Rbasic_fun <> Rmax_right thm
+R17453:17462 Stdlib.Reals.Rbasic_fun <> Rmax_right thm
+R17480:17488 Stdlib.Reals.RIneq <> Rplus_0_r thm
+R17480:17488 Stdlib.Reals.RIneq <> Rplus_0_r thm
+R17480:17488 Stdlib.Reals.RIneq <> Rplus_0_r thm
+R17507:17512 Stdlib.Reals.RIneq <> INR_lt thm
+R17507:17512 Stdlib.Reals.RIneq <> INR_lt thm
+R17535:17537 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R17531:17533 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R17535:17537 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R17531:17533 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R17587:17593 Stdlib.Reals.RIneq <> pos_INR thm
+R17597:17599 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R17587:17593 Stdlib.Reals.RIneq <> pos_INR thm
+R17597:17599 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R17636:17639 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R17627:17630 Stdlib.Reals.Rbasic_fun <> Rmax def
+R17636:17639 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R17627:17630 Stdlib.Reals.Rbasic_fun <> Rmax def
+R17660:17668 Stdlib.Reals.Rbasic_fun <> Rmax_left thm
+R17660:17668 Stdlib.Reals.Rbasic_fun <> Rmax_left thm
+R17660:17668 Stdlib.Reals.Rbasic_fun <> Rmax_left thm
+R17660:17668 Stdlib.Reals.Rbasic_fun <> Rmax_left thm
+R17691:17693 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R17686:17688 Stdlib.Reals.Raxioms <> INR def
+R17694:17696 Stdlib.Reals.Raxioms <> INR def
+R17691:17693 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R17686:17688 Stdlib.Reals.Raxioms <> INR def
+R17694:17696 Stdlib.Reals.Raxioms <> INR def
+R17726:17731 Stdlib.Reals.RIneq <> INR_lt thm
+R17726:17731 Stdlib.Reals.RIneq <> INR_lt thm
+R17755:17757 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R17751:17753 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R17755:17757 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R17751:17753 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R17817:17819 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R17808:17811 Stdlib.Reals.Rbasic_fun <> Rmax def
+R17817:17819 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R17808:17811 Stdlib.Reals.Rbasic_fun <> Rmax def
+R17841:17844 Stdlib.Reals.Rbasic_fun <> Rmax def
+R17857:17863 Stdlib.Reals.RIneq <> Rle_dec thm
+R17857:17863 Stdlib.Reals.RIneq <> Rle_dec thm
+R17894:17899 Stdlib.Reals.RIneq <> INR_lt thm
+R17894:17899 Stdlib.Reals.RIneq <> INR_lt thm
+prf 17926:17973 <> Monotonic_Sequence_Theorem_Decreasing_Eventually
+R17989:17996 Sequence <> sequence def
+binder 17985:17985 <> a:159
+R18025:18028 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R18002:18022 Sequence <> eventually_decreasing def
+R18024:18024 Sequence <> a:159 var
+R18044:18047 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R18029:18041 Sequence <> bounded_below def
+R18043:18043 Sequence <> a:159 var
+R18048:18066 Sequence <> convergent_sequence def
+R18068:18068 Sequence <> a:159 var
+R18147:18154 Sequence <> sequence def
+binder 18123:18123 <> n:160
+R18133:18135 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R18132:18132 Sequence <> n:160 var
+R18147:18154 Sequence <> sequence def
+binder 18123:18123 <> n:161
+R18133:18135 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R18132:18132 Sequence <> n:161 var
+R18173:18191 Sequence <> convergent_sequence def
+R18173:18191 Sequence <> convergent_sequence def
+R18207:18243 Sequence <> Monotonic_Sequence_Theorem_Decreasing thm
+R18207:18243 Sequence <> Monotonic_Sequence_Theorem_Decreasing thm
+R18410:18412 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R18405:18407 Stdlib.Reals.Raxioms <> INR def
+R18413:18416 Stdlib.Reals.Rbasic_fun <> Rmax def
+R18410:18412 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R18405:18407 Stdlib.Reals.Raxioms <> INR def
+R18413:18416 Stdlib.Reals.Rbasic_fun <> Rmax def
+R18457:18459 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R18457:18459 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R18499:18502 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R18495:18497 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R18505:18508 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R18499:18502 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R18495:18497 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R18505:18508 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R18546:18549 Stdlib.Reals.Rbasic_fun <> Rmax def
+R18546:18549 Stdlib.Reals.Rbasic_fun <> Rmax def
+R18585:18594 Stdlib.Reals.Rbasic_fun <> Rmax_right thm
+R18585:18594 Stdlib.Reals.Rbasic_fun <> Rmax_right thm
+R18585:18594 Stdlib.Reals.Rbasic_fun <> Rmax_right thm
+R18585:18594 Stdlib.Reals.Rbasic_fun <> Rmax_right thm
+R18612:18620 Stdlib.Reals.RIneq <> Rplus_0_r thm
+R18612:18620 Stdlib.Reals.RIneq <> Rplus_0_r thm
+R18612:18620 Stdlib.Reals.RIneq <> Rplus_0_r thm
+R18639:18644 Stdlib.Reals.RIneq <> INR_lt thm
+R18639:18644 Stdlib.Reals.RIneq <> INR_lt thm
+R18667:18669 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R18663:18665 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R18667:18669 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R18663:18665 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R18719:18725 Stdlib.Reals.RIneq <> pos_INR thm
+R18729:18731 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R18719:18725 Stdlib.Reals.RIneq <> pos_INR thm
+R18729:18731 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R18768:18771 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R18759:18762 Stdlib.Reals.Rbasic_fun <> Rmax def
+R18768:18771 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R18759:18762 Stdlib.Reals.Rbasic_fun <> Rmax def
+R18792:18800 Stdlib.Reals.Rbasic_fun <> Rmax_left thm
+R18792:18800 Stdlib.Reals.Rbasic_fun <> Rmax_left thm
+R18792:18800 Stdlib.Reals.Rbasic_fun <> Rmax_left thm
+R18792:18800 Stdlib.Reals.Rbasic_fun <> Rmax_left thm
+R18823:18825 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R18818:18820 Stdlib.Reals.Raxioms <> INR def
+R18826:18828 Stdlib.Reals.Raxioms <> INR def
+R18823:18825 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R18818:18820 Stdlib.Reals.Raxioms <> INR def
+R18826:18828 Stdlib.Reals.Raxioms <> INR def
+R18858:18863 Stdlib.Reals.RIneq <> INR_lt thm
+R18858:18863 Stdlib.Reals.RIneq <> INR_lt thm
+R18887:18889 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R18883:18885 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R18887:18889 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R18883:18885 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R18949:18951 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R18940:18943 Stdlib.Reals.Rbasic_fun <> Rmax def
+R18949:18951 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R18940:18943 Stdlib.Reals.Rbasic_fun <> Rmax def
+R18973:18976 Stdlib.Reals.Rbasic_fun <> Rmax def
+R18989:18995 Stdlib.Reals.RIneq <> Rle_dec thm
+R18989:18995 Stdlib.Reals.RIneq <> Rle_dec thm
+R19026:19031 Stdlib.Reals.RIneq <> INR_lt thm
+R19026:19031 Stdlib.Reals.RIneq <> INR_lt thm
+prf 19060:19085 <> Monotonic_Sequence_Theorem
+R19101:19108 Sequence <> sequence def
+binder 19097:19097 <> a:162
+R19184:19187 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R19114:19114 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R19146:19151 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R19183:19183 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R19127:19130 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R19115:19124 Sequence <> increasing def
+R19126:19126 Sequence <> a:162 var
+R19131:19143 Sequence <> bounded_above def
+R19145:19145 Sequence <> a:162 var
+R19164:19167 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R19152:19161 Sequence <> decreasing def
+R19163:19163 Sequence <> a:162 var
+R19168:19180 Sequence <> bounded_below def
+R19182:19182 Sequence <> a:162 var
+R19188:19206 Sequence <> convergent_sequence def
+R19208:19208 Sequence <> a:162 var
+R19260:19296 Sequence <> Monotonic_Sequence_Theorem_Increasing thm
+R19306:19342 Sequence <> Monotonic_Sequence_Theorem_Decreasing thm
+R19260:19296 Sequence <> Monotonic_Sequence_Theorem_Increasing thm
+R19306:19342 Sequence <> Monotonic_Sequence_Theorem_Decreasing thm
+prf 19366:19398 <> Monotonic_Sequence_Theorem_Strong
+R19414:19421 Sequence <> sequence def
+binder 19410:19410 <> a:163
+R19519:19522 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R19427:19427 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R19470:19475 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R19518:19518 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R19451:19454 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R19428:19448 Sequence <> eventually_increasing def
+R19450:19450 Sequence <> a:163 var
+R19455:19467 Sequence <> bounded_above def
+R19469:19469 Sequence <> a:163 var
+R19499:19502 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R19476:19496 Sequence <> eventually_decreasing def
+R19498:19498 Sequence <> a:163 var
+R19503:19515 Sequence <> bounded_below def
+R19517:19517 Sequence <> a:163 var
+R19523:19541 Sequence <> convergent_sequence def
+R19543:19543 Sequence <> a:163 var
+R19595:19642 Sequence <> Monotonic_Sequence_Theorem_Increasing_Eventually thm
+R19652:19699 Sequence <> Monotonic_Sequence_Theorem_Decreasing_Eventually thm
+R19595:19642 Sequence <> Monotonic_Sequence_Theorem_Increasing_Eventually thm
+R19652:19699 Sequence <> Monotonic_Sequence_Theorem_Decreasing_Eventually thm
+prf 19721:19742 <> sequence_squeeze_lower
+binder 19753:19753 <> a:164
+binder 19755:19755 <> b:165
+binder 19757:19758 <> LB:166
+R19783:19786 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R19763:19776 Sequence <> :::'⟦'_'lim_s'_'⟧'_x_'='_x not
+R19778:19780 Sequence <> :::'⟦'_'lim_s'_'⟧'_x_'='_x not
+R19777:19777 Sequence <> a:164 var
+R19781:19782 Sequence <> LB:166 var
+R19822:19825 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R19787:19817 Sequence <> a_eventually_bounded_below_by_b def
+R19819:19819 Sequence <> a:164 var
+R19821:19821 Sequence <> b:165 var
+R19842:19845 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R19826:19836 Sequence <> lower_bound def
+R19838:19838 Sequence <> b:165 var
+R19840:19841 Sequence <> LB:166 var
+R19846:19859 Sequence <> :::'⟦'_'lim_s'_'⟧'_x_'='_x not
+R19861:19863 Sequence <> :::'⟦'_'lim_s'_'⟧'_x_'='_x not
+R19860:19860 Sequence <> b:165 var
+R19864:19865 Sequence <> LB:166 var
+R19954:19957 Stdlib.Reals.Rbasic_fun <> Rmax def
+R19954:19957 Stdlib.Reals.Rbasic_fun <> Rmax def
+R20011:20018 Sequence <> Rmax_Rgt thm
+R20011:20018 Sequence <> Rmax_Rgt thm
+R20011:20018 Sequence <> Rmax_Rgt thm
+R20063:20070 Sequence <> Rmax_Rgt thm
+R20063:20070 Sequence <> Rmax_Rgt thm
+R20063:20070 Sequence <> Rmax_Rgt thm
+R20125:20128 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R20115:20115 Notations <> ::R_scope:'|'_x_'|' not
+R20124:20124 Notations <> ::R_scope:'|'_x_'|' not
+R20119:20121 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R20129:20129 Notations <> ::R_scope:'|'_x_'|' not
+R20138:20138 Notations <> ::R_scope:'|'_x_'|' not
+R20133:20135 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R20125:20128 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R20115:20115 Notations <> ::R_scope:'|'_x_'|' not
+R20124:20124 Notations <> ::R_scope:'|'_x_'|' not
+R20119:20121 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R20129:20129 Notations <> ::R_scope:'|'_x_'|' not
+R20138:20138 Notations <> ::R_scope:'|'_x_'|' not
+R20133:20135 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+prf 20178:20199 <> sequence_squeeze_upper
+binder 20210:20210 <> a:167
+binder 20212:20212 <> b:168
+binder 20214:20215 <> UB:169
+R20240:20243 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R20220:20233 Sequence <> :::'⟦'_'lim_s'_'⟧'_x_'='_x not
+R20235:20237 Sequence <> :::'⟦'_'lim_s'_'⟧'_x_'='_x not
+R20234:20234 Sequence <> a:167 var
+R20238:20239 Sequence <> UB:169 var
+R20279:20282 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R20244:20274 Sequence <> a_eventually_bounded_above_by_b def
+R20276:20276 Sequence <> a:167 var
+R20278:20278 Sequence <> b:168 var
+R20299:20302 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R20283:20293 Sequence <> upper_bound def
+R20295:20295 Sequence <> b:168 var
+R20297:20298 Sequence <> UB:169 var
+R20303:20316 Sequence <> :::'⟦'_'lim_s'_'⟧'_x_'='_x not
+R20318:20320 Sequence <> :::'⟦'_'lim_s'_'⟧'_x_'='_x not
+R20317:20317 Sequence <> b:168 var
+R20321:20322 Sequence <> UB:169 var
+R20411:20414 Stdlib.Reals.Rbasic_fun <> Rmax def
+R20411:20414 Stdlib.Reals.Rbasic_fun <> Rmax def
+R20468:20475 Sequence <> Rmax_Rgt thm
+R20468:20475 Sequence <> Rmax_Rgt thm
+R20468:20475 Sequence <> Rmax_Rgt thm
+R20520:20527 Sequence <> Rmax_Rgt thm
+R20520:20527 Sequence <> Rmax_Rgt thm
+R20520:20527 Sequence <> Rmax_Rgt thm
+R20582:20585 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R20572:20572 Notations <> ::R_scope:'|'_x_'|' not
+R20581:20581 Notations <> ::R_scope:'|'_x_'|' not
+R20576:20578 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R20586:20586 Notations <> ::R_scope:'|'_x_'|' not
+R20595:20595 Notations <> ::R_scope:'|'_x_'|' not
+R20590:20592 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R20582:20585 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R20572:20572 Notations <> ::R_scope:'|'_x_'|' not
+R20581:20581 Notations <> ::R_scope:'|'_x_'|' not
+R20576:20578 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R20586:20586 Notations <> ::R_scope:'|'_x_'|' not
+R20595:20595 Notations <> ::R_scope:'|'_x_'|' not
+R20590:20592 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+prf 20635:20650 <> sequence_squeeze
+binder 20661:20661 <> a:170
+binder 20663:20663 <> b:171
+binder 20665:20665 <> c:172
+binder 20667:20667 <> L:173
+R20691:20694 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R20672:20685 Sequence <> :::'⟦'_'lim_s'_'⟧'_x_'='_x not
+R20687:20689 Sequence <> :::'⟦'_'lim_s'_'⟧'_x_'='_x not
+R20686:20686 Sequence <> a:170 var
+R20690:20690 Sequence <> L:173 var
+R20714:20717 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R20695:20708 Sequence <> :::'⟦'_'lim_s'_'⟧'_x_'='_x not
+R20710:20712 Sequence <> :::'⟦'_'lim_s'_'⟧'_x_'='_x not
+R20709:20709 Sequence <> c:172 var
+R20713:20713 Sequence <> L:173 var
+R20753:20756 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R20718:20748 Sequence <> a_eventually_bounded_below_by_b def
+R20750:20750 Sequence <> b:171 var
+R20752:20752 Sequence <> a:170 var
+R20792:20795 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R20757:20787 Sequence <> a_eventually_bounded_above_by_b def
+R20789:20789 Sequence <> b:171 var
+R20791:20791 Sequence <> c:172 var
+R20796:20809 Sequence <> :::'⟦'_'lim_s'_'⟧'_x_'='_x not
+R20811:20813 Sequence <> :::'⟦'_'lim_s'_'⟧'_x_'='_x not
+R20810:20810 Sequence <> b:171 var
+R20814:20814 Sequence <> L:173 var
+R20950:20953 Stdlib.Reals.Rbasic_fun <> Rmax def
+R20956:20959 Stdlib.Reals.Rbasic_fun <> Rmax def
+R20969:20972 Stdlib.Reals.Rbasic_fun <> Rmax def
+R20950:20953 Stdlib.Reals.Rbasic_fun <> Rmax def
+R20956:20959 Stdlib.Reals.Rbasic_fun <> Rmax def
+R20969:20972 Stdlib.Reals.Rbasic_fun <> Rmax def
+R20998:21001 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R20992:20995 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R21009:21012 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R21003:21006 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R21020:21023 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R21014:21017 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R21025:21028 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R20998:21001 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R20992:20995 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R21009:21012 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R21003:21006 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R21020:21023 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R21014:21017 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R21025:21028 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+prf 21251:21284 <> unbounded_above_divergent_sequence
+binder 21295:21295 <> a:174
+R21317:21320 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R21300:21314 Sequence <> unbounded_above def
+R21316:21316 Sequence <> a:174 var
+R21321:21338 Sequence <> divergent_sequence def
+R21340:21340 Sequence <> a:174 var
+R21371:21392 Sequence <> divergent_sequence_iff thm
+R21371:21392 Sequence <> divergent_sequence_iff thm
+R21463:21475 Stdlib.Reals.RIneq <> INR_unbounded thm
+R21463:21475 Stdlib.Reals.RIneq <> INR_unbounded thm
+R21504:21537 Sums <> exists_max_of_sequence_on_interval thm
+R21504:21537 Sums <> exists_max_of_sequence_on_interval thm
+R21583:21597 Sequence <> unbounded_above def
+R21626:21628 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R21626:21628 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R21663:21666 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R21657:21660 Corelib.Init.Peano <> ::nat_scope:x_'<='_x not
+R21669:21671 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R21663:21666 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R21657:21660 Corelib.Init.Peano <> ::nat_scope:x_'<='_x not
+R21669:21671 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R21838:21843 Stdlib.Reals.RIneq <> lt_INR thm
+R21838:21843 Stdlib.Reals.RIneq <> lt_INR thm
+prf 21910:21943 <> unbounded_below_divergent_sequence
+binder 21954:21954 <> a:175
+R21976:21979 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R21959:21973 Sequence <> unbounded_below def
+R21975:21975 Sequence <> a:175 var
+R21980:21997 Sequence <> divergent_sequence def
+R21999:21999 Sequence <> a:175 var
+R22030:22051 Sequence <> divergent_sequence_iff thm
+R22030:22051 Sequence <> divergent_sequence_iff thm
+R22122:22134 Stdlib.Reals.RIneq <> INR_unbounded thm
+R22122:22134 Stdlib.Reals.RIneq <> INR_unbounded thm
+R22163:22196 Sums <> exists_min_of_sequence_on_interval thm
+R22163:22196 Sums <> exists_min_of_sequence_on_interval thm
+R22242:22256 Sequence <> unbounded_below def
+R22285:22287 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R22285:22287 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R22322:22325 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R22316:22319 Corelib.Init.Peano <> ::nat_scope:x_'<='_x not
+R22328:22330 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R22322:22325 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R22316:22319 Corelib.Init.Peano <> ::nat_scope:x_'<='_x not
+R22328:22330 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R22497:22502 Stdlib.Reals.RIneq <> lt_INR thm
+R22497:22502 Stdlib.Reals.RIneq <> lt_INR thm
+prf 22569:22605 <> bounded_above_by_bound_above_sequence
+binder 22616:22616 <> a:176
+binder 22618:22618 <> b:177
+R22638:22641 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R22623:22635 Sequence <> bounded_above def
+R22637:22637 Sequence <> b:177 var
+R22666:22669 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R22642:22661 Sequence <> a_bounded_above_by_b def
+R22663:22663 Sequence <> a:176 var
+R22665:22665 Sequence <> b:177 var
+R22670:22682 Sequence <> bounded_above def
+R22684:22684 Sequence <> a:176 var
+R22721:22733 Sequence <> bounded_above def
+R22749:22768 Sequence <> a_bounded_above_by_b def
+prf 22880:22897 <> convergent_bounded
+binder 22908:22908 <> a:178
+R22934:22937 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R22913:22931 Sequence <> convergent_sequence def
+R22933:22933 Sequence <> a:178 var
+R22938:22944 Sequence <> bounded def
+R22946:22946 Sequence <> a:178 var
+R22993:22999 Stdlib.Logic.Classical_Prop <> classic prfax
+R23002:23014 Sequence <> bounded_below def
+R22993:22999 Stdlib.Logic.Classical_Prop <> classic prfax
+R23002:23014 Sequence <> bounded_below def
+R23047:23063 Sequence <> bounded_below_iff thm
+R23047:23063 Sequence <> bounded_below_iff thm
+R23047:23063 Sequence <> bounded_below_iff thm
+R23078:23081 Stdlib.Logic.Classical_Prop <> NNPP thm
+R23078:23081 Stdlib.Logic.Classical_Prop <> NNPP thm
+R23100:23133 Sequence <> unbounded_below_divergent_sequence thm
+R23100:23133 Sequence <> unbounded_below_divergent_sequence thm
+R23148:23169 Sequence <> divergent_sequence_iff thm
+R23148:23169 Sequence <> divergent_sequence_iff thm
+R23208:23214 Stdlib.Logic.Classical_Prop <> classic prfax
+R23217:23229 Sequence <> bounded_above def
+R23208:23214 Stdlib.Logic.Classical_Prop <> classic prfax
+R23217:23229 Sequence <> bounded_above def
+R23262:23278 Sequence <> bounded_above_iff thm
+R23262:23278 Sequence <> bounded_above_iff thm
+R23262:23278 Sequence <> bounded_above_iff thm
+R23293:23296 Stdlib.Logic.Classical_Prop <> NNPP thm
+R23293:23296 Stdlib.Logic.Classical_Prop <> NNPP thm
+R23315:23348 Sequence <> unbounded_above_divergent_sequence thm
+R23315:23348 Sequence <> unbounded_above_divergent_sequence thm
+R23363:23384 Sequence <> divergent_sequence_iff thm
+R23363:23384 Sequence <> divergent_sequence_iff thm
+prf 23420:23458 <> unbounded_increasing_sequence_divergent
+binder 23469:23469 <> a:179
+R23486:23489 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R23474:23483 Sequence <> increasing def
+R23485:23485 Sequence <> a:179 var
+R23507:23510 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R23490:23504 Sequence <> unbounded_above def
+R23506:23506 Sequence <> a:179 var
+R23511:23528 Sequence <> divergent_sequence def
+R23530:23530 Sequence <> a:179 var
+R23564:23582 Sequence <> unbounded_above_iff thm
+R23564:23582 Sequence <> unbounded_above_iff thm
+R23597:23618 Sequence <> divergent_sequence_iff thm
+R23597:23618 Sequence <> divergent_sequence_iff thm
+R23689:23701 Stdlib.Reals.RIneq <> INR_unbounded thm
+R23689:23701 Stdlib.Reals.RIneq <> INR_unbounded thm
+R23742:23742 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 23738:23738 <> L:180
+R23745:23751 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R23759:23760 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R23756:23758 Corelib.Init.Datatypes <> nat ind
+binder 23752:23752 <> n:181
+R23764:23766 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R23763:23763 Sequence <> n:181 var
+R23767:23767 Sequence <> L:180 var
+R23742:23742 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 23738:23738 <> L:182
+R23745:23751 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R23759:23760 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R23756:23758 Corelib.Init.Datatypes <> nat ind
+binder 23752:23752 <> n:183
+R23764:23766 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R23763:23763 Sequence <> n:183 var
+R23767:23767 Sequence <> L:182 var
+R23797:23803 Stdlib.Logic.Classical_Prop <> classic prfax
+R23806:23812 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R23821:23822 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R23818:23820 Corelib.Init.Datatypes <> nat ind
+binder 23813:23814 <> n0:184
+R23827:23829 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R23825:23826 Sequence <> n0:184 var
+R23797:23803 Stdlib.Logic.Classical_Prop <> classic prfax
+R23806:23812 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R23821:23822 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R23818:23820 Corelib.Init.Datatypes <> nat ind
+binder 23813:23814 <> n0:185
+R23827:23829 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R23825:23826 Sequence <> n0:185 var
+R23884:23896 Sequence <> bounded_above def
+R23927:23940 Stdlib.Logic.Classical_Pred_Type <> not_ex_all_not thm
+R23927:23940 Stdlib.Logic.Classical_Pred_Type <> not_ex_all_not thm
+R23993:23995 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R23993:23995 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R24034:24037 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R24024:24026 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R24034:24037 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R24024:24026 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R24053:24065 Sequence <> increasing_ge thm
+R24053:24065 Sequence <> increasing_ge thm
+R24100:24102 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R24100:24102 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R24133:24135 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R24121:24123 Stdlib.Reals.Raxioms <> INR def
+R24127:24129 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R24133:24135 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R24121:24123 Stdlib.Reals.Raxioms <> INR def
+R24127:24129 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R24164:24167 Corelib.Init.Peano <> ::nat_scope:x_'>='_x not
+R24159:24161 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R24164:24167 Corelib.Init.Peano <> ::nat_scope:x_'>='_x not
+R24159:24161 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R24208:24215 Stdlib.Reals.RIneq <> plus_INR thm
+R24208:24215 Stdlib.Reals.RIneq <> plus_INR thm
+R24208:24215 Stdlib.Reals.RIneq <> plus_INR thm
+prf 24289:24327 <> bound_below_by_unbounded_above_sequence
+binder 24338:24338 <> a:186
+binder 24340:24340 <> b:187
+R24362:24365 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R24345:24359 Sequence <> unbounded_above def
+R24361:24361 Sequence <> b:187 var
+R24390:24393 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R24366:24385 Sequence <> a_bounded_below_by_b def
+R24387:24387 Sequence <> a:186 var
+R24389:24389 Sequence <> b:187 var
+R24394:24408 Sequence <> unbounded_above def
+R24410:24410 Sequence <> a:186 var
+prf 24522:24552 <> linear_sequence_unbounded_above
+binder 24563:24563 <> a:188
+binder 24565:24565 <> c:189
+R24575:24578 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R24571:24573 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R24570:24570 Sequence <> c:189 var
+R24579:24593 Sequence <> unbounded_above def
+binder 24600:24600 <> n:190
+R24614:24616 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R24606:24608 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R24605:24605 Sequence <> c:189 var
+R24609:24611 Stdlib.Reals.Raxioms <> INR def
+R24613:24613 Sequence <> n:190 var
+R24617:24617 Sequence <> a:188 var
+R24652:24666 Sequence <> unbounded_above def
+R24693:24705 Stdlib.Reals.RIneq <> INR_unbounded thm
+R24708:24708 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R24714:24717 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R24710:24712 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R24693:24705 Stdlib.Reals.RIneq <> INR_unbounded thm
+R24708:24708 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R24714:24717 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R24710:24712 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R24750:24766 Stdlib.Reals.RIneq <> Rmult_gt_compat_r thm
+R24750:24766 Stdlib.Reals.RIneq <> Rmult_gt_compat_r thm
+prf 24843:24873 <> linear_sequence_unbounded_below
+binder 24884:24884 <> a:191
+binder 24886:24886 <> c:192
+R24896:24899 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R24892:24894 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R24891:24891 Sequence <> c:192 var
+R24900:24914 Sequence <> unbounded_below def
+binder 24921:24921 <> n:193
+R24935:24937 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R24927:24929 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R24926:24926 Sequence <> c:192 var
+R24930:24932 Stdlib.Reals.Raxioms <> INR def
+R24934:24934 Sequence <> n:193 var
+R24938:24938 Sequence <> a:191 var
+R24973:24987 Sequence <> unbounded_below def
+R25014:25026 Stdlib.Reals.RIneq <> INR_unbounded thm
+R25029:25029 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R25035:25038 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R25031:25033 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R25014:25026 Stdlib.Reals.RIneq <> INR_unbounded thm
+R25029:25029 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R25035:25038 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R25031:25033 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R25071:25094 Stdlib.Reals.RIneq <> Rmult_lt_gt_compat_neg_l thm
+R25071:25094 Stdlib.Reals.RIneq <> Rmult_lt_gt_compat_neg_l thm
+prf 25169:25191 <> limit_of_const_sequence
+binder 25202:25202 <> c:194
+R25207:25221 Sequence <> :::'⟦'_'lim_s'_'⟧'_x_'='_x not
+R25232:25235 Sequence <> :::'⟦'_'lim_s'_'⟧'_x_'='_x not
+R25231:25231 Sequence <> c:194 var
+R25236:25236 Sequence <> c:194 var
+prf 25289:25309 <> limit_of_sequence_add
+binder 25320:25320 <> a:195
+binder 25322:25322 <> b:196
+binder 25324:25325 <> L1:197
+binder 25327:25328 <> L2:198
+R25353:25356 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R25333:25346 Sequence <> :::'⟦'_'lim_s'_'⟧'_x_'='_x not
+R25348:25350 Sequence <> :::'⟦'_'lim_s'_'⟧'_x_'='_x not
+R25347:25347 Sequence <> a:195 var
+R25351:25352 Sequence <> L1:197 var
+R25377:25380 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R25357:25370 Sequence <> :::'⟦'_'lim_s'_'⟧'_x_'='_x not
+R25372:25374 Sequence <> :::'⟦'_'lim_s'_'⟧'_x_'='_x not
+R25371:25371 Sequence <> b:196 var
+R25375:25376 Sequence <> L2:198 var
+R25381:25395 Sequence <> :::'⟦'_'lim_s'_'⟧'_x_'='_x not
+R25414:25417 Sequence <> :::'⟦'_'lim_s'_'⟧'_x_'='_x not
+binder 25400:25400 <> n:199
+R25408:25410 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R25405:25405 Sequence <> a:195 var
+R25407:25407 Sequence <> n:199 var
+R25411:25411 Sequence <> b:196 var
+R25413:25413 Sequence <> n:199 var
+R25420:25422 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R25418:25419 Sequence <> L1:197 var
+R25423:25424 Sequence <> L2:198 var
+R25484:25484 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R25484:25484 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R25530:25530 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R25530:25530 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R25568:25571 Stdlib.Reals.Rbasic_fun <> Rmax def
+R25568:25571 Stdlib.Reals.Rbasic_fun <> Rmax def
+R25623:25630 Sequence <> Rmax_Rgt thm
+R25623:25630 Sequence <> Rmax_Rgt thm
+R25623:25630 Sequence <> Rmax_Rgt thm
+R25675:25682 Sequence <> Rmax_Rgt thm
+R25675:25682 Sequence <> Rmax_Rgt thm
+R25675:25682 Sequence <> Rmax_Rgt thm
+prf 25723:25743 <> limit_of_sequence_sub
+binder 25754:25754 <> a:200
+binder 25756:25756 <> b:201
+binder 25758:25759 <> L1:202
+binder 25761:25762 <> L2:203
+R25787:25790 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R25767:25780 Sequence <> :::'⟦'_'lim_s'_'⟧'_x_'='_x not
+R25782:25784 Sequence <> :::'⟦'_'lim_s'_'⟧'_x_'='_x not
+R25781:25781 Sequence <> a:200 var
+R25785:25786 Sequence <> L1:202 var
+R25811:25814 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R25791:25804 Sequence <> :::'⟦'_'lim_s'_'⟧'_x_'='_x not
+R25806:25808 Sequence <> :::'⟦'_'lim_s'_'⟧'_x_'='_x not
+R25805:25805 Sequence <> b:201 var
+R25809:25810 Sequence <> L2:203 var
+R25815:25829 Sequence <> :::'⟦'_'lim_s'_'⟧'_x_'='_x not
+R25848:25851 Sequence <> :::'⟦'_'lim_s'_'⟧'_x_'='_x not
+binder 25834:25834 <> n:204
+R25842:25844 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R25839:25839 Sequence <> a:200 var
+R25841:25841 Sequence <> n:204 var
+R25845:25845 Sequence <> b:201 var
+R25847:25847 Sequence <> n:204 var
+R25854:25856 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R25852:25853 Sequence <> L1:202 var
+R25857:25858 Sequence <> L2:203 var
+R25918:25918 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R25918:25918 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R25964:25964 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R25964:25964 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R26002:26005 Stdlib.Reals.Rbasic_fun <> Rmax def
+R26002:26005 Stdlib.Reals.Rbasic_fun <> Rmax def
+R26057:26064 Sequence <> Rmax_Rgt thm
+R26057:26064 Sequence <> Rmax_Rgt thm
+R26057:26064 Sequence <> Rmax_Rgt thm
+R26109:26116 Sequence <> Rmax_Rgt thm
+R26109:26116 Sequence <> Rmax_Rgt thm
+R26109:26116 Sequence <> Rmax_Rgt thm
+prf 26157:26183 <> limit_of_sequence_mul_const
+binder 26194:26194 <> a:205
+binder 26196:26196 <> c:206
+binder 26198:26198 <> L:207
+R26222:26225 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R26203:26216 Sequence <> :::'⟦'_'lim_s'_'⟧'_x_'='_x not
+R26218:26220 Sequence <> :::'⟦'_'lim_s'_'⟧'_x_'='_x not
+R26217:26217 Sequence <> a:205 var
+R26221:26221 Sequence <> L:207 var
+R26226:26240 Sequence <> :::'⟦'_'lim_s'_'⟧'_x_'='_x not
+R26257:26261 Sequence <> :::'⟦'_'lim_s'_'⟧'_x_'='_x not
+R26267:26267 Sequence <> :::'⟦'_'lim_s'_'⟧'_x_'='_x not
+binder 26245:26245 <> n:208
+R26251:26253 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R26250:26250 Sequence <> c:206 var
+R26254:26254 Sequence <> a:205 var
+R26256:26256 Sequence <> n:208 var
+R26263:26265 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R26262:26262 Sequence <> c:206 var
+R26266:26266 Sequence <> L:207 var
+R26315:26318 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R26311:26313 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R26320:26323 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R26315:26318 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R26311:26313 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R26320:26323 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R26395:26397 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R26398:26401 Stdlib.Reals.Rbasic_fun <> Rabs def
+R26418:26429 Stdlib.Reals.RIneq <> Rdiv_pos_pos thm
+R26395:26397 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R26398:26401 Stdlib.Reals.Rbasic_fun <> Rabs def
+R26418:26429 Stdlib.Reals.RIneq <> Rdiv_pos_pos thm
+R26418:26429 Stdlib.Reals.RIneq <> Rdiv_pos_pos thm
+R26556:26559 Stdlib.Reals.Rbasic_fun <> Rabs def
+R26527:26543 Stdlib.Reals.RIneq <> Rmult_lt_compat_r thm
+R26556:26559 Stdlib.Reals.Rbasic_fun <> Rabs def
+R26527:26543 Stdlib.Reals.RIneq <> Rmult_lt_compat_r thm
+prf 26616:26646 <> limit_of_sequence_mul_const_rev
+binder 26657:26657 <> a:209
+binder 26659:26659 <> c:210
+binder 26661:26661 <> L:211
+R26672:26675 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R26667:26670 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R26666:26666 Sequence <> c:210 var
+R26716:26719 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R26676:26690 Sequence <> :::'⟦'_'lim_s'_'⟧'_x_'='_x not
+R26707:26710 Sequence <> :::'⟦'_'lim_s'_'⟧'_x_'='_x not
+binder 26695:26695 <> n:212
+R26701:26703 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R26700:26700 Sequence <> c:210 var
+R26704:26704 Sequence <> a:209 var
+R26706:26706 Sequence <> n:212 var
+R26712:26714 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R26711:26711 Sequence <> c:210 var
+R26715:26715 Sequence <> L:211 var
+R26720:26733 Sequence <> :::'⟦'_'lim_s'_'⟧'_x_'='_x not
+R26735:26737 Sequence <> :::'⟦'_'lim_s'_'⟧'_x_'='_x not
+R26734:26734 Sequence <> a:209 var
+R26738:26738 Sequence <> L:211 var
+R26794:26796 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R26797:26797 Notations <> ::R_scope:'|'_x_'|' not
+R26799:26799 Notations <> ::R_scope:'|'_x_'|' not
+R26794:26796 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R26797:26797 Notations <> ::R_scope:'|'_x_'|' not
+R26799:26799 Notations <> ::R_scope:'|'_x_'|' not
+prf 26914:26941 <> divergent_sequence_mul_const
+binder 26952:26952 <> a:213
+binder 26954:26954 <> c:214
+R26979:26982 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R26959:26976 Sequence <> divergent_sequence def
+R26978:26978 Sequence <> a:213 var
+R26989:26992 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R26984:26987 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R26983:26983 Sequence <> c:214 var
+R26993:27010 Sequence <> divergent_sequence def
+binder 27017:27017 <> n:215
+R27023:27025 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R27022:27022 Sequence <> c:214 var
+R27026:27026 Sequence <> a:213 var
+R27028:27028 Sequence <> n:215 var
+R27067:27088 Sequence <> divergent_sequence_iff thm
+R27067:27088 Sequence <> divergent_sequence_iff thm
+R27067:27088 Sequence <> divergent_sequence_iff thm
+R27130:27132 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R27130:27132 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R27145:27175 Sequence <> limit_of_sequence_mul_const_rev thm
+R27145:27175 Sequence <> limit_of_sequence_mul_const_rev thm
+R27210:27213 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R27219:27219 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R27215:27217 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R27210:27213 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R27219:27219 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R27215:27217 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+prf 27264:27288 <> linear_sequence_divergent
+binder 27299:27299 <> c:216
+R27310:27313 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R27305:27308 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R27304:27304 Sequence <> c:216 var
+R27314:27331 Sequence <> divergent_sequence def
+binder 27338:27338 <> n:217
+R27344:27346 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R27343:27343 Sequence <> c:216 var
+R27347:27349 Stdlib.Reals.Raxioms <> INR def
+R27351:27351 Sequence <> n:217 var
+R27380:27407 Sequence <> divergent_sequence_mul_const thm
+R27380:27407 Sequence <> divergent_sequence_mul_const thm
+R27416:27437 Sequence <> divergent_sequence_iff thm
+R27416:27437 Sequence <> divergent_sequence_iff thm
+R27508:27520 Stdlib.Reals.RIneq <> INR_unbounded thm
+R27523:27526 Stdlib.Reals.Rbasic_fun <> Rmax def
+R27532:27534 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R27508:27520 Stdlib.Reals.RIneq <> INR_unbounded thm
+R27523:27526 Stdlib.Reals.Rbasic_fun <> Rmax def
+R27532:27534 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R27606:27608 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R27601:27603 Stdlib.Reals.Raxioms <> INR def
+R27610:27612 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R27606:27608 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R27601:27603 Stdlib.Reals.Raxioms <> INR def
+R27610:27612 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+prf 27653:27681 <> unbounded_above_mul_neg_const
+binder 27692:27692 <> a:218
+binder 27694:27694 <> c:219
+R27704:27707 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R27700:27702 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R27699:27699 Sequence <> c:219 var
+R27725:27728 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R27708:27722 Sequence <> unbounded_above def
+R27724:27724 Sequence <> a:218 var
+R27729:27743 Sequence <> unbounded_below def
+binder 27750:27750 <> n:220
+R27756:27758 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R27755:27755 Sequence <> c:219 var
+R27759:27759 Sequence <> a:218 var
+R27761:27761 Sequence <> n:220 var
+R27813:27816 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R27822:27822 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R27818:27820 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R27813:27816 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R27822:27822 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R27818:27820 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R27855:27878 Stdlib.Reals.RIneq <> Rmult_lt_gt_compat_neg_l thm
+R27855:27878 Stdlib.Reals.RIneq <> Rmult_lt_gt_compat_neg_l thm
+prf 27944:27972 <> unbounded_below_mul_neg_const
+binder 27983:27983 <> a:221
+binder 27985:27985 <> c:222
+R27995:27998 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R27991:27993 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R27990:27990 Sequence <> c:222 var
+R28016:28019 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R27999:28013 Sequence <> unbounded_below def
+R28015:28015 Sequence <> a:221 var
+R28020:28034 Sequence <> unbounded_above def
+binder 28041:28041 <> n:223
+R28047:28049 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R28046:28046 Sequence <> c:222 var
+R28050:28050 Sequence <> a:221 var
+R28052:28052 Sequence <> n:223 var
+R28104:28107 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R28113:28113 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R28109:28111 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R28104:28107 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R28113:28113 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R28109:28111 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R28146:28169 Stdlib.Reals.RIneq <> Rmult_lt_gt_compat_neg_l thm
+R28146:28169 Stdlib.Reals.RIneq <> Rmult_lt_gt_compat_neg_l thm
+prf 28235:28268 <> geometric_sequence_unbounded_above
+binder 28279:28279 <> c:224
+binder 28281:28281 <> r:225
+binder 28283:28283 <> a:226
+R28310:28313 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R28286:28303 Sequence <> geometric_sequence def
+R28305:28305 Sequence <> a:226 var
+R28307:28307 Sequence <> c:224 var
+R28309:28309 Sequence <> r:225 var
+R28319:28322 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R28315:28317 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R28314:28314 Sequence <> c:224 var
+R28328:28331 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R28324:28326 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R28323:28323 Sequence <> r:225 var
+R28332:28346 Sequence <> unbounded_above def
+R28348:28348 Sequence <> a:226 var
+R28390:28407 Sequence <> geometric_sequence def
+binder 28433:28433 <> n:227
+R28439:28439 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R28440:28440 Sequence <> n:227 var
+binder 28433:28433 <> n:228
+R28439:28439 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R28440:28440 Sequence <> n:228 var
+binder 28460:28460 <> n:229
+R28480:28482 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R28465:28465 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R28471:28474 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R28467:28469 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R28475:28477 Stdlib.Reals.Raxioms <> INR def
+R28479:28479 Sequence <> n:229 var
+binder 28460:28460 <> n:230
+R28480:28482 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R28465:28465 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R28471:28474 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R28467:28469 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R28475:28477 Stdlib.Reals.Raxioms <> INR def
+R28479:28479 Sequence <> n:230 var
+R28498:28512 Sequence <> unbounded_above def
+R28533:28563 Sequence <> linear_sequence_unbounded_above thm
+R28498:28512 Sequence <> unbounded_above def
+R28533:28563 Sequence <> linear_sequence_unbounded_above thm
+R28581:28619 Sequence <> bound_below_by_unbounded_above_sequence thm
+R28581:28619 Sequence <> bound_below_by_unbounded_above_sequence thm
+R28669:28678 Chapter13 <> lemma_13_6 thm
+R28684:28686 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R28669:28678 Chapter13 <> lemma_13_6 thm
+R28684:28686 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R28737:28740 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R28746:28746 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R28742:28744 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R28737:28740 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R28746:28746 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R28742:28744 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+binder 28801:28801 <> n:231
+R28807:28809 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R28813:28813 Sequence <> n:231 var
+binder 28801:28801 <> n:232
+R28807:28809 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R28813:28813 Sequence <> n:232 var
+R28846:28848 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R28846:28848 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R28882:28898 Stdlib.Reals.RIneq <> Rmult_lt_compat_r thm
+R28882:28898 Stdlib.Reals.RIneq <> Rmult_lt_compat_r thm
+prf 28960:28993 <> geometric_sequence_unbounded_below
+binder 29004:29004 <> c:233
+binder 29006:29006 <> r:234
+binder 29008:29008 <> a:235
+R29035:29038 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R29011:29028 Sequence <> geometric_sequence def
+R29030:29030 Sequence <> a:235 var
+R29032:29032 Sequence <> c:233 var
+R29034:29034 Sequence <> r:234 var
+R29044:29047 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R29040:29042 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R29039:29039 Sequence <> c:233 var
+R29053:29056 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R29049:29051 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R29048:29048 Sequence <> r:234 var
+R29057:29071 Sequence <> unbounded_below def
+R29073:29073 Sequence <> a:235 var
+R29115:29132 Sequence <> geometric_sequence def
+binder 29158:29158 <> n:236
+R29164:29164 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R29165:29165 Sequence <> n:236 var
+binder 29158:29158 <> n:237
+R29164:29164 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R29165:29165 Sequence <> n:237 var
+binder 29185:29185 <> n:238
+R29205:29207 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R29190:29190 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R29196:29199 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R29192:29194 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R29200:29202 Stdlib.Reals.Raxioms <> INR def
+R29204:29204 Sequence <> n:238 var
+binder 29185:29185 <> n:239
+R29205:29207 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R29190:29190 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R29196:29199 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R29192:29194 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R29200:29202 Stdlib.Reals.Raxioms <> INR def
+R29204:29204 Sequence <> n:239 var
+R29223:29237 Sequence <> unbounded_above def
+R29258:29288 Sequence <> linear_sequence_unbounded_above thm
+R29223:29237 Sequence <> unbounded_above def
+R29258:29288 Sequence <> linear_sequence_unbounded_above thm
+R29306:29344 Sequence <> bound_below_by_unbounded_above_sequence thm
+R29306:29344 Sequence <> bound_below_by_unbounded_above_sequence thm
+R29394:29403 Chapter13 <> lemma_13_6 thm
+R29409:29411 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R29394:29403 Chapter13 <> lemma_13_6 thm
+R29409:29411 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R29462:29465 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R29471:29471 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R29467:29469 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R29462:29465 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R29471:29471 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R29467:29469 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R29524:29552 Sequence <> unbounded_above_mul_neg_const thm
+R29524:29552 Sequence <> unbounded_above_mul_neg_const thm
+R29572:29605 Sequence <> geometric_sequence_unbounded_above thm
+R29572:29605 Sequence <> geometric_sequence_unbounded_above thm
+R29648:29672 Stdlib.Logic.FunctionalExtensionality <> functional_extensionality thm
+R29648:29672 Stdlib.Logic.FunctionalExtensionality <> functional_extensionality thm
+prf 29702:29756 <> limit_of_sequence_reciprocal_unbounded_below_decreasing
+binder 29767:29767 <> a:240
+binder 29769:29769 <> b:241
+R29774:29774 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R29798:29802 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+binder 29782:29782 <> n:242
+R29788:29790 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R29785:29785 Sequence <> b:241 var
+R29787:29787 Sequence <> n:242 var
+R29792:29794 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R29795:29795 Sequence <> a:240 var
+R29797:29797 Sequence <> n:242 var
+R29820:29823 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R29803:29817 Sequence <> unbounded_below def
+R29819:29819 Sequence <> b:241 var
+R29836:29839 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R29824:29833 Sequence <> decreasing def
+R29835:29835 Sequence <> b:241 var
+R29840:29853 Sequence <> :::'⟦'_'lim_s'_'⟧'_x_'='_x not
+R29855:29857 Sequence <> :::'⟦'_'lim_s'_'⟧'_x_'='_x not
+R29854:29854 Sequence <> a:240 var
+R29916:29918 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R29916:29918 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R29945:29947 Stdlib.Reals.Raxioms <> INR def
+R29945:29947 Stdlib.Reals.Raxioms <> INR def
+R29977:29983 Stdlib.Logic.Classical_Prop <> classic prfax
+R29989:29991 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R29977:29983 Stdlib.Logic.Classical_Prop <> classic prfax
+R29989:29991 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R30033:30045 Sequence <> decreasing_le thm
+R30033:30045 Sequence <> decreasing_le thm
+R30091:30096 Stdlib.Reals.RIneq <> INR_le thm
+R30091:30096 Stdlib.Reals.RIneq <> INR_le thm
+R30119:30121 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R30123:30125 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R30119:30121 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R30123:30125 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R30191:30193 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R30191:30193 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R30217:30228 Stdlib.Reals.RIneq <> Rdiv_neg_pos thm
+R30217:30228 Stdlib.Reals.RIneq <> Rdiv_neg_pos thm
+R30276:30278 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R30276:30278 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R30314:30316 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R30308:30310 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R30314:30316 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R30308:30310 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R30336:30347 Stdlib.Reals.RIneq <> Rdiv_neg_neg thm
+R30336:30347 Stdlib.Reals.RIneq <> Rdiv_neg_neg thm
+R30370:30372 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R30375:30377 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R30370:30372 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R30375:30377 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R30434:30437 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R30446:30446 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R30440:30442 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R30403:30419 Stdlib.Reals.Raxioms <> Rmult_lt_compat_l thm
+R30434:30437 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R30446:30446 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R30440:30442 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R30403:30419 Stdlib.Reals.Raxioms <> Rmult_lt_compat_l thm
+prf 30503:30557 <> limit_of_sequence_reciprocal_unbounded_above_increasing
+binder 30568:30568 <> a:243
+binder 30570:30570 <> b:244
+R30575:30575 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R30599:30603 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+binder 30583:30583 <> n:245
+R30589:30591 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R30586:30586 Sequence <> b:244 var
+R30588:30588 Sequence <> n:245 var
+R30593:30595 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R30596:30596 Sequence <> a:243 var
+R30598:30598 Sequence <> n:245 var
+R30621:30625 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R30604:30618 Sequence <> unbounded_above def
+R30620:30620 Sequence <> b:244 var
+R30638:30641 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R30626:30635 Sequence <> increasing def
+R30637:30637 Sequence <> b:244 var
+R30642:30655 Sequence <> :::'⟦'_'lim_s'_'⟧'_x_'='_x not
+R30657:30659 Sequence <> :::'⟦'_'lim_s'_'⟧'_x_'='_x not
+R30656:30656 Sequence <> a:243 var
+R30716:30718 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R30716:30718 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R30745:30747 Stdlib.Reals.Raxioms <> INR def
+R30745:30747 Stdlib.Reals.Raxioms <> INR def
+R30777:30783 Stdlib.Logic.Classical_Prop <> classic prfax
+R30789:30791 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R30777:30783 Stdlib.Logic.Classical_Prop <> classic prfax
+R30789:30791 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R30833:30845 Sequence <> increasing_ge thm
+R30833:30845 Sequence <> increasing_ge thm
+R30891:30896 Stdlib.Reals.RIneq <> INR_le thm
+R30891:30896 Stdlib.Reals.RIneq <> INR_le thm
+R30919:30921 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R30923:30925 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R30919:30921 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R30923:30925 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R30991:30993 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R30991:30993 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R31017:31028 Stdlib.Reals.RIneq <> Rdiv_pos_pos thm
+R31017:31028 Stdlib.Reals.RIneq <> Rdiv_pos_pos thm
+R31073:31075 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R31073:31075 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R31110:31112 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R31104:31106 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R31110:31112 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R31104:31106 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R31132:31143 Stdlib.Reals.RIneq <> Rdiv_pos_pos thm
+R31132:31143 Stdlib.Reals.RIneq <> Rdiv_pos_pos thm
+R31166:31168 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R31170:31172 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R31166:31168 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R31170:31172 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R31229:31232 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R31240:31240 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R31234:31236 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R31198:31214 Stdlib.Reals.Raxioms <> Rmult_lt_compat_l thm
+R31229:31232 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R31240:31240 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R31234:31236 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R31198:31214 Stdlib.Reals.Raxioms <> Rmult_lt_compat_l thm
+prf 31297:31327 <> sequence_convergence_comparison
+binder 31338:31338 <> a:246
+binder 31340:31340 <> b:247
+binder 31342:31342 <> L:248
+R31366:31369 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R31347:31360 Sequence <> :::'⟦'_'lim_s'_'⟧'_x_'='_x not
+R31362:31364 Sequence <> :::'⟦'_'lim_s'_'⟧'_x_'='_x not
+R31361:31361 Sequence <> a:246 var
+R31365:31365 Sequence <> L:248 var
+R31370:31370 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R31403:31407 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+binder 31378:31378 <> n:249
+R31390:31393 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R31381:31381 Notations <> ::R_scope:'|'_x_'|' not
+R31389:31389 Notations <> ::R_scope:'|'_x_'|' not
+R31385:31387 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R31382:31382 Sequence <> b:247 var
+R31384:31384 Sequence <> n:249 var
+R31388:31388 Sequence <> L:248 var
+R31394:31394 Notations <> ::R_scope:'|'_x_'|' not
+R31402:31402 Notations <> ::R_scope:'|'_x_'|' not
+R31398:31400 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R31395:31395 Sequence <> a:246 var
+R31397:31397 Sequence <> n:249 var
+R31401:31401 Sequence <> L:248 var
+R31408:31421 Sequence <> :::'⟦'_'lim_s'_'⟧'_x_'='_x not
+R31423:31425 Sequence <> :::'⟦'_'lim_s'_'⟧'_x_'='_x not
+R31422:31422 Sequence <> b:247 var
+R31426:31426 Sequence <> L:248 var
+prf 31599:31638 <> oscillating_on_parity_sequence_divergent
+binder 31649:31649 <> a:250
+binder 31651:31651 <> c:251
+R31662:31665 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R31657:31660 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R31656:31656 Sequence <> c:251 var
+R31666:31666 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R31697:31701 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+binder 31674:31674 <> n:252
+R31686:31689 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R31677:31683 Stdlib.Arith.PeanoNat Nat Odd def
+R31685:31685 Sequence <> n:252 var
+R31693:31695 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R31690:31690 Sequence <> a:250 var
+R31692:31692 Sequence <> n:252 var
+R31696:31696 Sequence <> c:251 var
+R31702:31702 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R31735:31739 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+binder 31710:31710 <> n:253
+R31723:31726 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R31713:31720 Stdlib.Arith.PeanoNat Nat Even def
+R31722:31722 Sequence <> n:253 var
+R31730:31732 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R31727:31727 Sequence <> a:250 var
+R31729:31729 Sequence <> n:253 var
+R31733:31733 Stdlib.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R31734:31734 Sequence <> c:251 var
+R31740:31757 Sequence <> divergent_sequence def
+R31759:31759 Sequence <> a:250 var
+R31798:31819 Sequence <> divergent_sequence_iff thm
+R31798:31819 Sequence <> divergent_sequence_iff thm
+R31846:31850 Sequence <> lim_s def
+R31867:31867 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R31885:31889 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R31874:31877 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R31869:31872 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R31879:31882 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R31883:31883 Stdlib.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R31895:31898 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R31891:31893 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R31900:31902 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R31903:31903 Stdlib.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R31867:31867 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R31885:31889 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R31874:31877 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R31869:31872 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R31879:31882 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R31883:31883 Stdlib.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R31895:31898 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R31891:31893 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R31900:31902 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R31903:31903 Stdlib.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R31967:31969 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R31955:31958 Stdlib.Reals.Rbasic_fun <> Rabs def
+R31962:31964 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R31967:31969 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R31955:31958 Stdlib.Reals.Rbasic_fun <> Rabs def
+R31962:31964 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R32017:32029 Stdlib.Reals.RIneq <> INR_unbounded thm
+R32017:32029 Stdlib.Reals.RIneq <> INR_unbounded thm
+R32055:32069 Stdlib.Arith.PeanoNat Nat Even_or_Odd thm
+R32055:32069 Stdlib.Arith.PeanoNat Nat Even_or_Odd thm
+R32115:32117 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R32115:32117 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R32161:32163 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R32161:32163 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R32313:32315 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R32301:32304 Stdlib.Reals.Rbasic_fun <> Rabs def
+R32308:32310 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R32313:32315 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R32301:32304 Stdlib.Reals.Rbasic_fun <> Rabs def
+R32308:32310 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R32359:32371 Stdlib.Reals.RIneq <> INR_unbounded thm
+R32359:32371 Stdlib.Reals.RIneq <> INR_unbounded thm
+R32401:32415 Stdlib.Arith.PeanoNat Nat Even_or_Odd thm
+R32401:32415 Stdlib.Arith.PeanoNat Nat Even_or_Odd thm
+R32523:32525 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R32523:32525 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R32569:32569 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R32592:32594 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R32569:32569 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R32592:32594 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R32592:32594 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R32653:32655 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R32641:32644 Stdlib.Reals.Rbasic_fun <> Rabs def
+R32648:32650 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R32653:32655 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R32641:32644 Stdlib.Reals.Rbasic_fun <> Rabs def
+R32648:32650 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R32699:32711 Stdlib.Reals.RIneq <> INR_unbounded thm
+R32699:32711 Stdlib.Reals.RIneq <> INR_unbounded thm
+R32741:32755 Stdlib.Arith.PeanoNat Nat Even_or_Odd thm
+R32741:32755 Stdlib.Arith.PeanoNat Nat Even_or_Odd thm
+R32801:32801 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R32801:32801 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R32845:32847 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R32845:32847 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+prf 33548:33571 <> limit_of_sequence_unique
+binder 33582:33582 <> a:254
+binder 33584:33585 <> L1:255
+binder 33587:33588 <> L2:256
+R33613:33616 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R33593:33606 Sequence <> :::'⟦'_'lim_s'_'⟧'_x_'='_x not
+R33608:33610 Sequence <> :::'⟦'_'lim_s'_'⟧'_x_'='_x not
+R33607:33607 Sequence <> a:254 var
+R33611:33612 Sequence <> L1:255 var
+R33637:33640 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R33617:33630 Sequence <> :::'⟦'_'lim_s'_'⟧'_x_'='_x not
+R33632:33634 Sequence <> :::'⟦'_'lim_s'_'⟧'_x_'='_x not
+R33631:33631 Sequence <> a:254 var
+R33635:33636 Sequence <> L2:256 var
+R33643:33645 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R33641:33642 Sequence <> L1:255 var
+R33646:33647 Sequence <> L2:256 var
+R33693:33699 Stdlib.Logic.Classical_Prop <> classic prfax
+R33704:33706 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R33693:33699 Stdlib.Logic.Classical_Prop <> classic prfax
+R33704:33706 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R33759:33761 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R33750:33750 Notations <> ::R_scope:'|'_x_'|' not
+R33758:33758 Notations <> ::R_scope:'|'_x_'|' not
+R33753:33755 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R33759:33761 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R33750:33750 Notations <> ::R_scope:'|'_x_'|' not
+R33758:33758 Notations <> ::R_scope:'|'_x_'|' not
+R33753:33755 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R33820:33822 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R33811:33811 Notations <> ::R_scope:'|'_x_'|' not
+R33819:33819 Notations <> ::R_scope:'|'_x_'|' not
+R33814:33816 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R33820:33822 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R33811:33811 Notations <> ::R_scope:'|'_x_'|' not
+R33819:33819 Notations <> ::R_scope:'|'_x_'|' not
+R33814:33816 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R33868:33871 Stdlib.Reals.Rbasic_fun <> Rmax def
+R33868:33871 Stdlib.Reals.Rbasic_fun <> Rmax def
+R33892:33904 Stdlib.Reals.RIneq <> INR_unbounded thm
+R33892:33904 Stdlib.Reals.RIneq <> INR_unbounded thm
+prf 34046:34075 <> two_seq_converge_to_same_limit
+R34095:34102 Sequence <> sequence def
+binder 34089:34089 <> a:257
+binder 34091:34091 <> b:258
+R34114:34114 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 34106:34107 <> La:259
+binder 34109:34110 <> Lb:260
+R34201:34204 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R34181:34194 Sequence <> :::'⟦'_'lim_s'_'⟧'_x_'='_x not
+R34196:34198 Sequence <> :::'⟦'_'lim_s'_'⟧'_x_'='_x not
+R34195:34195 Sequence <> a:257 var
+R34199:34200 Sequence <> La:259 var
+R34225:34228 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R34205:34218 Sequence <> :::'⟦'_'lim_s'_'⟧'_x_'='_x not
+R34220:34222 Sequence <> :::'⟦'_'lim_s'_'⟧'_x_'='_x not
+R34219:34219 Sequence <> b:258 var
+R34223:34224 Sequence <> Lb:260 var
+R34267:34272 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R34229:34243 Sequence <> :::'⟦'_'lim_s'_'⟧'_x_'='_x not
+R34262:34265 Sequence <> :::'⟦'_'lim_s'_'⟧'_x_'='_x not
+binder 34248:34248 <> n:261
+R34256:34258 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R34253:34253 Sequence <> a:257 var
+R34255:34255 Sequence <> n:261 var
+R34259:34259 Sequence <> b:258 var
+R34261:34261 Sequence <> n:261 var
+R34275:34277 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R34273:34274 Sequence <> La:259 var
+R34278:34279 Sequence <> Lb:260 var
+R34331:34335 Sequence <> lim_s def
+R34370:34373 Stdlib.Reals.Rbasic_fun <> Rabs def
+R34378:34380 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R34370:34373 Stdlib.Reals.Rbasic_fun <> Rabs def
+R34378:34380 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R34401:34412 Stdlib.Reals.RIneq <> Rtotal_order thm
+R34401:34412 Stdlib.Reals.RIneq <> Rtotal_order thm
+R34466:34468 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R34484:34494 Stdlib.Reals.Rbasic_fun <> Rabs_pos_lt thm
+R34466:34468 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R34484:34494 Stdlib.Reals.Rbasic_fun <> Rabs_pos_lt thm
+R34539:34541 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R34535:34537 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R34539:34541 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R34535:34537 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R34581:34583 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R34581:34583 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R34637:34639 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R34637:34639 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R34696:34698 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R34696:34698 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R34746:34749 Stdlib.Reals.Rbasic_fun <> Rmax def
+R34752:34755 Stdlib.Reals.Rbasic_fun <> Rmax def
+R34746:34749 Stdlib.Reals.Rbasic_fun <> Rmax def
+R34752:34755 Stdlib.Reals.Rbasic_fun <> Rmax def
+R34784:34796 Stdlib.Reals.RIneq <> INR_unbounded thm
+R34784:34796 Stdlib.Reals.RIneq <> INR_unbounded thm
+R34834:34837 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R34829:34831 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R34824:34826 Stdlib.Reals.Raxioms <> INR def
+R34848:34851 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R34843:34845 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R34838:34840 Stdlib.Reals.Raxioms <> INR def
+R34857:34859 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R34852:34854 Stdlib.Reals.Raxioms <> INR def
+R34834:34837 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R34829:34831 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R34824:34826 Stdlib.Reals.Raxioms <> INR def
+R34848:34851 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R34843:34845 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R34838:34840 Stdlib.Reals.Raxioms <> INR def
+R34857:34859 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R34852:34854 Stdlib.Reals.Raxioms <> INR def
+R34937:34937 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R34945:34948 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R34941:34943 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R34949:34952 Stdlib.Reals.Rbasic_fun <> Rabs def
+R34958:34960 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R34937:34937 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R34945:34948 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R34941:34943 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R34949:34952 Stdlib.Reals.Rbasic_fun <> Rabs def
+R34958:34960 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R35011:35011 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R35019:35022 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R35015:35017 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R35023:35026 Stdlib.Reals.Rbasic_fun <> Rabs def
+R35032:35034 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R35011:35011 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R35019:35022 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R35015:35017 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R35023:35026 Stdlib.Reals.Rbasic_fun <> Rabs def
+R35032:35034 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R35085:35085 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R35093:35096 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R35089:35091 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R35097:35100 Stdlib.Reals.Rbasic_fun <> Rabs def
+R35106:35108 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R35085:35085 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R35093:35096 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R35089:35091 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R35097:35100 Stdlib.Reals.Rbasic_fun <> Rabs def
+R35106:35108 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R35155:35157 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R35130:35139 Stdlib.Reals.RIneq <> Rminus_0_r thm
+R35155:35157 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R35130:35139 Stdlib.Reals.RIneq <> Rminus_0_r thm
+R35155:35157 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R35130:35139 Stdlib.Reals.RIneq <> Rminus_0_r thm
+R35208:35210 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R35211:35214 Stdlib.Reals.Rbasic_fun <> Rabs def
+R35239:35242 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R35252:35252 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R35216:35216 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R35225:35229 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R35238:35238 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R35219:35221 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R35233:35235 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R35246:35248 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R35208:35210 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R35211:35214 Stdlib.Reals.Rbasic_fun <> Rabs def
+R35239:35242 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R35252:35252 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R35216:35216 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R35225:35229 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R35238:35238 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R35219:35221 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R35233:35235 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R35246:35248 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R35320:35322 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R35306:35309 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R35319:35319 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R35283:35283 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R35292:35296 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R35305:35305 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R35286:35288 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R35300:35302 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R35313:35315 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R35325:35327 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R35320:35322 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R35306:35309 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R35319:35319 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R35283:35283 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R35292:35296 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R35305:35305 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R35286:35288 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R35300:35302 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R35313:35315 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R35325:35327 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R35392:35395 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R35429:35431 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R35411:35413 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R35396:35399 Stdlib.Reals.Rbasic_fun <> Rabs def
+R35404:35406 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R35414:35417 Stdlib.Reals.Rbasic_fun <> Rabs def
+R35423:35425 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R35432:35435 Stdlib.Reals.Rbasic_fun <> Rabs def
+R35441:35443 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R35392:35395 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R35429:35431 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R35411:35413 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R35396:35399 Stdlib.Reals.Rbasic_fun <> Rabs def
+R35404:35406 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R35414:35417 Stdlib.Reals.Rbasic_fun <> Rabs def
+R35423:35425 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R35432:35435 Stdlib.Reals.Rbasic_fun <> Rabs def
+R35441:35443 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R35480:35492 Reals_util <> Rabs_triang_3 thm
+R35480:35492 Reals_util <> Rabs_triang_3 thm
+R35576:35578 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R35557:35559 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R35539:35541 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R35524:35527 Stdlib.Reals.Rbasic_fun <> Rabs def
+R35532:35534 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R35542:35545 Stdlib.Reals.Rbasic_fun <> Rabs def
+R35551:35553 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R35560:35563 Stdlib.Reals.Rbasic_fun <> Rabs def
+R35569:35571 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R35612:35614 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R35594:35596 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R35579:35582 Stdlib.Reals.Rbasic_fun <> Rabs def
+R35588:35590 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R35597:35600 Stdlib.Reals.Rbasic_fun <> Rabs def
+R35606:35608 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R35615:35618 Stdlib.Reals.Rbasic_fun <> Rabs def
+R35624:35626 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R35576:35578 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R35557:35559 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R35539:35541 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R35524:35527 Stdlib.Reals.Rbasic_fun <> Rabs def
+R35532:35534 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R35542:35545 Stdlib.Reals.Rbasic_fun <> Rabs def
+R35551:35553 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R35560:35563 Stdlib.Reals.Rbasic_fun <> Rabs def
+R35569:35571 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R35612:35614 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R35594:35596 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R35579:35582 Stdlib.Reals.Rbasic_fun <> Rabs def
+R35588:35590 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R35597:35600 Stdlib.Reals.Rbasic_fun <> Rabs def
+R35606:35608 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R35615:35618 Stdlib.Reals.Rbasic_fun <> Rabs def
+R35624:35626 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R35648:35661 Stdlib.Reals.Rbasic_fun <> Rabs_minus_sym thm
+R35648:35661 Stdlib.Reals.Rbasic_fun <> Rabs_minus_sym thm
+R35648:35661 Stdlib.Reals.Rbasic_fun <> Rabs_minus_sym thm
+R35672:35685 Stdlib.Reals.Rbasic_fun <> Rabs_minus_sym thm
+R35672:35685 Stdlib.Reals.Rbasic_fun <> Rabs_minus_sym thm
+R35672:35685 Stdlib.Reals.Rbasic_fun <> Rabs_minus_sym thm
+R35846:35848 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R35827:35829 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R35809:35811 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R35794:35797 Stdlib.Reals.Rbasic_fun <> Rabs def
+R35803:35805 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R35812:35815 Stdlib.Reals.Rbasic_fun <> Rabs def
+R35820:35822 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R35830:35833 Stdlib.Reals.Rbasic_fun <> Rabs def
+R35839:35841 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R35870:35873 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R35881:35881 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R35849:35849 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R35857:35861 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R35869:35869 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R35853:35855 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R35865:35867 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R35877:35879 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R35846:35848 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R35827:35829 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R35809:35811 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R35794:35797 Stdlib.Reals.Rbasic_fun <> Rabs def
+R35803:35805 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R35812:35815 Stdlib.Reals.Rbasic_fun <> Rabs def
+R35820:35822 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R35830:35833 Stdlib.Reals.Rbasic_fun <> Rabs def
+R35839:35841 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R35870:35873 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R35881:35881 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R35849:35849 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R35857:35861 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R35869:35869 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R35853:35855 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R35865:35867 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R35877:35879 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R35922:35924 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R35912:35914 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R35908:35910 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R35918:35920 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R35928:35930 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R35947:35949 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R35941:35943 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R35922:35924 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R35912:35914 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R35908:35910 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R35918:35920 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R35928:35930 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R35947:35949 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R35941:35943 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R36002:36004 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R36012:36014 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R36006:36008 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R36002:36004 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R36012:36014 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R36006:36008 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R36073:36075 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R36091:36101 Stdlib.Reals.Rbasic_fun <> Rabs_pos_lt thm
+R36073:36075 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R36091:36101 Stdlib.Reals.Rbasic_fun <> Rabs_pos_lt thm
+R36146:36148 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R36142:36144 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R36146:36148 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R36142:36144 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R36188:36190 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R36188:36190 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R36244:36246 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R36244:36246 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R36303:36305 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R36303:36305 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R36353:36356 Stdlib.Reals.Rbasic_fun <> Rmax def
+R36359:36362 Stdlib.Reals.Rbasic_fun <> Rmax def
+R36353:36356 Stdlib.Reals.Rbasic_fun <> Rmax def
+R36359:36362 Stdlib.Reals.Rbasic_fun <> Rmax def
+R36392:36404 Stdlib.Reals.RIneq <> INR_unbounded thm
+R36392:36404 Stdlib.Reals.RIneq <> INR_unbounded thm
+R36442:36445 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R36437:36439 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R36432:36434 Stdlib.Reals.Raxioms <> INR def
+R36456:36459 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R36451:36453 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R36446:36448 Stdlib.Reals.Raxioms <> INR def
+R36465:36467 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R36460:36462 Stdlib.Reals.Raxioms <> INR def
+R36442:36445 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R36437:36439 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R36432:36434 Stdlib.Reals.Raxioms <> INR def
+R36456:36459 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R36451:36453 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R36446:36448 Stdlib.Reals.Raxioms <> INR def
+R36465:36467 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R36460:36462 Stdlib.Reals.Raxioms <> INR def
+R36545:36545 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R36553:36556 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R36549:36551 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R36557:36560 Stdlib.Reals.Rbasic_fun <> Rabs def
+R36566:36568 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R36545:36545 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R36553:36556 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R36549:36551 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R36557:36560 Stdlib.Reals.Rbasic_fun <> Rabs def
+R36566:36568 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R36624:36624 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R36632:36635 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R36628:36630 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R36636:36639 Stdlib.Reals.Rbasic_fun <> Rabs def
+R36645:36647 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R36624:36624 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R36632:36635 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R36628:36630 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R36636:36639 Stdlib.Reals.Rbasic_fun <> Rabs def
+R36645:36647 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R36703:36703 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R36711:36714 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R36707:36709 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R36715:36718 Stdlib.Reals.Rbasic_fun <> Rabs def
+R36724:36726 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R36703:36703 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R36711:36714 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R36707:36709 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R36715:36718 Stdlib.Reals.Rbasic_fun <> Rabs def
+R36724:36726 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R36773:36775 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R36748:36757 Stdlib.Reals.RIneq <> Rminus_0_r thm
+R36773:36775 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R36748:36757 Stdlib.Reals.RIneq <> Rminus_0_r thm
+R36773:36775 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R36748:36757 Stdlib.Reals.RIneq <> Rminus_0_r thm
+R36831:36833 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R36834:36837 Stdlib.Reals.Rbasic_fun <> Rabs def
+R36862:36865 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R36875:36875 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R36839:36839 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R36848:36852 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R36861:36861 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R36842:36844 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R36856:36858 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R36869:36871 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R36831:36833 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R36834:36837 Stdlib.Reals.Rbasic_fun <> Rabs def
+R36862:36865 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R36875:36875 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R36839:36839 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R36848:36852 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R36861:36861 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R36842:36844 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R36856:36858 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R36869:36871 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R36943:36945 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R36929:36932 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R36942:36942 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R36906:36906 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R36915:36919 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R36928:36928 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R36909:36911 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R36923:36925 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R36936:36938 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R36948:36950 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R36943:36945 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R36929:36932 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R36942:36942 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R36906:36906 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R36915:36919 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R36928:36928 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R36909:36911 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R36923:36925 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R36936:36938 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R36948:36950 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R37015:37018 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R37052:37054 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R37034:37036 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R37019:37022 Stdlib.Reals.Rbasic_fun <> Rabs def
+R37027:37029 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R37037:37040 Stdlib.Reals.Rbasic_fun <> Rabs def
+R37046:37048 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R37055:37058 Stdlib.Reals.Rbasic_fun <> Rabs def
+R37064:37066 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R37015:37018 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R37052:37054 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R37034:37036 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R37019:37022 Stdlib.Reals.Rbasic_fun <> Rabs def
+R37027:37029 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R37037:37040 Stdlib.Reals.Rbasic_fun <> Rabs def
+R37046:37048 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R37055:37058 Stdlib.Reals.Rbasic_fun <> Rabs def
+R37064:37066 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R37103:37115 Reals_util <> Rabs_triang_3 thm
+R37103:37115 Reals_util <> Rabs_triang_3 thm
+R37199:37201 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R37180:37182 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R37162:37164 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R37147:37150 Stdlib.Reals.Rbasic_fun <> Rabs def
+R37155:37157 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R37165:37168 Stdlib.Reals.Rbasic_fun <> Rabs def
+R37174:37176 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R37183:37186 Stdlib.Reals.Rbasic_fun <> Rabs def
+R37192:37194 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R37235:37237 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R37217:37219 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R37202:37205 Stdlib.Reals.Rbasic_fun <> Rabs def
+R37211:37213 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R37220:37223 Stdlib.Reals.Rbasic_fun <> Rabs def
+R37229:37231 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R37238:37241 Stdlib.Reals.Rbasic_fun <> Rabs def
+R37247:37249 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R37199:37201 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R37180:37182 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R37162:37164 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R37147:37150 Stdlib.Reals.Rbasic_fun <> Rabs def
+R37155:37157 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R37165:37168 Stdlib.Reals.Rbasic_fun <> Rabs def
+R37174:37176 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R37183:37186 Stdlib.Reals.Rbasic_fun <> Rabs def
+R37192:37194 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R37235:37237 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R37217:37219 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R37202:37205 Stdlib.Reals.Rbasic_fun <> Rabs def
+R37211:37213 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R37220:37223 Stdlib.Reals.Rbasic_fun <> Rabs def
+R37229:37231 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R37238:37241 Stdlib.Reals.Rbasic_fun <> Rabs def
+R37247:37249 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R37271:37284 Stdlib.Reals.Rbasic_fun <> Rabs_minus_sym thm
+R37271:37284 Stdlib.Reals.Rbasic_fun <> Rabs_minus_sym thm
+R37271:37284 Stdlib.Reals.Rbasic_fun <> Rabs_minus_sym thm
+R37295:37308 Stdlib.Reals.Rbasic_fun <> Rabs_minus_sym thm
+R37295:37308 Stdlib.Reals.Rbasic_fun <> Rabs_minus_sym thm
+R37295:37308 Stdlib.Reals.Rbasic_fun <> Rabs_minus_sym thm
+R37469:37471 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R37450:37452 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R37432:37434 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R37417:37420 Stdlib.Reals.Rbasic_fun <> Rabs def
+R37426:37428 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R37435:37438 Stdlib.Reals.Rbasic_fun <> Rabs def
+R37443:37445 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R37453:37456 Stdlib.Reals.Rbasic_fun <> Rabs def
+R37462:37464 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R37493:37496 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R37504:37504 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R37472:37472 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R37480:37484 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R37492:37492 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R37476:37478 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R37488:37490 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R37500:37502 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R37469:37471 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R37450:37452 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R37432:37434 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R37417:37420 Stdlib.Reals.Rbasic_fun <> Rabs def
+R37426:37428 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R37435:37438 Stdlib.Reals.Rbasic_fun <> Rabs def
+R37443:37445 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R37453:37456 Stdlib.Reals.Rbasic_fun <> Rabs def
+R37462:37464 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R37493:37496 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R37504:37504 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R37472:37472 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R37480:37484 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R37492:37492 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R37476:37478 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R37488:37490 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R37500:37502 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R37545:37547 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R37535:37537 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R37531:37533 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R37541:37543 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R37551:37553 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R37570:37572 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R37564:37566 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R37545:37547 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R37535:37537 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R37531:37533 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R37541:37543 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R37551:37553 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R37570:37572 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R37564:37566 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R37625:37627 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R37635:37637 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R37629:37631 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R37625:37627 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R37635:37637 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R37629:37631 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+prf 37666:37690 <> limit_of_sequence_unique'
+binder 37701:37701 <> a:262
+binder 37703:37704 <> L1:263
+binder 37706:37707 <> L2:264
+R37732:37735 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R37712:37725 Sequence <> :::'⟦'_'lim_s'_'⟧'_x_'='_x not
+R37727:37729 Sequence <> :::'⟦'_'lim_s'_'⟧'_x_'='_x not
+R37726:37726 Sequence <> a:262 var
+R37730:37731 Sequence <> L1:263 var
+R37756:37759 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R37736:37749 Sequence <> :::'⟦'_'lim_s'_'⟧'_x_'='_x not
+R37751:37753 Sequence <> :::'⟦'_'lim_s'_'⟧'_x_'='_x not
+R37750:37750 Sequence <> a:262 var
+R37754:37755 Sequence <> L2:264 var
+R37762:37764 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R37760:37761 Sequence <> L1:263 var
+R37765:37766 Sequence <> L2:264 var
+R37806:37835 Sequence <> two_seq_converge_to_same_limit thm
+R37806:37835 Sequence <> two_seq_converge_to_same_limit thm
+binder 37882:37882 <> n:265
+R37890:37892 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R37889:37889 Sequence <> n:265 var
+R37895:37895 Sequence <> n:265 var
+R37912:37914 Corelib.Init.Datatypes <> nat ind
+binder 37908:37908 <> n:266
+R37932:37956 Stdlib.Logic.FunctionalExtensionality <> functional_extensionality thm
+binder 37882:37882 <> n:267
+R37890:37892 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R37889:37889 Sequence <> n:267 var
+R37895:37895 Sequence <> n:267 var
+R37912:37914 Corelib.Init.Datatypes <> nat ind
+binder 37908:37908 <> n:268
+R37932:37956 Stdlib.Logic.FunctionalExtensionality <> functional_extensionality thm
+R37981:38003 Sequence <> limit_of_const_sequence thm
+R37981:38003 Sequence <> limit_of_const_sequence thm

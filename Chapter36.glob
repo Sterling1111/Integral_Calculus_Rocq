@@ -1,0 +1,215 @@
+DIGEST 7437cf59fbc395a5a1fd6b14808d799e
+FChapter36
+R15:21 Imports <> <> lib
+R23:27 Limit <> <> lib
+R29:32 Sets <> <> lib
+R34:42 Notations <> <> lib
+R44:52 Functions <> <> lib
+R54:63 Reals_util <> <> lib
+R81:89 Chapter35 <> <> lib
+R99:110 Sets SetNotations <> mod
+R112:125 Limit LimitNotations <> mod
+prf 135:144 <> lemma_36_1
+R148:155 Limit LimitNotations ::limit_scope:'⟦'_'lim'_x_'⟧'_x_'='_x not
+R157:162 Limit LimitNotations ::limit_scope:'⟦'_'lim'_x_'⟧'_x_'='_x not
+R181:184 Limit LimitNotations ::limit_scope:'⟦'_'lim'_x_'⟧'_x_'='_x not
+binder 167:167 <> x:1
+R177:179 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R173:175 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R176:176 Chapter36 <> x:1 var
+R222:222 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R222:222 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R240:251 Stdlib.Reals.RIneq <> Rdiv_pos_pos thm
+R240:251 Stdlib.Reals.RIneq <> Rdiv_pos_pos thm
+prf 300:310 <> lemma_36_1'
+R314:321 Limit LimitNotations ::limit_scope:'⟦'_'lim'_x_'⟧'_x_'='_x not
+R323:328 Limit LimitNotations ::limit_scope:'⟦'_'lim'_x_'⟧'_x_'='_x not
+R347:350 Limit LimitNotations ::limit_scope:'⟦'_'lim'_x_'⟧'_x_'='_x not
+binder 333:333 <> x:2
+R343:345 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R339:341 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R342:342 Chapter36 <> x:2 var
+prf 385:394 <> lemma_36_2
+binder 405:405 <> a:3
+binder 407:407 <> c:4
+binder 409:409 <> d:5
+R412:419 Limit LimitNotations ::limit_scope:'⟦'_'lim'_x_'⟧'_x_'='_x not
+R421:426 Limit LimitNotations ::limit_scope:'⟦'_'lim'_x_'⟧'_x_'='_x not
+R445:448 Limit LimitNotations ::limit_scope:'⟦'_'lim'_x_'⟧'_x_'='_x not
+binder 431:431 <> x:6
+R441:443 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R437:439 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R436:436 Chapter36 <> c:4 var
+R440:440 Chapter36 <> x:6 var
+R444:444 Chapter36 <> d:5 var
+R420:420 Chapter36 <> a:3 var
+R454:456 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R450:452 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R449:449 Chapter36 <> c:4 var
+R453:453 Chapter36 <> a:3 var
+R457:457 Chapter36 <> d:5 var
+R510:513 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R506:508 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R515:518 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R510:513 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R506:508 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R515:518 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R587:589 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R590:593 Stdlib.Reals.Rbasic_fun <> Rabs def
+R587:589 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R590:593 Stdlib.Reals.Rbasic_fun <> Rabs def
+R612:623 Stdlib.Reals.RIneq <> Rdiv_pos_pos thm
+R612:623 Stdlib.Reals.RIneq <> Rdiv_pos_pos thm
+R675:678 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R688:688 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R671:673 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R667:669 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R684:686 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R680:682 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R698:701 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R707:707 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R703:705 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R675:678 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R688:688 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R671:673 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R667:669 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R684:686 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R680:682 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R698:701 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R707:707 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R703:705 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R758:761 Stdlib.Reals.Rbasic_fun <> Rabs def
+R729:745 Stdlib.Reals.RIneq <> Rmult_lt_compat_r thm
+R758:761 Stdlib.Reals.Rbasic_fun <> Rabs def
+R729:745 Stdlib.Reals.RIneq <> Rmult_lt_compat_r thm
+prf 816:826 <> lemma_36_2'
+binder 837:837 <> a:7
+binder 839:839 <> c:8
+binder 841:841 <> d:9
+R844:851 Limit LimitNotations ::limit_scope:'⟦'_'lim'_x_'⟧'_x_'='_x not
+R853:858 Limit LimitNotations ::limit_scope:'⟦'_'lim'_x_'⟧'_x_'='_x not
+R877:880 Limit LimitNotations ::limit_scope:'⟦'_'lim'_x_'⟧'_x_'='_x not
+binder 863:863 <> x:10
+R873:875 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R869:871 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R868:868 Chapter36 <> c:8 var
+R872:872 Chapter36 <> x:10 var
+R876:876 Chapter36 <> d:9 var
+R852:852 Chapter36 <> a:7 var
+R886:888 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R882:884 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R881:881 Chapter36 <> c:8 var
+R885:885 Chapter36 <> a:7 var
+R889:889 Chapter36 <> d:9 var
+prf 930:939 <> lemma_36_3
+R944:951 Limit LimitNotations ::limit_scope:'⟦'_'lim'_x_'⟧'_x_'='_x not
+R953:958 Limit LimitNotations ::limit_scope:'⟦'_'lim'_x_'⟧'_x_'='_x not
+R983:986 Limit LimitNotations ::limit_scope:'⟦'_'lim'_x_'⟧'_x_'='_x not
+binder 963:963 <> x:11
+R979:981 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R971:973 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R969:969 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R968:968 Chapter36 <> x:11 var
+R975:977 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R978:978 Chapter36 <> x:11 var
+R1022:1025 Stdlib.Reals.Rbasic_fun <> Rmin def
+R1032:1032 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R1022:1025 Stdlib.Reals.Rbasic_fun <> Rmin def
+R1032:1032 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R1094:1096 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R1090:1092 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R1082:1084 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R1080:1080 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R1086:1088 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R1107:1107 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R1113:1117 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R1123:1123 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R1109:1111 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R1119:1121 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R1094:1096 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R1090:1092 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R1082:1084 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R1080:1080 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R1086:1088 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R1107:1107 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R1113:1117 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R1123:1123 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R1109:1111 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R1119:1121 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+prf 1157:1167 <> lemma_36_3'
+R1171:1178 Limit LimitNotations ::limit_scope:'⟦'_'lim'_x_'⟧'_x_'='_x not
+R1180:1185 Limit LimitNotations ::limit_scope:'⟦'_'lim'_x_'⟧'_x_'='_x not
+R1210:1213 Limit LimitNotations ::limit_scope:'⟦'_'lim'_x_'⟧'_x_'='_x not
+binder 1190:1190 <> x:12
+R1206:1208 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R1198:1200 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R1196:1196 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R1195:1195 Chapter36 <> x:12 var
+R1202:1204 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R1205:1205 Chapter36 <> x:12 var
+prf 1248:1257 <> lemma_36_4
+R1261:1268 Limit LimitNotations ::limit_scope:'⟦'_'lim'_x_'⟧'_x_'='_x not
+R1270:1275 Limit LimitNotations ::limit_scope:'⟦'_'lim'_x_'⟧'_x_'='_x not
+R1310:1313 Limit LimitNotations ::limit_scope:'⟦'_'lim'_x_'⟧'_x_'='_x not
+binder 1280:1280 <> x:13
+R1285:1285 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R1295:1299 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R1309:1309 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R1291:1293 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R1287:1289 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R1290:1290 Chapter36 <> x:13 var
+R1305:1307 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R1301:1303 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R1304:1304 Chapter36 <> x:13 var
+prf 1347:1356 <> lemma_36_5
+R1360:1367 Limit LimitNotations ::limit_scope:'⟦'_'lim'_x_'⟧'_x_'='_x not
+R1369:1374 Limit LimitNotations ::limit_scope:'⟦'_'lim'_x_'⟧'_x_'='_x not
+R1397:1400 Limit LimitNotations ::limit_scope:'⟦'_'lim'_x_'⟧'_x_'='_x not
+binder 1379:1379 <> x:14
+R1393:1395 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R1387:1389 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R1385:1385 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R1384:1384 Chapter36 <> x:14 var
+R1391:1391 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R1390:1390 Chapter36 <> x:14 var
+R1436:1439 Stdlib.Reals.Rbasic_fun <> Rmin def
+R1446:1446 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R1436:1439 Stdlib.Reals.Rbasic_fun <> Rmin def
+R1446:1446 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R1511:1513 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R1507:1509 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R1501:1503 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R1499:1499 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R1505:1505 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R1524:1524 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R1530:1534 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R1551:1551 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R1526:1528 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R1546:1548 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R1538:1540 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R1536:1536 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R1542:1544 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R1511:1513 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R1507:1509 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R1501:1503 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R1499:1499 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R1505:1505 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R1524:1524 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R1530:1534 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R1551:1551 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R1526:1528 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R1546:1548 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R1538:1540 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R1536:1536 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R1542:1544 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+prf 1593:1603 <> lemma_36_5'
+R1607:1614 Limit LimitNotations ::limit_scope:'⟦'_'lim'_x_'⟧'_x_'='_x not
+R1616:1621 Limit LimitNotations ::limit_scope:'⟦'_'lim'_x_'⟧'_x_'='_x not
+R1644:1647 Limit LimitNotations ::limit_scope:'⟦'_'lim'_x_'⟧'_x_'='_x not
+binder 1626:1626 <> x:15
+R1640:1642 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R1634:1636 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R1632:1632 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R1631:1631 Chapter36 <> x:15 var
+R1638:1638 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R1637:1637 Chapter36 <> x:15 var

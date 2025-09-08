@@ -1,0 +1,706 @@
+DIGEST cc8e4521888fc368da013babf1b6fdc3
+FPigeonhole
+R15:21 Imports <> <> lib
+abbrev 34:35 <> In
+R40:46 Stdlib.Lists.List <> In def
+ind 60:71 <> count_occ_of
+constr 123:131 <> count_nil
+constr 160:172 <> count_cons_eq
+constr 255:268 <> count_cons_neq
+binder 74:74 <> A:1
+R89:89 Pigeonhole <> A:1 var
+binder 85:85 <> x:2
+R100:103 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R94:97 Corelib.Init.Datatypes <> list ind
+R107:110 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R104:106 Corelib.Init.Datatypes <> nat ind
+R135:146 Pigeonhole <> count_occ_of:3 ind
+R150:152 Corelib.Init.Datatypes <> nil constr
+R148:148 Pigeonhole <> x:2 var
+binder 183:183 <> l:5
+binder 185:185 <> n:6
+binder 187:187 <> h:7
+R208:211 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R190:201 Pigeonhole <> count_occ_of:3 ind
+R207:207 Pigeonhole <> n:6 var
+R205:205 Pigeonhole <> l:5 var
+R203:203 Pigeonhole <> x:2 var
+R217:220 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R213:215 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R212:212 Pigeonhole <> x:2 var
+R216:216 Pigeonhole <> h:7 var
+R221:232 Pigeonhole <> count_occ_of:3 ind
+R246:246 Corelib.Init.Datatypes <> S constr
+R248:248 Pigeonhole <> n:6 var
+R238:241 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R237:237 Pigeonhole <> h:7 var
+R242:242 Pigeonhole <> l:5 var
+R234:234 Pigeonhole <> x:2 var
+binder 279:279 <> l:8
+binder 281:281 <> n:9
+binder 283:283 <> h:10
+R304:307 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R286:297 Pigeonhole <> count_occ_of:3 ind
+R303:303 Pigeonhole <> n:9 var
+R301:301 Pigeonhole <> l:8 var
+R299:299 Pigeonhole <> x:2 var
+R314:317 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R309:312 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R308:308 Pigeonhole <> x:2 var
+R313:313 Pigeonhole <> h:10 var
+R318:329 Pigeonhole <> count_occ_of:3 ind
+R342:342 Pigeonhole <> n:9 var
+R335:338 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R334:334 Pigeonhole <> h:10 var
+R339:339 Pigeonhole <> l:8 var
+R331:331 Pigeonhole <> x:2 var
+scheme 60:71 <> count_occ_of_ind
+scheme 60:71 <> count_occ_of_sind
+prf 352:368 <> count_occ_of_cons
+binder 380:380 <> A:11
+R395:398 Corelib.Init.Datatypes <> list ind
+R400:400 Pigeonhole <> A:11 var
+binder 391:391 <> l:12
+R410:410 Pigeonhole <> A:11 var
+binder 404:404 <> x:13
+binder 406:406 <> h:14
+R418:420 Corelib.Init.Datatypes <> nat ind
+binder 414:414 <> n:15
+R444:447 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R426:437 Pigeonhole <> count_occ_of ind
+R443:443 Pigeonhole <> n:15 var
+R441:441 Pigeonhole <> l:12 var
+R439:439 Pigeonhole <> x:13 var
+R448:448 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R487:492 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R528:528 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R454:457 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R450:452 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R449:449 Pigeonhole <> x:13 var
+R453:453 Pigeonhole <> h:14 var
+R458:469 Pigeonhole <> count_occ_of ind
+R483:483 Corelib.Init.Datatypes <> S constr
+R485:485 Pigeonhole <> n:15 var
+R475:478 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R474:474 Pigeonhole <> h:14 var
+R479:479 Pigeonhole <> l:12 var
+R471:471 Pigeonhole <> x:13 var
+R499:502 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R494:497 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R493:493 Pigeonhole <> x:13 var
+R498:498 Pigeonhole <> h:14 var
+R503:514 Pigeonhole <> count_occ_of ind
+R527:527 Pigeonhole <> n:15 var
+R520:523 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R519:519 Pigeonhole <> h:14 var
+R524:524 Pigeonhole <> l:12 var
+R516:516 Pigeonhole <> x:13 var
+R797:810 Pigeonhole <> count_cons_neq constr
+R797:810 Pigeonhole <> count_cons_neq constr
+R825:837 Pigeonhole <> count_cons_eq constr
+R825:837 Pigeonhole <> count_cons_eq constr
+R909:921 Pigeonhole <> count_cons_eq constr
+R909:921 Pigeonhole <> count_cons_eq constr
+R936:949 Pigeonhole <> count_cons_neq constr
+R936:949 Pigeonhole <> count_cons_neq constr
+R999:1012 Pigeonhole <> count_cons_neq constr
+R999:1012 Pigeonhole <> count_cons_neq constr
+R1027:1040 Pigeonhole <> count_cons_neq constr
+R1027:1040 Pigeonhole <> count_cons_neq constr
+prf 1061:1075 <> count_occ_of_In
+binder 1087:1087 <> A:16
+R1102:1105 Corelib.Init.Datatypes <> list ind
+R1107:1107 Pigeonhole <> A:16 var
+binder 1098:1098 <> l:17
+R1115:1115 Pigeonhole <> A:16 var
+binder 1111:1111 <> x:18
+R1123:1125 Corelib.Init.Datatypes <> nat ind
+binder 1119:1119 <> n:19
+R1149:1152 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R1131:1142 Pigeonhole <> count_occ_of ind
+R1148:1148 Pigeonhole <> n:19 var
+R1146:1146 Pigeonhole <> l:17 var
+R1144:1144 Pigeonhole <> x:18 var
+R1164:1167 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R1155:1157 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R1154:1154 Pigeonhole <> n:19 var
+R1168:1169 Pigeonhole <> In abbrev
+R1173:1173 Pigeonhole <> l:17 var
+R1171:1171 Pigeonhole <> x:18 var
+prf 1310:1324 <> In_count_occ_of
+binder 1336:1336 <> A:20
+R1351:1354 Corelib.Init.Datatypes <> list ind
+R1356:1356 Pigeonhole <> A:20 var
+binder 1347:1347 <> l:21
+R1364:1364 Pigeonhole <> A:20 var
+binder 1360:1360 <> x:22
+R1372:1374 Corelib.Init.Datatypes <> nat ind
+binder 1368:1368 <> n:23
+R1386:1389 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R1380:1381 Pigeonhole <> In abbrev
+R1385:1385 Pigeonhole <> l:21 var
+R1383:1383 Pigeonhole <> x:22 var
+R1408:1411 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R1390:1401 Pigeonhole <> count_occ_of ind
+R1407:1407 Pigeonhole <> n:23 var
+R1405:1405 Pigeonhole <> l:21 var
+R1403:1403 Pigeonhole <> x:22 var
+R1414:1416 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R1413:1413 Pigeonhole <> n:23 var
+prf 1660:1678 <> not_In_count_occ_of
+binder 1690:1690 <> A:24
+R1705:1708 Corelib.Init.Datatypes <> list ind
+R1710:1710 Pigeonhole <> A:24 var
+binder 1701:1701 <> l:25
+R1718:1718 Pigeonhole <> A:24 var
+binder 1714:1714 <> x:26
+R1732:1735 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R1724:1725 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R1726:1727 Pigeonhole <> In abbrev
+R1731:1731 Pigeonhole <> l:25 var
+R1729:1729 Pigeonhole <> x:26 var
+R1736:1747 Pigeonhole <> count_occ_of ind
+R1751:1751 Pigeonhole <> l:25 var
+R1749:1749 Pigeonhole <> x:26 var
+prf 1946:1965 <> count_occ_of_unicity
+binder 1977:1977 <> A:27
+R1992:1995 Corelib.Init.Datatypes <> list ind
+R1997:1997 Pigeonhole <> A:27 var
+binder 1988:1988 <> l:28
+R2005:2005 Pigeonhole <> A:27 var
+binder 2001:2001 <> x:29
+R2017:2019 Corelib.Init.Datatypes <> nat ind
+binder 2009:2010 <> n1:30
+binder 2012:2013 <> n2:31
+R2044:2047 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R2025:2036 Pigeonhole <> count_occ_of ind
+R2042:2043 Pigeonhole <> n1:30 var
+R2040:2040 Pigeonhole <> l:28 var
+R2038:2038 Pigeonhole <> x:29 var
+R2067:2070 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R2048:2059 Pigeonhole <> count_occ_of ind
+R2065:2066 Pigeonhole <> n2:31 var
+R2063:2063 Pigeonhole <> l:28 var
+R2061:2061 Pigeonhole <> x:29 var
+R2073:2075 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2071:2072 Pigeonhole <> n1:30 var
+R2076:2077 Pigeonhole <> n2:31 var
+prf 2373:2393 <> count_occ_of_cons_neq
+binder 2405:2405 <> A:32
+R2420:2423 Corelib.Init.Datatypes <> list ind
+R2425:2425 Pigeonhole <> A:32 var
+binder 2416:2416 <> l:33
+R2435:2435 Pigeonhole <> A:32 var
+binder 2429:2429 <> x:34
+binder 2431:2431 <> h:35
+R2443:2445 Corelib.Init.Datatypes <> nat ind
+binder 2439:2439 <> n:36
+R2469:2472 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R2451:2462 Pigeonhole <> count_occ_of ind
+R2468:2468 Pigeonhole <> n:36 var
+R2466:2466 Pigeonhole <> l:33 var
+R2464:2464 Pigeonhole <> x:34 var
+R2479:2482 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R2474:2477 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R2473:2473 Pigeonhole <> x:34 var
+R2478:2478 Pigeonhole <> h:35 var
+R2483:2494 Pigeonhole <> count_occ_of ind
+R2507:2507 Pigeonhole <> n:36 var
+R2500:2503 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2499:2499 Pigeonhole <> h:35 var
+R2504:2504 Pigeonhole <> l:33 var
+R2496:2496 Pigeonhole <> x:34 var
+R2603:2616 Pigeonhole <> count_cons_neq constr
+R2603:2616 Pigeonhole <> count_cons_neq constr
+R2631:2643 Pigeonhole <> count_cons_eq constr
+R2631:2643 Pigeonhole <> count_cons_eq constr
+R2662:2675 Pigeonhole <> count_cons_neq constr
+R2662:2675 Pigeonhole <> count_cons_neq constr
+R2690:2703 Pigeonhole <> count_cons_neq constr
+R2690:2703 Pigeonhole <> count_cons_neq constr
+prf 2724:2748 <> count_occ_of_cons_neq_inv
+binder 2760:2760 <> A:37
+R2775:2778 Corelib.Init.Datatypes <> list ind
+R2780:2780 Pigeonhole <> A:37 var
+binder 2771:2771 <> l:38
+R2790:2790 Pigeonhole <> A:37 var
+binder 2784:2784 <> x:39
+binder 2786:2786 <> h:40
+R2798:2800 Corelib.Init.Datatypes <> nat ind
+binder 2794:2794 <> n:41
+R2831:2834 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R2806:2817 Pigeonhole <> count_occ_of ind
+R2830:2830 Pigeonhole <> n:41 var
+R2823:2826 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2822:2822 Pigeonhole <> h:40 var
+R2827:2827 Pigeonhole <> l:38 var
+R2819:2819 Pigeonhole <> x:39 var
+R2841:2844 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R2836:2839 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R2835:2835 Pigeonhole <> x:39 var
+R2840:2840 Pigeonhole <> h:40 var
+R2845:2856 Pigeonhole <> count_occ_of ind
+R2862:2862 Pigeonhole <> n:41 var
+R2860:2860 Pigeonhole <> l:38 var
+R2858:2858 Pigeonhole <> x:39 var
+prf 3023:3042 <> count_occ_of_cons_eq
+binder 3054:3054 <> A:42
+R3069:3072 Corelib.Init.Datatypes <> list ind
+R3074:3074 Pigeonhole <> A:42 var
+binder 3065:3065 <> l:43
+R3084:3084 Pigeonhole <> A:42 var
+binder 3078:3078 <> x:44
+binder 3080:3080 <> h:45
+R3092:3094 Corelib.Init.Datatypes <> nat ind
+binder 3088:3088 <> n:46
+R3118:3121 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R3100:3111 Pigeonhole <> count_occ_of ind
+R3117:3117 Pigeonhole <> n:46 var
+R3115:3115 Pigeonhole <> l:43 var
+R3113:3113 Pigeonhole <> x:44 var
+R3127:3130 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R3123:3125 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3122:3122 Pigeonhole <> x:44 var
+R3126:3126 Pigeonhole <> h:45 var
+R3131:3142 Pigeonhole <> count_occ_of ind
+R3156:3156 Corelib.Init.Datatypes <> S constr
+R3158:3158 Pigeonhole <> n:46 var
+R3148:3151 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3147:3147 Pigeonhole <> h:45 var
+R3152:3152 Pigeonhole <> l:43 var
+R3144:3144 Pigeonhole <> x:44 var
+R3255:3267 Pigeonhole <> count_cons_eq constr
+R3255:3267 Pigeonhole <> count_cons_eq constr
+R3282:3294 Pigeonhole <> count_cons_eq constr
+R3282:3294 Pigeonhole <> count_cons_eq constr
+R3313:3325 Pigeonhole <> count_cons_eq constr
+R3313:3325 Pigeonhole <> count_cons_eq constr
+R3340:3353 Pigeonhole <> count_cons_neq constr
+R3340:3353 Pigeonhole <> count_cons_neq constr
+prf 3374:3397 <> count_occ_of_cons_eq_inv
+binder 3409:3409 <> A:47
+R3424:3427 Corelib.Init.Datatypes <> list ind
+R3429:3429 Pigeonhole <> A:47 var
+binder 3420:3420 <> l:48
+R3439:3439 Pigeonhole <> A:47 var
+binder 3433:3433 <> x:49
+binder 3435:3435 <> h:50
+R3447:3449 Corelib.Init.Datatypes <> nat ind
+binder 3443:3443 <> n:51
+R3484:3487 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R3455:3466 Pigeonhole <> count_occ_of ind
+R3480:3480 Corelib.Init.Datatypes <> S constr
+R3482:3482 Pigeonhole <> n:51 var
+R3472:3475 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3471:3471 Pigeonhole <> h:50 var
+R3476:3476 Pigeonhole <> l:48 var
+R3468:3468 Pigeonhole <> x:49 var
+R3493:3496 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R3489:3491 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3488:3488 Pigeonhole <> x:49 var
+R3492:3492 Pigeonhole <> h:50 var
+R3497:3508 Pigeonhole <> count_occ_of ind
+R3514:3514 Pigeonhole <> n:51 var
+R3512:3512 Pigeonhole <> l:48 var
+R3510:3510 Pigeonhole <> x:49 var
+prf 3682:3700 <> exists_count_occ_of
+binder 3712:3712 <> A:52
+R3727:3730 Corelib.Init.Datatypes <> list ind
+R3732:3732 Pigeonhole <> A:52 var
+binder 3723:3723 <> l:53
+R3740:3740 Pigeonhole <> A:52 var
+binder 3736:3736 <> x:54
+R3752:3755 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R3746:3747 Pigeonhole <> In abbrev
+R3751:3751 Pigeonhole <> l:53 var
+R3749:3749 Pigeonhole <> x:54 var
+R3756:3762 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R3764:3765 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 3763:3763 <> n:55
+R3784:3787 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R3766:3777 Pigeonhole <> count_occ_of ind
+R3783:3783 Pigeonhole <> n:55 var
+R3781:3781 Pigeonhole <> l:53 var
+R3779:3779 Pigeonhole <> x:54 var
+R3790:3792 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R3789:3789 Pigeonhole <> n:55 var
+R3921:3927 Stdlib.Logic.Classical_Prop <> classic prfax
+R3930:3931 Pigeonhole <> In abbrev
+R3921:3927 Stdlib.Logic.Classical_Prop <> classic prfax
+R3930:3931 Pigeonhole <> In abbrev
+R4004:4004 Corelib.Init.Datatypes <> S constr
+R4004:4004 Corelib.Init.Datatypes <> S constr
+R4032:4051 Pigeonhole <> count_occ_of_cons_eq thm
+R4032:4051 Pigeonhole <> count_occ_of_cons_eq thm
+R4115:4133 Pigeonhole <> not_In_count_occ_of thm
+R4115:4133 Pigeonhole <> not_In_count_occ_of thm
+R4185:4191 Stdlib.Logic.Classical_Prop <> classic prfax
+R4195:4197 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4185:4191 Stdlib.Logic.Classical_Prop <> classic prfax
+R4195:4197 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4262:4262 Corelib.Init.Datatypes <> S constr
+R4262:4262 Corelib.Init.Datatypes <> S constr
+R4290:4309 Pigeonhole <> count_occ_of_cons_eq thm
+R4290:4309 Pigeonhole <> count_occ_of_cons_eq thm
+R4390:4410 Pigeonhole <> count_occ_of_cons_neq thm
+R4390:4410 Pigeonhole <> count_occ_of_cons_neq thm
+prf 4432:4448 <> exists_remove_one
+binder 4460:4460 <> A:56
+R4475:4478 Corelib.Init.Datatypes <> list ind
+R4480:4480 Pigeonhole <> A:56 var
+binder 4471:4471 <> l:57
+R4488:4488 Pigeonhole <> A:56 var
+binder 4484:4484 <> x:58
+R4496:4498 Corelib.Init.Datatypes <> nat ind
+binder 4492:4492 <> n:59
+R4510:4513 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R4504:4505 Pigeonhole <> In abbrev
+R4509:4509 Pigeonhole <> l:57 var
+R4507:4507 Pigeonhole <> x:58 var
+R4532:4535 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R4514:4525 Pigeonhole <> count_occ_of ind
+R4531:4531 Pigeonhole <> n:59 var
+R4529:4529 Pigeonhole <> l:57 var
+R4527:4527 Pigeonhole <> x:58 var
+R4536:4542 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R4545:4546 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 4543:4544 <> l':60
+R4576:4583 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R4547:4558 Pigeonhole <> count_occ_of ind
+R4567:4569 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R4566:4566 Pigeonhole <> n:59 var
+R4562:4563 Pigeonhole <> l':60 var
+R4560:4560 Pigeonhole <> x:58 var
+R4584:4584 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R4651:4655 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+binder 4592:4592 <> y:61
+binder 4594:4595 <> n':62
+R4604:4607 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R4599:4602 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R4598:4598 Pigeonhole <> y:61 var
+R4603:4603 Pigeonhole <> x:58 var
+R4627:4630 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R4608:4619 Pigeonhole <> count_occ_of ind
+R4625:4626 Pigeonhole <> n':62 var
+R4623:4623 Pigeonhole <> l:57 var
+R4621:4621 Pigeonhole <> y:61 var
+R4631:4642 Pigeonhole <> count_occ_of ind
+R4649:4650 Pigeonhole <> n':62 var
+R4646:4647 Pigeonhole <> l':60 var
+R4644:4644 Pigeonhole <> y:61 var
+R4666:4668 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4657:4662 Stdlib.Lists.List <> length abbrev
+R4664:4665 Pigeonhole <> l':60 var
+R4677:4679 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R4669:4674 Stdlib.Lists.List <> length abbrev
+R4676:4676 Pigeonhole <> l:57 var
+R4824:4826 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R4821:4821 Corelib.Init.Datatypes <> S constr
+R4824:4826 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R4821:4821 Corelib.Init.Datatypes <> S constr
+R5018:5021 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R5018:5021 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R5063:5079 Pigeonhole <> count_occ_of_cons thm
+R5063:5079 Pigeonhole <> count_occ_of_cons thm
+R5127:5133 Corelib.Init.Logic <> eq_refl constr
+R5127:5133 Corelib.Init.Logic <> eq_refl constr
+R5165:5168 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R5161:5163 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5170:5172 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R5165:5168 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R5161:5163 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5170:5172 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R5219:5233 Pigeonhole <> In_count_occ_of thm
+R5219:5233 Pigeonhole <> In_count_occ_of thm
+R5291:5293 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R5288:5288 Corelib.Init.Datatypes <> S constr
+R5307:5307 Corelib.Init.Datatypes <> S constr
+R5311:5313 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R5291:5293 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R5288:5288 Corelib.Init.Datatypes <> S constr
+R5307:5307 Corelib.Init.Datatypes <> S constr
+R5311:5313 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R5395:5411 Pigeonhole <> count_occ_of_cons thm
+R5395:5411 Pigeonhole <> count_occ_of_cons thm
+R5504:5506 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R5496:5501 Stdlib.Lists.List <> length abbrev
+R5504:5506 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R5496:5501 Stdlib.Lists.List <> length abbrev
+R5690:5693 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R5690:5693 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R5733:5749 Pigeonhole <> count_occ_of_cons thm
+R5733:5749 Pigeonhole <> count_occ_of_cons thm
+R5835:5841 Stdlib.Logic.Classical_Prop <> classic prfax
+R5845:5847 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5835:5841 Stdlib.Logic.Classical_Prop <> classic prfax
+R5845:5847 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5970:5986 Pigeonhole <> count_occ_of_cons thm
+R5970:5986 Pigeonhole <> count_occ_of_cons thm
+R6050:6066 Pigeonhole <> count_occ_of_cons thm
+R6050:6066 Pigeonhole <> count_occ_of_cons thm
+R6163:6165 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R6155:6160 Stdlib.Lists.List <> length abbrev
+R6163:6165 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R6155:6160 Stdlib.Lists.List <> length abbrev
+prf 6239:6254 <> count_occ_eq_len
+binder 6266:6266 <> A:63
+R6285:6288 Corelib.Init.Datatypes <> list ind
+R6290:6290 Pigeonhole <> A:63 var
+binder 6277:6278 <> l1:64
+binder 6280:6281 <> l2:65
+R6296:6296 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R6351:6355 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+binder 6304:6304 <> x:66
+binder 6306:6306 <> n:67
+R6328:6331 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R6309:6320 Pigeonhole <> count_occ_of ind
+R6327:6327 Pigeonhole <> n:67 var
+R6324:6325 Pigeonhole <> l1:64 var
+R6322:6322 Pigeonhole <> x:66 var
+R6332:6343 Pigeonhole <> count_occ_of ind
+R6350:6350 Pigeonhole <> n:67 var
+R6347:6348 Pigeonhole <> l2:65 var
+R6345:6345 Pigeonhole <> x:66 var
+R6365:6367 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6356:6361 Stdlib.Lists.List <> length abbrev
+R6363:6364 Pigeonhole <> l1:64 var
+R6368:6373 Stdlib.Lists.List <> length abbrev
+R6375:6376 Pigeonhole <> l2:65 var
+R6689:6692 Corelib.Init.Peano <> eq_S def
+R6689:6692 Corelib.Init.Peano <> eq_S def
+R6706:6712 Stdlib.Logic.Classical_Prop <> classic prfax
+R6717:6719 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6706:6712 Stdlib.Logic.Classical_Prop <> classic prfax
+R6717:6719 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6801:6804 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R6797:6799 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6807:6810 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R6836:6842 Stdlib.Logic.Classical_Prop <> classic prfax
+R6801:6804 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R6797:6799 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6807:6810 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R6836:6842 Stdlib.Logic.Classical_Prop <> classic prfax
+R6879:6879 Corelib.Init.Datatypes <> S constr
+R6879:6879 Corelib.Init.Datatypes <> S constr
+R6986:7010 Pigeonhole <> count_occ_of_cons_neq_inv thm
+R6986:7010 Pigeonhole <> count_occ_of_cons_neq_inv thm
+R6986:7010 Pigeonhole <> count_occ_of_cons_neq_inv thm
+R7058:7061 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R7054:7056 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7045:7050 Stdlib.Lists.List <> length abbrev
+R7071:7073 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R7062:7067 Stdlib.Lists.List <> length abbrev
+R7058:7061 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R7054:7056 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7045:7050 Stdlib.Lists.List <> length abbrev
+R7071:7073 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R7062:7067 Stdlib.Lists.List <> length abbrev
+R7121:7139 Stdlib.Lists.List <> length_zero_iff_nil thm
+R7121:7139 Stdlib.Lists.List <> length_zero_iff_nil thm
+R7121:7139 Stdlib.Lists.List <> length_zero_iff_nil thm
+R7242:7248 Stdlib.Logic.Classical_Prop <> classic prfax
+R7251:7252 Pigeonhole <> In abbrev
+R7242:7248 Stdlib.Logic.Classical_Prop <> classic prfax
+R7251:7252 Pigeonhole <> In abbrev
+R7300:7318 Pigeonhole <> exists_count_occ_of thm
+R7300:7318 Pigeonhole <> exists_count_occ_of thm
+R7358:7374 Pigeonhole <> exists_remove_one thm
+R7358:7374 Pigeonhole <> exists_remove_one thm
+R7445:7448 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R7445:7448 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R7514:7520 Stdlib.Logic.Classical_Prop <> classic prfax
+R7524:7526 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7514:7520 Stdlib.Logic.Classical_Prop <> classic prfax
+R7524:7526 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7582:7582 Corelib.Init.Datatypes <> S constr
+R7582:7582 Corelib.Init.Datatypes <> S constr
+R7628:7651 Pigeonhole <> count_occ_of_cons_eq_inv thm
+R7628:7651 Pigeonhole <> count_occ_of_cons_eq_inv thm
+R7719:7739 Pigeonhole <> count_occ_of_cons_neq thm
+R7719:7739 Pigeonhole <> count_occ_of_cons_neq thm
+R7754:7778 Pigeonhole <> count_occ_of_cons_neq_inv thm
+R7754:7778 Pigeonhole <> count_occ_of_cons_neq_inv thm
+R7819:7821 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7822:7822 Corelib.Init.Datatypes <> S constr
+R7819:7821 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7822:7822 Corelib.Init.Datatypes <> S constr
+R7845:7864 Pigeonhole <> count_occ_of_unicity thm
+R7845:7864 Pigeonhole <> count_occ_of_unicity thm
+R7902:7904 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R7902:7904 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R7983:8007 Pigeonhole <> count_occ_of_cons_neq_inv thm
+R7983:8007 Pigeonhole <> count_occ_of_cons_neq_inv thm
+R8046:8052 Stdlib.Logic.Classical_Prop <> classic prfax
+R8056:8058 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8046:8052 Stdlib.Logic.Classical_Prop <> classic prfax
+R8056:8058 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8147:8166 Pigeonhole <> count_occ_of_cons_eq thm
+R8147:8166 Pigeonhole <> count_occ_of_cons_eq thm
+R8236:8260 Pigeonhole <> count_occ_of_cons_neq_inv thm
+R8236:8260 Pigeonhole <> count_occ_of_cons_neq_inv thm
+R8282:8302 Pigeonhole <> count_occ_of_cons_neq thm
+R8282:8302 Pigeonhole <> count_occ_of_cons_neq thm
+R8357:8363 Stdlib.Logic.Classical_Prop <> classic prfax
+R8367:8369 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8357:8363 Stdlib.Logic.Classical_Prop <> classic prfax
+R8367:8369 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+prf 8589:8600 <> list_has_len
+binder 8612:8612 <> U:68
+R8627:8630 Corelib.Init.Datatypes <> list ind
+R8632:8632 Pigeonhole <> U:68 var
+binder 8623:8623 <> l:69
+R8640:8640 Pigeonhole <> U:68 var
+binder 8636:8636 <> a:70
+R8652:8655 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R8646:8647 Pigeonhole <> In abbrev
+R8651:8651 Pigeonhole <> l:69 var
+R8649:8649 Pigeonhole <> a:70 var
+R8665:8667 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R8657:8662 Stdlib.Lists.List <> length abbrev
+R8664:8664 Pigeonhole <> l:69 var
+prf 8789:8800 <> in_notin_neq
+binder 8812:8812 <> A:71
+R8827:8830 Corelib.Init.Datatypes <> list ind
+R8832:8832 Pigeonhole <> A:71 var
+binder 8823:8823 <> l:72
+binder 8835:8836 <> x1:73
+binder 8838:8839 <> x2:74
+R8851:8854 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R8844:8845 Pigeonhole <> In abbrev
+R8850:8850 Pigeonhole <> l:72 var
+R8847:8848 Pigeonhole <> x1:73 var
+R8866:8869 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R8855:8857 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R8865:8865 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R8858:8859 Pigeonhole <> In abbrev
+R8864:8864 Pigeonhole <> l:72 var
+R8861:8862 Pigeonhole <> x2:74 var
+R8872:8875 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R8870:8871 Pigeonhole <> x1:73 var
+R8876:8877 Pigeonhole <> x2:74 var
+prf 9061:9071 <> longer_list
+binder 9085:9085 <> U:75
+R9110:9113 Corelib.Init.Datatypes <> list ind
+R9115:9115 Pigeonhole <> U:75 var
+binder 9102:9103 <> l1:76
+binder 9105:9106 <> l2:77
+R9122:9122 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R9151:9159 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+binder 9130:9130 <> x:78
+R9140:9143 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R9133:9134 Pigeonhole <> In abbrev
+R9138:9139 Pigeonhole <> l1:76 var
+R9136:9136 Pigeonhole <> x:78 var
+R9144:9145 Pigeonhole <> In abbrev
+R9149:9150 Pigeonhole <> l2:77 var
+R9147:9147 Pigeonhole <> x:78 var
+R9160:9160 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R9191:9199 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R9161:9167 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R9169:9170 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 9168:9168 <> x:79
+R9178:9181 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R9171:9172 Pigeonhole <> In abbrev
+R9176:9177 Pigeonhole <> l2:77 var
+R9174:9174 Pigeonhole <> x:79 var
+R9182:9183 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R9184:9185 Pigeonhole <> In abbrev
+R9189:9190 Pigeonhole <> l1:76 var
+R9187:9187 Pigeonhole <> x:79 var
+R9208:9215 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R9200:9204 Stdlib.Lists.List <> NoDup ind
+R9206:9207 Pigeonhole <> l1:76 var
+R9226:9228 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R9217:9222 Stdlib.Lists.List <> length abbrev
+R9224:9225 Pigeonhole <> l2:77 var
+R9229:9234 Stdlib.Lists.List <> length abbrev
+R9236:9237 Pigeonhole <> l1:76 var
+R9400:9406 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R9408:9409 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 9407:9407 <> a:80
+R9410:9411 Pigeonhole <> In abbrev
+R9413:9413 Pigeonhole <> a:80 var
+R9400:9406 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R9408:9409 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 9407:9407 <> a:81
+R9410:9411 Pigeonhole <> In abbrev
+R9413:9413 Pigeonhole <> a:81 var
+R9462:9473 Pigeonhole <> list_has_len thm
+R9462:9473 Pigeonhole <> list_has_len thm
+R9523:9536 Stdlib.Lists.List <> NoDup_cons_iff thm
+R9523:9536 Stdlib.Lists.List <> NoDup_cons_iff thm
+R9586:9604 Pigeonhole <> exists_count_occ_of thm
+R9586:9604 Pigeonhole <> exists_count_occ_of thm
+R9644:9660 Pigeonhole <> exists_remove_one thm
+R9644:9660 Pigeonhole <> exists_remove_one thm
+R9737:9747 Stdlib.Lists.List <> not_in_cons thm
+R9737:9747 Stdlib.Lists.List <> not_in_cons thm
+R9780:9781 Pigeonhole <> In abbrev
+R9780:9781 Pigeonhole <> In abbrev
+R9855:9873 Pigeonhole <> exists_count_occ_of thm
+R9855:9873 Pigeonhole <> exists_count_occ_of thm
+R9950:9964 Pigeonhole <> count_occ_of_In thm
+R9950:9964 Pigeonhole <> count_occ_of_In thm
+R10017:10019 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R10007:10012 Stdlib.Lists.List <> length abbrev
+R10020:10025 Stdlib.Lists.List <> length abbrev
+R10017:10019 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R10007:10012 Stdlib.Lists.List <> length abbrev
+R10020:10025 Stdlib.Lists.List <> length abbrev
+R10158:10161 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R10158:10161 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R10181:10192 Pigeonhole <> in_notin_neq thm
+R10181:10192 Pigeonhole <> in_notin_neq thm
+R10237:10255 Pigeonhole <> exists_count_occ_of thm
+R10237:10255 Pigeonhole <> exists_count_occ_of thm
+R10330:10344 Pigeonhole <> count_occ_of_In thm
+R10330:10344 Pigeonhole <> count_occ_of_In thm
+prf 10404:10428 <> pigeonhole_principle_list
+binder 10440:10440 <> U:82
+R10459:10462 Corelib.Init.Datatypes <> list ind
+R10464:10464 Pigeonhole <> U:82 var
+binder 10451:10452 <> l1:83
+binder 10454:10455 <> l2:84
+R10470:10470 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R10499:10503 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+binder 10478:10478 <> x:85
+R10488:10491 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R10481:10482 Pigeonhole <> In abbrev
+R10486:10487 Pigeonhole <> l1:83 var
+R10484:10484 Pigeonhole <> x:85 var
+R10492:10493 Pigeonhole <> In abbrev
+R10497:10498 Pigeonhole <> l2:84 var
+R10495:10495 Pigeonhole <> x:85 var
+R10531:10538 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R10514:10516 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R10505:10510 Stdlib.Lists.List <> length abbrev
+R10512:10513 Pigeonhole <> l2:84 var
+R10517:10522 Stdlib.Lists.List <> length abbrev
+R10524:10525 Pigeonhole <> l1:83 var
+R10539:10540 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R10541:10545 Stdlib.Lists.List <> NoDup ind
+R10547:10548 Pigeonhole <> l1:83 var
+R10657:10663 Stdlib.Logic.Classical_Prop <> classic prfax
+R10666:10672 Stdlib.Lists.List <> In def
+R10657:10663 Stdlib.Logic.Classical_Prop <> classic prfax
+R10666:10672 Stdlib.Lists.List <> In def
+R10719:10732 Stdlib.Lists.List <> NoDup_cons_iff thm
+R10719:10732 Stdlib.Lists.List <> NoDup_cons_iff thm
+R10822:10835 Stdlib.Lists.List <> NoDup_cons_iff thm
+R10822:10835 Stdlib.Lists.List <> NoDup_cons_iff thm
+R10905:10908 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R10901:10903 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10909:10910 Pigeonhole <> In abbrev
+R10905:10908 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R10901:10903 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10909:10910 Pigeonhole <> In abbrev
+R10972:10974 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R10963:10968 Stdlib.Lists.List <> length abbrev
+R10975:10980 Stdlib.Lists.List <> length abbrev
+R10972:10974 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R10963:10968 Stdlib.Lists.List <> length abbrev
+R10975:10980 Stdlib.Lists.List <> length abbrev
+R11008:11018 Pigeonhole <> longer_list thm
+R11008:11018 Pigeonhole <> longer_list thm
+R11114:11127 Stdlib.Lists.List <> NoDup_cons_iff thm
+R11114:11127 Stdlib.Lists.List <> NoDup_cons_iff thm

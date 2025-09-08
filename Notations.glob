@@ -1,0 +1,111 @@
+DIGEST df8acfebea6f5edd063d7cf1431ecfa3
+FNotations
+R15:21 Imports <> <> lib
+abbrev 34:36 <> ℕ
+R41:43 Corelib.Init.Datatypes <> nat ind
+abbrev 55:57 <> ℤ
+R62:62 Corelib.Numbers.BinNums <> Z ind
+abbrev 74:76 <> ℚ
+R81:81 Stdlib.QArith.QArith_base <> Q rec
+abbrev 93:95 <> ℝ
+R100:100 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R125:128 Stdlib.Reals.Rbasic_fun <> Rabs def
+not 113:113 <> ::R_scope:'|'_x_'|'
+R232:235 Stdlib.Reals.R_sqrt <> sqrt def
+not 220:220 <> :::'√'_x
+R331:334 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R326:329 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R341:344 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R336:339 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R346:349 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+not 302:302 <> ::R_scope:x_'<='_x_'<='_x_'<='_x
+R466:469 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R462:464 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R475:478 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R471:473 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R480:482 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+not 441:441 <> ::R_scope:x_'<'_x_'<'_x_'<'_x
+R603:606 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R598:601 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R613:616 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R608:611 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R618:621 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+not 574:574 <> ::R_scope:x_'>='_x_'>='_x_'>='_x
+R738:741 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R734:736 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R747:750 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R743:745 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R752:754 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+not 713:713 <> ::R_scope:x_'>'_x_'>'_x_'>'_x
+R867:870 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R863:865 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R872:874 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+not 846:846 <> ::R_scope:x_'='_x_'='_x
+R978:981 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R973:976 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R987:990 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R983:985 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R992:995 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+not 950:950 <> ::R_scope:x_'<='_x_'<'_x_'<='_x
+mod 1160:1176 <> IntervalNotations
+binder 1210:1210 <> x:1
+R1216:1219 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x_'<='_x not
+R1221:1224 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x_'<='_x not
+R1220:1220 Notations <> x:1 var
+R1220:1220 Notations <> x:1 var
+not 1190:1190 IntervalNotations ::interval_scope:'['_x_','_x_']'
+binder 1279:1279 <> x:2
+R1285:1288 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x_'<'_x not
+R1290:1292 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x_'<'_x not
+R1289:1289 Notations <> x:2 var
+R1289:1289 Notations <> x:2 var
+not 1257:1257 IntervalNotations ::interval_scope:'['_x_','_x_'⦆'
+binder 1347:1347 <> x:3
+R1353:1355 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x_'<='_x not
+R1357:1360 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x_'<='_x not
+R1356:1356 Notations <> x:3 var
+R1356:1356 Notations <> x:3 var
+not 1325:1325 IntervalNotations ::interval_scope:'⦅'_x_','_x_']'
+binder 1418:1418 <> x:4
+R1424:1426 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x_'<'_x not
+R1428:1430 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x_'<'_x not
+R1427:1427 Notations <> x:4 var
+R1427:1427 Notations <> x:4 var
+not 1394:1394 IntervalNotations ::interval_scope:'⦅'_x_','_x_'⦆'
+binder 1490:1490 <> x:5
+R1496:1498 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R1495:1495 Notations <> x:5 var
+not 1464:1464 IntervalNotations ::interval_scope:'⦅-∞'_','_x_'⦆'
+binder 1556:1556 <> x:6
+R1562:1565 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R1561:1561 Notations <> x:6 var
+not 1531:1531 IntervalNotations ::interval_scope:'⦅'_'-∞'_','_x_']'
+binder 1622:1622 <> x:7
+R1628:1630 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R1631:1631 Notations <> x:7 var
+not 1598:1598 IntervalNotations ::interval_scope:'⦅'_x_','_'+∞]'
+binder 1687:1687 <> x:8
+R1693:1696 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R1697:1697 Notations <> x:8 var
+not 1663:1663 IntervalNotations ::interval_scope:'['_x_','_'+∞⦆'
+R1754:1761 Stdlib.Sets.Ensembles <> Full_set ind
+not 1730:1730 IntervalNotations ::interval_scope:'⦅-∞'_','_'+∞⦆'
+binder 1816:1816 <> x:9
+R1822:1824 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x_'<'_x not
+R1826:1828 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x_'<'_x not
+R1825:1825 Notations <> x:9 var
+R1825:1825 Notations <> x:9 var
+not 1796:1796 IntervalNotations ::interval_scope:'('_x_','_x_')'
+binder 1881:1881 <> x:10
+R1887:1890 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x_'<'_x not
+R1892:1894 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x_'<'_x not
+R1891:1891 Notations <> x:10 var
+R1891:1891 Notations <> x:10 var
+not 1861:1861 IntervalNotations ::interval_scope:'['_x_','_x_')'
+binder 1947:1947 <> x:11
+R1953:1955 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x_'<='_x not
+R1957:1960 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x_'<='_x not
+R1956:1956 Notations <> x:11 var
+R1956:1956 Notations <> x:11 var
+not 1927:1927 IntervalNotations ::interval_scope:'('_x_','_x_']'
+R1986:2002 Notations IntervalNotations <> mod

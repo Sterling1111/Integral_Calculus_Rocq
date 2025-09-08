@@ -1,0 +1,520 @@
+DIGEST fbc524a31dee8404e006236d070fb957
+FFunctions
+R15:21 Imports <> <> lib
+R23:26 Sets <> <> lib
+R36:47 Sets SetNotations <> mod
+prf 80:100 <> f_subtype_independent
+binder 103:103 <> U:1
+binder 105:105 <> V:2
+R113:120 Stdlib.Sets.Ensembles <> Ensemble def
+R122:122 Functions <> U:1 var
+binder 109:109 <> P:3
+R139:142 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R130:136 Sets SetNotations subType rec
+R138:138 Functions <> P:3 var
+R143:143 Functions <> V:2 var
+binder 126:126 <> f:4
+R151:151 Functions <> U:1 var
+binder 147:147 <> x:5
+R163:164 Stdlib.Sets.Ensembles <> In def
+R168:168 Functions <> P:3 var
+R170:170 Functions <> x:5 var
+binder 155:156 <> H1:6
+binder 158:159 <> H2:7
+R209:211 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R177:177 Functions <> f:4 var
+R182:184 Sets SetNotations val proj
+R182:184 Sets SetNotations val proj
+R182:184 Sets SetNotations val proj
+R192:199 Sets SetNotations property proj
+R192:199 Sets SetNotations property proj
+R189:189 Functions <> x:5 var
+R204:205 Functions <> H1:6 var
+R212:212 Functions <> f:4 var
+R217:219 Sets SetNotations val proj
+R217:219 Sets SetNotations val proj
+R217:219 Sets SetNotations val proj
+R227:234 Sets SetNotations property proj
+R227:234 Sets SetNotations property proj
+R224:224 Functions <> x:5 var
+R239:240 Functions <> H2:7 var
+R263:265 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R290:298 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R323:325 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R266:268 Sets SetNotations val proj
+R266:268 Sets SetNotations val proj
+R266:268 Sets SetNotations val proj
+R276:283 Sets SetNotations property proj
+R276:283 Sets SetNotations property proj
+R299:301 Sets SetNotations val proj
+R299:301 Sets SetNotations val proj
+R299:301 Sets SetNotations val proj
+R309:316 Sets SetNotations property proj
+R309:316 Sets SetNotations property proj
+R353:369 Stdlib.Logic.Classical_Prop <> proof_irrelevance thm
+R263:265 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R290:298 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R323:325 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R266:268 Sets SetNotations val proj
+R266:268 Sets SetNotations val proj
+R266:268 Sets SetNotations val proj
+R276:283 Sets SetNotations property proj
+R276:283 Sets SetNotations property proj
+R299:301 Sets SetNotations val proj
+R299:301 Sets SetNotations val proj
+R299:301 Sets SetNotations val proj
+R309:316 Sets SetNotations property proj
+R309:316 Sets SetNotations property proj
+R353:369 Stdlib.Logic.Classical_Prop <> proof_irrelevance thm
+def 417:428 <> injective_On
+binder 431:431 <> A:8
+binder 433:433 <> B:9
+R449:452 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R448:448 Functions <> A:8 var
+R453:453 Functions <> B:9 var
+binder 444:444 <> f:10
+R461:468 Stdlib.Sets.Ensembles <> Ensemble def
+R470:470 Functions <> A:8 var
+binder 457:457 <> X:11
+R498:498 Functions <> A:8 var
+binder 492:492 <> x:12
+binder 494:494 <> y:13
+R508:511 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R502:506 Sets SetNotations ::set_scope:x_'∈'_x not
+R507:507 Functions <> X:11 var
+R501:501 Functions <> x:12 var
+R519:522 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R513:517 Sets SetNotations ::set_scope:x_'∈'_x not
+R518:518 Functions <> X:11 var
+R512:512 Functions <> y:13 var
+R532:535 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R526:528 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R523:523 Functions <> f:10 var
+R525:525 Functions <> x:12 var
+R529:529 Functions <> f:10 var
+R531:531 Functions <> y:13 var
+R537:539 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R536:536 Functions <> x:12 var
+R540:540 Functions <> y:13 var
+def 555:567 <> surjective_On
+binder 570:570 <> A:14
+binder 572:572 <> B:15
+R588:591 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R587:587 Functions <> A:14 var
+R592:592 Functions <> B:15 var
+binder 583:583 <> f:16
+R600:607 Stdlib.Sets.Ensembles <> Ensemble def
+R609:609 Functions <> B:15 var
+binder 596:596 <> E:17
+R635:635 Functions <> B:15 var
+binder 631:631 <> y:18
+R645:648 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R639:643 Sets SetNotations ::set_scope:x_'∈'_x not
+R644:644 Functions <> E:17 var
+R638:638 Functions <> y:18 var
+R649:655 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R661:662 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R660:660 Functions <> A:14 var
+binder 656:656 <> x:19
+R666:668 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R663:663 Functions <> f:16 var
+R665:665 Functions <> x:19 var
+R669:669 Functions <> y:18 var
+def 684:695 <> bijective_On
+binder 698:698 <> A:20
+binder 700:700 <> B:21
+R716:719 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R715:715 Functions <> A:20 var
+R720:720 Functions <> B:21 var
+binder 711:711 <> f:22
+R728:735 Stdlib.Sets.Ensembles <> Ensemble def
+R737:737 Functions <> A:20 var
+binder 724:724 <> X:23
+R745:752 Stdlib.Sets.Ensembles <> Ensemble def
+R754:754 Functions <> B:21 var
+binder 741:741 <> Y:24
+R785:788 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R769:780 Functions <> injective_On def
+R784:784 Functions <> X:23 var
+R782:782 Functions <> f:22 var
+R789:801 Functions <> surjective_On def
+R805:805 Functions <> Y:24 var
+R803:803 Functions <> f:22 var
+prf 815:831 <> injective_subType
+binder 842:842 <> U:25
+binder 844:844 <> V:26
+R851:858 Stdlib.Sets.Ensembles <> Ensemble def
+R860:860 Functions <> U:25 var
+binder 847:847 <> A:27
+R869:872 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R868:868 Functions <> U:25 var
+R873:873 Functions <> V:26 var
+binder 864:864 <> f:28
+R895:898 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R879:890 Functions <> injective_On def
+R894:894 Functions <> A:27 var
+R892:892 Functions <> f:28 var
+R899:907 Sets <> injective def
+R918:924 Sets SetNotations subType rec
+R926:926 Functions <> A:27 var
+binder 914:914 <> x:29
+R931:931 Functions <> f:28 var
+R934:936 Sets SetNotations val proj
+R940:940 Functions <> x:29 var
+R938:938 Functions <> A:27 var
+R980:988 Sets <> injective def
+R1124:1140 Stdlib.Logic.Classical_Prop <> proof_irrelevance thm
+R1124:1140 Stdlib.Logic.Classical_Prop <> proof_irrelevance thm
+prf 1170:1186 <> bijective_subType
+binder 1197:1197 <> U:30
+binder 1199:1199 <> V:31
+R1207:1210 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R1206:1206 Functions <> U:30 var
+R1211:1211 Functions <> V:31 var
+binder 1202:1202 <> f:32
+R1228:1231 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R1217:1225 Sets <> bijective def
+R1227:1227 Functions <> f:32 var
+R1232:1240 Sets <> bijective def
+R1251:1257 Sets SetNotations subType rec
+R1260:1267 Stdlib.Sets.Ensembles <> Full_set ind
+R1269:1269 Functions <> U:30 var
+binder 1247:1247 <> x:33
+R1275:1283 Sets SetNotations mkSubType constr
+R1285:1285 Functions <> V:31 var
+R1288:1295 Stdlib.Sets.Ensembles <> Full_set ind
+R1297:1297 Functions <> V:31 var
+R1301:1301 Functions <> f:32 var
+R1304:1306 Sets SetNotations val proj
+R1321:1321 Functions <> x:33 var
+R1309:1316 Stdlib.Sets.Ensembles <> Full_set ind
+R1318:1318 Functions <> U:30 var
+R1337:1346 Stdlib.Sets.Ensembles <> Full_intro constr
+R1337:1346 Stdlib.Sets.Ensembles <> Full_intro constr
+R1539:1555 Stdlib.Logic.Classical_Prop <> proof_irrelevance thm
+R1539:1555 Stdlib.Logic.Classical_Prop <> proof_irrelevance thm
+R1629:1637 Sets SetNotations mkSubType constr
+R1642:1649 Stdlib.Sets.Ensembles <> Full_set ind
+R1668:1677 Stdlib.Sets.Ensembles <> Full_intro constr
+R1629:1637 Sets SetNotations mkSubType constr
+R1642:1649 Stdlib.Sets.Ensembles <> Full_set ind
+R1668:1677 Stdlib.Sets.Ensembles <> Full_intro constr
+R1668:1677 Stdlib.Sets.Ensembles <> Full_intro constr
+prf 1731:1746 <> exists_bijection
+R1750:1754 Stdlib.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+R1778:1782 Stdlib.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+binder 1755:1755 <> U:34
+binder 1757:1757 <> V:35
+R1773:1776 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R1772:1772 Functions <> U:34 var
+R1777:1777 Functions <> V:35 var
+binder 1768:1768 <> f:36
+R1794:1797 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R1783:1791 Sets <> bijective def
+R1793:1793 Functions <> f:36 var
+R1798:1804 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R1853:1854 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R1829:1832 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R1809:1815 Sets SetNotations subType rec
+R1818:1825 Stdlib.Sets.Ensembles <> Full_set ind
+R1827:1827 Functions <> U:34 var
+R1833:1839 Sets SetNotations subType rec
+R1842:1849 Stdlib.Sets.Ensembles <> Full_set ind
+R1851:1851 Functions <> V:35 var
+binder 1805:1805 <> f:37
+R1855:1863 Sets <> bijective def
+R1865:1865 Functions <> f:37 var
+R1912:1918 Sets SetNotations subType rec
+R1921:1928 Stdlib.Sets.Ensembles <> Full_set ind
+binder 1908:1908 <> x:38
+R1936:1944 Sets SetNotations mkSubType constr
+R1949:1956 Stdlib.Sets.Ensembles <> Full_set ind
+R1965:1967 Sets SetNotations val proj
+R1982:1982 Functions <> x:38 var
+R1970:1977 Stdlib.Sets.Ensembles <> Full_set ind
+R1998:2007 Stdlib.Sets.Ensembles <> Full_intro constr
+R1912:1918 Sets SetNotations subType rec
+R1921:1928 Stdlib.Sets.Ensembles <> Full_set ind
+binder 1908:1908 <> x:39
+R1936:1944 Sets SetNotations mkSubType constr
+R1949:1956 Stdlib.Sets.Ensembles <> Full_set ind
+R1965:1967 Sets SetNotations val proj
+R1982:1982 Functions <> x:39 var
+R1970:1977 Stdlib.Sets.Ensembles <> Full_set ind
+R1998:2007 Stdlib.Sets.Ensembles <> Full_intro constr
+R1998:2007 Stdlib.Sets.Ensembles <> Full_intro constr
+R2030:2046 Functions <> bijective_subType thm
+R2030:2046 Functions <> bijective_subType thm
+prf 2067:2089 <> eq_cardinality_Full_set
+binder 2101:2101 <> A:40
+binder 2103:2103 <> B:41
+R2230:2233 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R2116:2116 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R2183:2188 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R2229:2229 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R2117:2117 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R2148:2153 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R2182:2182 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R2118:2124 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R2135:2136 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R2130:2133 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R2129:2129 Functions <> A:40 var
+R2134:2134 Functions <> B:41 var
+binder 2125:2125 <> f:42
+R2137:2145 Sets <> bijective def
+R2147:2147 Functions <> f:42 var
+R2154:2161 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R2175:2177 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R2166:2166 Functions <> A:40 var
+binder 2162:2162 <> a:43
+R2174:2174 Functions <> B:41 var
+binder 2170:2170 <> b:44
+R2178:2181 Corelib.Init.Logic <> True ind
+R2189:2189 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R2206:2211 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R2228:2228 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R2200:2202 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2190:2197 Stdlib.Sets.Ensembles <> Full_set ind
+R2199:2199 Functions <> A:40 var
+R2203:2205 Sets SetNotations ::set_scope:'∅' not
+R2222:2224 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2212:2219 Stdlib.Sets.Ensembles <> Full_set ind
+R2221:2221 Functions <> B:41 var
+R2225:2227 Sets SetNotations ::set_scope:'∅' not
+R2234:2236 Sets SetNotations ::set_scope:'‖'_x_'‖'_'='_'‖'_x_'‖' not
+R2247:2255 Sets SetNotations ::set_scope:'‖'_x_'‖'_'='_'‖'_x_'‖' not
+R2266:2268 Sets SetNotations ::set_scope:'‖'_x_'‖'_'='_'‖'_x_'‖' not
+R2237:2244 Stdlib.Sets.Ensembles <> Full_set ind
+R2246:2246 Functions <> A:40 var
+R2256:2263 Stdlib.Sets.Ensembles <> Full_set ind
+R2265:2265 Functions <> B:41 var
+R2334:2342 Sets <> injective def
+R2358:2367 Sets <> surjective def
+R2393:2403 Sets SetNotations cardinal_eq def
+R2434:2438 Sets SetNotations ::set_scope:x_'∈'_x not
+R2439:2446 Stdlib.Sets.Ensembles <> Full_set ind
+R2460:2469 Stdlib.Sets.Ensembles <> Full_intro constr
+R2434:2438 Sets SetNotations ::set_scope:x_'∈'_x not
+R2439:2446 Stdlib.Sets.Ensembles <> Full_set ind
+R2460:2469 Stdlib.Sets.Ensembles <> Full_intro constr
+R2526:2530 Sets SetNotations ::set_scope:x_'∈'_x not
+R2531:2538 Stdlib.Sets.Ensembles <> Full_set ind
+R2552:2561 Stdlib.Sets.Ensembles <> Full_intro constr
+R2526:2530 Sets SetNotations ::set_scope:x_'∈'_x not
+R2531:2538 Stdlib.Sets.Ensembles <> Full_set ind
+R2552:2561 Stdlib.Sets.Ensembles <> Full_intro constr
+R2621:2627 Sets SetNotations subType rec
+R2630:2637 Stdlib.Sets.Ensembles <> Full_set ind
+binder 2616:2617 <> sa:45
+R2645:2653 Sets SetNotations mkSubType constr
+R2658:2665 Stdlib.Sets.Ensembles <> Full_set ind
+R2674:2676 Sets SetNotations val proj
+R2680:2681 Functions <> sa:45 var
+R2697:2706 Stdlib.Sets.Ensembles <> Full_intro constr
+R2621:2627 Sets SetNotations subType rec
+R2630:2637 Stdlib.Sets.Ensembles <> Full_set ind
+binder 2616:2617 <> sa:46
+R2645:2653 Sets SetNotations mkSubType constr
+R2658:2665 Stdlib.Sets.Ensembles <> Full_set ind
+R2674:2676 Sets SetNotations val proj
+R2680:2681 Functions <> sa:46 var
+R2697:2706 Stdlib.Sets.Ensembles <> Full_intro constr
+R2697:2706 Stdlib.Sets.Ensembles <> Full_intro constr
+R3018:3026 Sets SetNotations mkSubType constr
+R3031:3038 Stdlib.Sets.Ensembles <> Full_set ind
+R3057:3066 Stdlib.Sets.Ensembles <> Full_intro constr
+R3018:3026 Sets SetNotations mkSubType constr
+R3031:3038 Stdlib.Sets.Ensembles <> Full_set ind
+R3057:3066 Stdlib.Sets.Ensembles <> Full_intro constr
+R3057:3066 Stdlib.Sets.Ensembles <> Full_intro constr
+def 3163:3178 <> Type_to_Ensemble
+binder 3181:3181 <> A:47
+R3193:3200 Stdlib.Sets.Ensembles <> Ensemble def
+R3202:3202 Functions <> A:47 var
+R3209:3216 Stdlib.Sets.Ensembles <> Full_set ind
+R3218:3218 Functions <> A:47 var
+def 3231:3246 <> Ensemble_to_Type
+binder 3249:3249 <> A:48
+R3264:3271 Stdlib.Sets.Ensembles <> Ensemble def
+R3273:3273 Functions <> A:48 var
+binder 3260:3260 <> X:49
+R3288:3294 Sets SetNotations subType rec
+R3296:3296 Functions <> X:49 var
+prf 3306:3323 <> Type_Ensemble_Type
+binder 3334:3334 <> A:50
+R3385:3387 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3346:3361 Functions <> Ensemble_to_Type coe
+R3363:3363 Functions <> A:50 var
+R3366:3381 Functions <> Type_to_Ensemble coe
+R3383:3383 Functions <> A:50 var
+R3388:3388 Functions <> A:50 var
+R3417:3432 Functions <> Ensemble_to_Type coe
+R3442:3457 Functions <> Type_to_Ensemble coe
+R3466:3475 Imports <> univalence prfax
+R3466:3475 Imports <> univalence prfax
+R3499:3505 Sets SetNotations subType rec
+R3508:3515 Stdlib.Sets.Ensembles <> Full_set ind
+binder 3494:3494 <> x:51
+R3524:3526 Sets SetNotations val proj
+R3541:3541 Functions <> x:51 var
+R3529:3536 Stdlib.Sets.Ensembles <> Full_set ind
+R3499:3505 Sets SetNotations subType rec
+R3508:3515 Stdlib.Sets.Ensembles <> Full_set ind
+binder 3494:3494 <> x:52
+R3524:3526 Sets SetNotations val proj
+R3541:3541 Functions <> x:52 var
+R3529:3536 Stdlib.Sets.Ensembles <> Full_set ind
+binder 3562:3562 <> x:53
+R3571:3579 Sets SetNotations mkSubType constr
+R3584:3591 Stdlib.Sets.Ensembles <> Full_set ind
+R3596:3596 Functions <> x:53 var
+R3610:3619 Stdlib.Sets.Ensembles <> Full_intro constr
+binder 3562:3562 <> x:54
+R3571:3579 Sets SetNotations mkSubType constr
+R3584:3591 Stdlib.Sets.Ensembles <> Full_set ind
+R3596:3596 Functions <> x:54 var
+R3610:3619 Stdlib.Sets.Ensembles <> Full_intro constr
+R3610:3619 Stdlib.Sets.Ensembles <> Full_intro constr
+prf 3768:3789 <> Ensemble_Type_Ensemble
+binder 3800:3800 <> A:55
+R3807:3814 Stdlib.Sets.Ensembles <> Ensemble def
+R3816:3816 Functions <> A:55 var
+binder 3803:3803 <> X:56
+R3861:3863 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3822:3837 Functions <> Type_to_Ensemble coe
+R3840:3855 Functions <> Ensemble_to_Type coe
+R3857:3857 Functions <> A:55 var
+R3859:3859 Functions <> X:56 var
+R3864:3864 Functions <> X:56 var
+prf 3894:3921 <> eq_cardinality_Full_set_Type
+binder 3933:3933 <> A:57
+binder 3935:3935 <> B:58
+R3965:3969 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R3948:3950 Sets SetNotations ::set_scope:'‖'_x_'‖'_'='_'‖'_x_'‖' not
+R3952:3960 Sets SetNotations ::set_scope:'‖'_x_'‖'_'='_'‖'_x_'‖' not
+R3962:3964 Sets SetNotations ::set_scope:'‖'_x_'‖'_'='_'‖'_x_'‖' not
+R3951:3951 Functions <> A:57 var
+R3961:3961 Functions <> B:58 var
+R3970:3972 Sets SetNotations ::set_scope:'‖'_x_'‖'_'='_'‖'_x_'‖' not
+R3983:3991 Sets SetNotations ::set_scope:'‖'_x_'‖'_'='_'‖'_x_'‖' not
+R4002:4004 Sets SetNotations ::set_scope:'‖'_x_'‖'_'='_'‖'_x_'‖' not
+R3973:3980 Stdlib.Sets.Ensembles <> Full_set ind
+R3982:3982 Functions <> A:57 var
+R3992:3999 Stdlib.Sets.Ensembles <> Full_set ind
+R4001:4001 Functions <> B:58 var
+R4052:4067 Functions <> Type_to_Ensemble coe
+prf 4094:4112 <> eq_cardinality_Type
+binder 4123:4123 <> A:59
+binder 4125:4125 <> B:60
+R4251:4254 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R4137:4137 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R4204:4209 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R4250:4250 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R4138:4138 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R4169:4174 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R4203:4203 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R4139:4145 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R4156:4157 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R4151:4154 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R4150:4150 Functions <> A:59 var
+R4155:4155 Functions <> B:60 var
+binder 4146:4146 <> f:61
+R4158:4166 Sets <> bijective def
+R4168:4168 Functions <> f:61 var
+R4175:4182 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R4196:4198 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R4187:4187 Functions <> A:59 var
+binder 4183:4183 <> a:62
+R4195:4195 Functions <> B:60 var
+binder 4191:4191 <> b:63
+R4199:4202 Corelib.Init.Logic <> True ind
+R4210:4210 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R4227:4232 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R4249:4249 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R4221:4223 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4211:4218 Stdlib.Sets.Ensembles <> Full_set ind
+R4220:4220 Functions <> A:59 var
+R4224:4226 Sets SetNotations ::set_scope:'∅' not
+R4243:4245 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4233:4240 Stdlib.Sets.Ensembles <> Full_set ind
+R4242:4242 Functions <> B:60 var
+R4246:4248 Sets SetNotations ::set_scope:'∅' not
+R4255:4257 Sets SetNotations ::set_scope:'‖'_x_'‖'_'='_'‖'_x_'‖' not
+R4259:4267 Sets SetNotations ::set_scope:'‖'_x_'‖'_'='_'‖'_x_'‖' not
+R4269:4271 Sets SetNotations ::set_scope:'‖'_x_'‖'_'='_'‖'_x_'‖' not
+R4258:4258 Functions <> A:59 var
+R4268:4268 Functions <> B:60 var
+R4332:4354 Functions <> eq_cardinality_Full_set thm
+R4332:4354 Functions <> eq_cardinality_Full_set thm
+R4332:4354 Functions <> eq_cardinality_Full_set thm
+prf 4423:4438 <> subType_Full_set
+binder 4449:4449 <> A:64
+R4481:4483 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4461:4467 Sets SetNotations subType rec
+R4470:4477 Stdlib.Sets.Ensembles <> Full_set ind
+R4479:4479 Functions <> A:64 var
+R4484:4484 Functions <> A:64 var
+R4512:4521 Imports <> univalence prfax
+R4512:4521 Imports <> univalence prfax
+R4545:4551 Sets SetNotations subType rec
+R4554:4561 Stdlib.Sets.Ensembles <> Full_set ind
+binder 4540:4540 <> x:65
+R4570:4572 Sets SetNotations val proj
+R4587:4587 Functions <> x:65 var
+R4575:4582 Stdlib.Sets.Ensembles <> Full_set ind
+R4545:4551 Sets SetNotations subType rec
+R4554:4561 Stdlib.Sets.Ensembles <> Full_set ind
+binder 4540:4540 <> x:66
+R4570:4572 Sets SetNotations val proj
+R4587:4587 Functions <> x:66 var
+R4575:4582 Stdlib.Sets.Ensembles <> Full_set ind
+binder 4608:4608 <> x:67
+R4617:4625 Sets SetNotations mkSubType constr
+R4630:4637 Stdlib.Sets.Ensembles <> Full_set ind
+R4642:4642 Functions <> x:67 var
+R4656:4665 Stdlib.Sets.Ensembles <> Full_intro constr
+binder 4608:4608 <> x:68
+R4617:4625 Sets SetNotations mkSubType constr
+R4630:4637 Stdlib.Sets.Ensembles <> Full_set ind
+R4642:4642 Functions <> x:68 var
+R4656:4665 Stdlib.Sets.Ensembles <> Full_intro constr
+R4656:4665 Stdlib.Sets.Ensembles <> Full_intro constr
+prf 4814:4823 <> image_card
+binder 4834:4834 <> A:69
+binder 4836:4836 <> B:70
+R4844:4847 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R4843:4843 Functions <> A:69 var
+R4848:4848 Functions <> B:70 var
+binder 4839:4839 <> f:71
+R4866:4869 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R4854:4863 Sets SetNotations Finite_set def
+R4865:4865 Functions <> A:69 var
+R4870:4873 Sets SetNotations ::set_scope:'‖'_x_'‖'_'<='_'‖'_x_'‖' not
+R4881:4892 Sets SetNotations ::set_scope:'‖'_x_'‖'_'<='_'‖'_x_'‖' not
+R4894:4897 Sets SetNotations ::set_scope:'‖'_x_'‖'_'<='_'‖'_x_'‖' not
+R4874:4878 Sets <> image def
+R4880:4880 Functions <> f:71 var
+R4893:4893 Functions <> A:69 var
+R4937:4947 Sets SetNotations cardinal_le def
+R4950:4954 Sets <> image def
+R4965:4980 Functions <> subType_Full_set thm
+R4965:4980 Functions <> subType_Full_set thm
+R4965:4980 Functions <> subType_Full_set thm
+prf 4999:5010 <> theorem_28_1
+binder 5021:5021 <> A:72
+binder 5023:5023 <> B:73
+R5031:5034 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R5030:5030 Functions <> A:72 var
+R5035:5035 Functions <> B:73 var
+binder 5026:5026 <> f:74
+R5064:5067 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R5041:5050 Sets SetNotations Finite_set def
+R5053:5060 Stdlib.Sets.Ensembles <> Full_set ind
+R5062:5062 Functions <> A:72 var
+R5068:5071 Sets SetNotations ::set_scope:'‖'_x_'‖'_'<='_'‖'_x_'‖' not
+R5079:5091 Sets SetNotations ::set_scope:'‖'_x_'‖'_'<='_'‖'_x_'‖' not
+R5102:5106 Sets SetNotations ::set_scope:'‖'_x_'‖'_'<='_'‖'_x_'‖' not
+R5072:5076 Sets <> image def
+R5078:5078 Functions <> f:74 var
+R5092:5099 Stdlib.Sets.Ensembles <> Full_set ind
+R5101:5101 Functions <> A:72 var

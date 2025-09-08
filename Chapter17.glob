@@ -1,0 +1,797 @@
+DIGEST 4e919be8868e5c948f2431b6a5017a56
+FChapter17
+R15:21 Imports <> <> lib
+R23:31 Fibonacci <> <> lib
+R33:35 QRT <> <> lib
+R53:61 Chapter16 <> <> lib
+def 122:132 <> Z_to_string
+R139:139 Corelib.Numbers.BinNums <> Z ind
+binder 135:135 <> n:1
+R144:149 Stdlib.Strings.String <> string ind
+R156:177 Stdlib.Numbers.DecimalString NilEmpty string_of_int def
+R180:187 Stdlib.ZArith.BinInt Z to_int def
+R189:189 Chapter17 <> n:1 var
+def 205:225 <> compute_quot_rem_text
+R236:238 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R235:235 Corelib.Numbers.BinNums <> Z ind
+R239:239 Corelib.Numbers.BinNums <> Z ind
+binder 228:231 <> pair:2
+R244:249 Stdlib.Strings.String <> string ind
+R270:273 Chapter17 <> pair:2 var
+binder 261:261 <> n:3
+binder 264:264 <> d:4
+R289:294 Stdlib.ZArith.BinInt Z quot def
+R296:296 Chapter17 <> n:3 var
+R298:298 Chapter17 <> d:4 var
+binder 284:284 <> q:5
+R314:318 Stdlib.ZArith.BinInt Z rem def
+R320:320 Chapter17 <> n:3 var
+R322:322 Chapter17 <> d:4 var
+binder 309:309 <> r:6
+R363:366 Stdlib.Strings.String <> ::string_scope:x_'++'_x not
+R350:360 Chapter17 <> Z_to_string def
+R362:362 Chapter17 <> n:3 var
+R372:375 Stdlib.Strings.String <> ::string_scope:x_'++'_x not
+R389:392 Stdlib.Strings.String <> ::string_scope:x_'++'_x not
+R376:386 Chapter17 <> Z_to_string def
+R388:388 Chapter17 <> d:4 var
+R398:401 Stdlib.Strings.String <> ::string_scope:x_'++'_x not
+R415:418 Stdlib.Strings.String <> ::string_scope:x_'++'_x not
+R402:412 Chapter17 <> Z_to_string def
+R414:414 Chapter17 <> q:5 var
+R424:427 Stdlib.Strings.String <> ::string_scope:x_'++'_x not
+R428:438 Chapter17 <> Z_to_string def
+R440:440 Chapter17 <> r:6 var
+binder 333:340 <> equation:7
+R447:454 Chapter17 <> equation:7 var
+R466:468 Corelib.Lists.ListDef <> map def
+R492:492 Stdlib.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R500:501 Stdlib.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R510:511 Stdlib.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R520:521 Stdlib.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R531:532 Stdlib.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R542:543 Stdlib.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R554:555 Stdlib.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R566:567 Stdlib.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R579:579 Stdlib.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R493:493 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R496:497 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R499:499 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R502:502 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R505:506 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R509:509 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R512:512 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R516:517 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R519:519 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R522:522 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R526:527 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R530:530 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R533:533 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R537:538 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R541:541 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R544:544 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R548:549 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R553:553 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R556:556 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R561:562 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R565:565 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R568:568 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R573:574 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R578:578 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R470:490 Chapter17 <> compute_quot_rem_text def
+prf 616:627 <> lemma_17_2_a
+R642:642 Corelib.Numbers.BinNums <> Z ind
+binder 638:638 <> n:8
+R655:658 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R647:652 Stdlib.ZArith.BinInt Z Even def
+R654:654 Chapter17 <> n:8 var
+R659:663 Stdlib.ZArith.BinInt Z Odd def
+R665:665 Chapter17 <> n:8 var
+R696:731 QRT <> quotient_remainder_theorem_existence thm
+R696:731 QRT <> quotient_remainder_theorem_existence thm
+R782:785 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R778:780 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R787:789 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R782:785 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R778:780 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R787:789 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+prf 946:957 <> lemma_17_2_b
+R972:972 Corelib.Numbers.BinNums <> Z ind
+binder 968:968 <> n:9
+R977:977 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R997:1001 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R986:989 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R978:983 Stdlib.ZArith.BinInt Z Even def
+R985:985 Chapter17 <> n:9 var
+R990:994 Stdlib.ZArith.BinInt Z Odd def
+R996:996 Chapter17 <> n:9 var
+R1002:1006 Corelib.Init.Logic <> False ind
+R1060:1096 QRT <> quotient_remainder_theorem_uniqueness thm
+R1060:1096 QRT <> quotient_remainder_theorem_uniqueness thm
+def 1215:1231 <> find_divisors_pos
+R1238:1240 Corelib.Init.Datatypes <> nat ind
+binder 1234:1234 <> n:10
+R1245:1248 Corelib.Init.Datatypes <> list ind
+R1250:1250 Corelib.Numbers.BinNums <> Z ind
+R1257:1266 Stdlib.Lists.List <> fold_right def
+R1335:1337 Corelib.Lists.ListDef <> map def
+R1349:1351 Corelib.Lists.ListDef <> seq def
+R1355:1355 Chapter17 <> n:10 var
+R1339:1346 Stdlib.ZArith.BinInt Z of_nat def
+R1331:1332 Stdlib.Lists.List ListNotations ::list_scope:'['_']' not
+binder 1273:1273 <> x:11
+binder 1275:1275 <> l:12
+R1304:1307 Stdlib.ZArith.BinInt <> ::Z_scope:x_'=?'_x not
+R1284:1288 Stdlib.ZArith.BinInt Z rem def
+R1291:1298 Stdlib.ZArith.BinInt Z of_nat def
+R1300:1300 Chapter17 <> n:10 var
+R1303:1303 Chapter17 <> x:11 var
+R1328:1328 Chapter17 <> l:12 var
+R1317:1320 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1316:1316 Chapter17 <> x:11 var
+R1321:1321 Chapter17 <> l:12 var
+def 1372:1388 <> find_divisors_neg
+R1395:1397 Corelib.Init.Datatypes <> nat ind
+binder 1391:1391 <> n:13
+R1402:1405 Corelib.Init.Datatypes <> list ind
+R1407:1407 Corelib.Numbers.BinNums <> Z ind
+R1414:1421 Stdlib.Lists.List <> rev def
+R1424:1426 Corelib.Lists.ListDef <> map def
+R1443:1459 Chapter17 <> find_divisors_pos def
+R1461:1461 Chapter17 <> n:13 var
+binder 1433:1433 <> x:14
+R1438:1438 Stdlib.ZArith.BinInt <> ::Z_scope:'-'_x not
+R1439:1439 Chapter17 <> x:14 var
+def 1478:1490 <> find_divisors
+R1497:1499 Corelib.Init.Datatypes <> nat ind
+binder 1493:1493 <> n:15
+R1504:1507 Corelib.Init.Datatypes <> list ind
+R1509:1509 Corelib.Numbers.BinNums <> Z ind
+R1535:1538 Corelib.Init.Datatypes <> ::list_scope:x_'++'_x not
+R1516:1532 Chapter17 <> find_divisors_neg def
+R1534:1534 Chapter17 <> n:15 var
+R1539:1555 Chapter17 <> find_divisors_pos def
+R1557:1557 Chapter17 <> n:15 var
+def 1574:1580 <> in_list
+R1586:1586 Corelib.Numbers.BinNums <> Z ind
+binder 1583:1583 <> x:16
+R1593:1596 Corelib.Init.Datatypes <> list ind
+R1598:1598 Corelib.Numbers.BinNums <> Z ind
+binder 1590:1590 <> l:17
+R1603:1606 Corelib.Init.Datatypes <> bool ind
+R1613:1622 Stdlib.Lists.List <> fold_right def
+R1680:1680 Chapter17 <> l:17 var
+R1674:1678 Corelib.Init.Datatypes <> false constr
+binder 1629:1629 <> y:18
+binder 1631:1633 <> acc:19
+R1641:1648 Stdlib.ZArith.BinInt Z eq_dec def
+R1650:1650 Chapter17 <> x:16 var
+R1652:1652 Chapter17 <> y:18 var
+R1669:1671 Chapter17 <> acc:19 var
+R1659:1662 Corelib.Init.Datatypes <> true constr
+R1704:1707 Corelib.Init.Datatypes <> negb def
+not 1693:1693 <> :::'¬'_x
+def 1760:1771 <> intersection
+R1782:1785 Corelib.Init.Datatypes <> list ind
+R1787:1787 Corelib.Numbers.BinNums <> Z ind
+binder 1774:1775 <> l1:20
+binder 1777:1778 <> l2:21
+R1792:1795 Corelib.Init.Datatypes <> list ind
+R1797:1797 Corelib.Numbers.BinNums <> Z ind
+R1804:1813 Stdlib.Lists.List <> fold_right def
+R1905:1906 Chapter17 <> l1:20 var
+R1902:1903 Stdlib.Lists.List ListNotations ::list_scope:'['_']' not
+binder 1820:1820 <> x:22
+binder 1822:1822 <> l:23
+R1862:1866 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R1880:1880 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R1830:1830 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R1843:1848 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R1861:1861 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R1831:1837 Chapter17 <> in_list def
+R1839:1839 Chapter17 <> x:22 var
+R1841:1842 Chapter17 <> l1:20 var
+R1849:1855 Chapter17 <> in_list def
+R1857:1857 Chapter17 <> x:22 var
+R1859:1860 Chapter17 <> l2:21 var
+R1867:1868 Chapter17 <> :::'¬'_x not
+R1869:1875 Chapter17 <> in_list def
+R1877:1877 Chapter17 <> x:22 var
+R1879:1879 Chapter17 <> l:23 var
+R1899:1899 Chapter17 <> l:23 var
+R1888:1891 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1887:1887 Chapter17 <> x:22 var
+R1892:1892 Chapter17 <> l:23 var
+def 1921:1924 <> gcd'
+R1933:1933 Corelib.Numbers.BinNums <> Z ind
+binder 1927:1927 <> n:24
+binder 1929:1929 <> m:25
+R1938:1938 Corelib.Numbers.BinNums <> Z ind
+R1962:1974 Chapter17 <> find_divisors def
+R1977:1985 Stdlib.ZArith.BinInt Z abs_nat def
+R1987:1987 Chapter17 <> n:24 var
+binder 1949:1957 <> divisors1:26
+R2012:2024 Chapter17 <> find_divisors def
+R2027:2035 Stdlib.ZArith.BinInt Z abs_nat def
+R2037:2037 Chapter17 <> m:25 var
+binder 1999:2007 <> divisors2:27
+R2054:2065 Chapter17 <> intersection def
+R2068:2076 Chapter17 <> divisors1:26 var
+R2080:2088 Chapter17 <> divisors2:27 var
+binder 2049:2049 <> l:28
+R2096:2098 Corelib.Lists.ListDef <> nth def
+R2120:2120 Chapter17 <> l:28 var
+R2114:2116 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R2101:2111 Stdlib.Lists.List <> length abbrev
+R2113:2113 Chapter17 <> l:28 var
+R2134:2146 Chapter17 <> find_divisors def
+R2160:2172 Chapter17 <> find_divisors def
+R2187:2198 Chapter17 <> intersection def
+R2201:2213 Chapter17 <> find_divisors def
+R2220:2232 Chapter17 <> find_divisors def
+R2247:2250 Chapter17 <> gcd' def
+R2269:2273 Stdlib.ZArith.BinInt Z gcd def
+R2294:2298 Stdlib.ZArith.BinInt Z rem def
+R2319:2321 Corelib.Lists.ListDef <> map def
+R2358:2358 Stdlib.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2367:2368 Stdlib.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2379:2380 Stdlib.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2393:2394 Stdlib.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2405:2405 Stdlib.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2359:2359 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2362:2363 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2366:2366 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2369:2369 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2373:2374 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2378:2378 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2381:2381 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2386:2387 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2392:2392 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2395:2395 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2399:2400 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2404:2404 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+binder 2328:2328 <> p:29
+R2334:2338 Stdlib.ZArith.BinInt Z gcd def
+R2341:2343 Corelib.Init.Datatypes <> fst def
+R2345:2345 Chapter17 <> p:29 var
+R2349:2351 Corelib.Init.Datatypes <> snd def
+R2353:2353 Chapter17 <> p:29 var
+def 2421:2430 <> gcd_theory
+R2443:2443 Corelib.Numbers.BinNums <> Z ind
+binder 2433:2433 <> a:30
+binder 2435:2435 <> b:31
+binder 2437:2439 <> gcd:32
+R2454:2454 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R2461:2466 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R2473:2473 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R2456:2459 Stdlib.ZArith.BinInt <> ::Z_scope:x_'=?'_x not
+R2455:2455 Chapter17 <> a:30 var
+R2468:2471 Stdlib.ZArith.BinInt <> ::Z_scope:x_'=?'_x not
+R2467:2467 Chapter17 <> b:31 var
+R2504:2507 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R2495:2495 Stdlib.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R2499:2501 Stdlib.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R2503:2503 Stdlib.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R2496:2498 Chapter17 <> gcd:32 var
+R2502:2502 Chapter17 <> a:30 var
+R2517:2522 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R2508:2508 Stdlib.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R2512:2514 Stdlib.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R2516:2516 Stdlib.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R2509:2511 Chapter17 <> gcd:32 var
+R2515:2515 Chapter17 <> b:31 var
+binder 2530:2530 <> d:33
+R2551:2554 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R2540:2543 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R2533:2533 Stdlib.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R2535:2537 Stdlib.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R2539:2539 Stdlib.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R2534:2534 Chapter17 <> d:33 var
+R2538:2538 Chapter17 <> a:30 var
+R2544:2544 Stdlib.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R2546:2548 Stdlib.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R2550:2550 Stdlib.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R2545:2545 Chapter17 <> d:33 var
+R2549:2549 Chapter17 <> b:31 var
+R2556:2559 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R2555:2555 Chapter17 <> d:33 var
+R2560:2562 Chapter17 <> gcd:32 var
+R2483:2485 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2480:2482 Chapter17 <> gcd:32 var
+prf 2572:2595 <> gcd_satisfies_gcd_theory
+binder 2606:2606 <> a:34
+binder 2608:2608 <> b:35
+R2611:2620 Chapter17 <> gcd_theory def
+R2622:2622 Chapter17 <> a:34 var
+R2624:2624 Chapter17 <> b:35 var
+R2627:2631 Stdlib.ZArith.BinInt Z gcd def
+R2633:2633 Chapter17 <> a:34 var
+R2635:2635 Chapter17 <> b:35 var
+R2682:2686 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R2703:2703 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R2673:2676 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R2669:2671 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2678:2680 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2693:2696 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R2688:2691 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R2698:2701 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R2682:2686 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R2703:2703 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R2673:2676 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R2669:2671 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2678:2680 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2693:2696 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R2688:2691 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R2698:2701 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R2806:2808 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2786:2786 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R2793:2798 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R2805:2805 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R2788:2791 Stdlib.ZArith.BinInt <> ::Z_scope:x_'=?'_x not
+R2800:2803 Stdlib.ZArith.BinInt <> ::Z_scope:x_'=?'_x not
+R2809:2813 Corelib.Init.Datatypes <> false constr
+R2806:2808 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2786:2786 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R2793:2798 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R2805:2805 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R2788:2791 Stdlib.ZArith.BinInt <> ::Z_scope:x_'=?'_x not
+R2800:2803 Stdlib.ZArith.BinInt <> ::Z_scope:x_'=?'_x not
+R2809:2813 Corelib.Init.Datatypes <> false constr
+R2857:2870 Stdlib.Bool.Bool <> andb_false_iff thm
+R2895:2903 Stdlib.ZArith.BinInt Z eqb_neq thm
+R2857:2870 Stdlib.Bool.Bool <> andb_false_iff thm
+R2857:2870 Stdlib.Bool.Bool <> andb_false_iff thm
+R2895:2903 Stdlib.ZArith.BinInt Z eqb_neq thm
+R2895:2903 Stdlib.ZArith.BinInt Z eqb_neq thm
+R2924:2933 Chapter17 <> gcd_theory def
+R2962:2975 Stdlib.ZArith.BinInt Z gcd_divide_l thm
+R2993:3006 Stdlib.ZArith.BinInt Z gcd_divide_r thm
+R2962:2975 Stdlib.ZArith.BinInt Z gcd_divide_l thm
+R2993:3006 Stdlib.ZArith.BinInt Z gcd_divide_r thm
+R3046:3059 Stdlib.ZArith.BinInt Z gcd_greatest thm
+R3046:3059 Stdlib.ZArith.BinInt Z gcd_greatest thm
+R3097:3108 Stdlib.ZArith.BinInt Z gcd_nonneg thm
+R3097:3108 Stdlib.ZArith.BinInt Z gcd_nonneg thm
+R3138:3151 Stdlib.ZArith.BinInt Z gcd_divide_l thm
+R3138:3151 Stdlib.ZArith.BinInt Z gcd_divide_l thm
+R3181:3194 Stdlib.ZArith.BinInt Z gcd_divide_r thm
+R3181:3194 Stdlib.ZArith.BinInt Z gcd_divide_r thm
+R3229:3232 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R3225:3227 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R3238:3241 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R3234:3236 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3243:3245 Stdlib.ZArith.BinInt <> ::Z_scope:x_'>'_x not
+R3286:3289 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R3282:3284 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R3295:3298 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R3291:3293 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3300:3302 Stdlib.ZArith.BinInt <> ::Z_scope:x_'>'_x not
+R3229:3232 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R3225:3227 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R3238:3241 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R3234:3236 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3243:3245 Stdlib.ZArith.BinInt <> ::Z_scope:x_'>'_x not
+R3286:3289 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R3282:3284 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R3295:3298 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R3291:3293 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3300:3302 Stdlib.ZArith.BinInt <> ::Z_scope:x_'>'_x not
+R3286:3289 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R3282:3284 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R3295:3298 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R3291:3293 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3300:3302 Stdlib.ZArith.BinInt <> ::Z_scope:x_'>'_x not
+R3286:3289 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R3282:3284 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R3295:3298 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R3291:3293 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3300:3302 Stdlib.ZArith.BinInt <> ::Z_scope:x_'>'_x not
+R3286:3289 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R3282:3284 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R3295:3298 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R3291:3293 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3300:3302 Stdlib.ZArith.BinInt <> ::Z_scope:x_'>'_x not
+prf 3351:3366 <> gcd_divides_both
+binder 3377:3377 <> a:36
+binder 3379:3379 <> b:37
+R3399:3402 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R3384:3384 Stdlib.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R3394:3396 Stdlib.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R3398:3398 Stdlib.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R3385:3389 Stdlib.ZArith.BinInt Z gcd def
+R3391:3391 Chapter17 <> a:36 var
+R3393:3393 Chapter17 <> b:37 var
+R3397:3397 Chapter17 <> a:36 var
+R3403:3403 Stdlib.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R3413:3415 Stdlib.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R3417:3417 Stdlib.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R3404:3408 Stdlib.ZArith.BinInt Z gcd def
+R3410:3410 Chapter17 <> a:36 var
+R3412:3412 Chapter17 <> b:37 var
+R3416:3416 Chapter17 <> b:37 var
+R3455:3468 Stdlib.ZArith.BinInt Z gcd_divide_l thm
+R3478:3491 Stdlib.ZArith.BinInt Z gcd_divide_r thm
+R3455:3468 Stdlib.ZArith.BinInt Z gcd_divide_l thm
+R3478:3491 Stdlib.ZArith.BinInt Z gcd_divide_r thm
+sec 3509:3520 <> section_17_5
+def 3566:3566 <> F
+R3571:3593 Fibonacci <> fibonacci_nat def
+prf 3605:3614 <> lemma_17_5
+binder 3625:3625 <> n:38
+R3655:3657 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3632:3638 Stdlib.Arith.PeanoNat Nat gcd def
+R3641:3641 Chapter17 <> F def
+R3644:3644 Corelib.Init.Datatypes <> S constr
+R3646:3646 Chapter17 <> n:38 var
+R3651:3651 Chapter17 <> F def
+R3653:3653 Chapter17 <> n:38 var
+R3738:3750 Fibonacci <> fib_S_S_n_nat thm
+R3738:3750 Fibonacci <> fib_S_S_n_nat thm
+R3738:3750 Fibonacci <> fib_S_S_n_nat thm
+R3761:3772 Stdlib.Arith.PeanoNat Nat gcd_comm def
+R3761:3772 Stdlib.Arith.PeanoNat Nat gcd_comm def
+R3761:3772 Stdlib.Arith.PeanoNat Nat gcd_comm def
+R3783:3794 Stdlib.Arith.PeanoNat Nat add_comm thm
+R3783:3794 Stdlib.Arith.PeanoNat Nat add_comm thm
+R3783:3794 Stdlib.Arith.PeanoNat Nat add_comm thm
+R3809:3826 Stdlib.Arith.PeanoNat Nat gcd_add_diag_r thm
+R3809:3826 Stdlib.Arith.PeanoNat Nat gcd_add_diag_r thm
+R3809:3826 Stdlib.Arith.PeanoNat Nat gcd_add_diag_r thm
+R3851:3862 Chapter17 section_17_5 <> sec
+prf 3872:3884 <> gcd_switching
+binder 3895:3895 <> a:39
+binder 3897:3897 <> b:40
+binder 3899:3899 <> c:41
+binder 3901:3901 <> z:42
+R3919:3922 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R3907:3909 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3906:3906 Chapter17 <> a:39 var
+R3915:3917 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R3911:3913 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R3910:3910 Chapter17 <> z:42 var
+R3914:3914 Chapter17 <> b:40 var
+R3918:3918 Chapter17 <> c:41 var
+R3932:3934 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3923:3927 Stdlib.ZArith.BinInt Z gcd def
+R3929:3929 Chapter17 <> a:39 var
+R3931:3931 Chapter17 <> b:40 var
+R3935:3939 Stdlib.ZArith.BinInt Z gcd def
+R3941:3941 Chapter17 <> b:40 var
+R3943:3943 Chapter17 <> c:41 var
+R3986:4009 Chapter17 <> gcd_satisfies_gcd_theory thm
+R3986:4009 Chapter17 <> gcd_satisfies_gcd_theory thm
+R4037:4060 Chapter17 <> gcd_satisfies_gcd_theory thm
+R4037:4060 Chapter17 <> gcd_satisfies_gcd_theory thm
+R4089:4092 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R4085:4087 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4094:4097 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R4089:4092 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R4085:4087 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4094:4097 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R4146:4155 Stdlib.ZArith.BinInt Z gcd_comm thm
+R4146:4155 Stdlib.ZArith.BinInt Z gcd_comm thm
+R4146:4155 Stdlib.ZArith.BinInt Z gcd_comm thm
+R4202:4204 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4182:4182 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R4189:4194 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R4201:4201 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R4184:4187 Stdlib.ZArith.BinInt <> ::Z_scope:x_'=?'_x not
+R4196:4199 Stdlib.ZArith.BinInt <> ::Z_scope:x_'=?'_x not
+R4205:4209 Corelib.Init.Datatypes <> false constr
+R4202:4204 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4182:4182 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R4189:4194 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R4201:4201 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R4184:4187 Stdlib.ZArith.BinInt <> ::Z_scope:x_'=?'_x not
+R4196:4199 Stdlib.ZArith.BinInt <> ::Z_scope:x_'=?'_x not
+R4205:4209 Corelib.Init.Datatypes <> false constr
+R4227:4240 Stdlib.Bool.Bool <> andb_false_iff thm
+R4255:4263 Stdlib.ZArith.BinInt Z eqb_neq thm
+R4227:4240 Stdlib.Bool.Bool <> andb_false_iff thm
+R4255:4263 Stdlib.ZArith.BinInt Z eqb_neq thm
+R4305:4307 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4285:4285 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R4292:4297 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R4304:4304 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R4287:4290 Stdlib.ZArith.BinInt <> ::Z_scope:x_'=?'_x not
+R4299:4302 Stdlib.ZArith.BinInt <> ::Z_scope:x_'=?'_x not
+R4308:4312 Corelib.Init.Datatypes <> false constr
+R4305:4307 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4285:4285 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R4292:4297 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R4304:4304 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R4287:4290 Stdlib.ZArith.BinInt <> ::Z_scope:x_'=?'_x not
+R4299:4302 Stdlib.ZArith.BinInt <> ::Z_scope:x_'=?'_x not
+R4308:4312 Corelib.Init.Datatypes <> false constr
+R4330:4343 Stdlib.Bool.Bool <> andb_false_iff thm
+R4359:4367 Stdlib.ZArith.BinInt Z eqb_neq thm
+R4330:4343 Stdlib.Bool.Bool <> andb_false_iff thm
+R4359:4367 Stdlib.ZArith.BinInt Z eqb_neq thm
+R4388:4397 Chapter17 <> gcd_theory def
+binder 4534:4535 <> d1:43
+R4558:4561 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R4546:4549 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R4538:4538 Stdlib.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R4541:4543 Stdlib.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R4545:4545 Stdlib.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R4539:4540 Chapter17 <> d1:43 var
+R4550:4550 Stdlib.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R4553:4555 Stdlib.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R4557:4557 Stdlib.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R4551:4552 Chapter17 <> d1:43 var
+R4562:4562 Stdlib.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R4565:4567 Stdlib.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R4569:4569 Stdlib.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R4563:4564 Chapter17 <> d1:43 var
+binder 4534:4535 <> d1:44
+R4558:4561 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R4546:4549 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R4538:4538 Stdlib.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R4541:4543 Stdlib.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R4545:4545 Stdlib.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R4539:4540 Chapter17 <> d1:44 var
+R4550:4550 Stdlib.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R4553:4555 Stdlib.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R4557:4557 Stdlib.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R4551:4552 Chapter17 <> d1:44 var
+R4562:4562 Stdlib.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R4565:4567 Stdlib.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R4569:4569 Stdlib.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R4563:4564 Chapter17 <> d1:44 var
+R4617:4619 Stdlib.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R4621:4623 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R4617:4619 Stdlib.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R4621:4623 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R4641:4654 Stdlib.ZArith.BinInt Z divide_sub_r thm
+R4641:4654 Stdlib.ZArith.BinInt Z divide_sub_r thm
+R4669:4682 Stdlib.ZArith.BinInt Z divide_mul_r thm
+R4669:4682 Stdlib.ZArith.BinInt Z divide_mul_r thm
+binder 4718:4719 <> d2:45
+R4742:4745 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R4730:4733 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R4722:4722 Stdlib.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R4725:4727 Stdlib.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R4729:4729 Stdlib.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R4723:4724 Chapter17 <> d2:45 var
+R4734:4734 Stdlib.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R4737:4739 Stdlib.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R4741:4741 Stdlib.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R4735:4736 Chapter17 <> d2:45 var
+R4746:4746 Stdlib.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R4749:4751 Stdlib.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R4753:4753 Stdlib.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R4747:4748 Chapter17 <> d2:45 var
+binder 4718:4719 <> d2:46
+R4742:4745 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R4730:4733 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R4722:4722 Stdlib.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R4725:4727 Stdlib.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R4729:4729 Stdlib.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R4723:4724 Chapter17 <> d2:46 var
+R4734:4734 Stdlib.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R4737:4739 Stdlib.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R4741:4741 Stdlib.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R4735:4736 Chapter17 <> d2:46 var
+R4746:4746 Stdlib.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R4749:4751 Stdlib.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R4753:4753 Stdlib.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R4747:4748 Chapter17 <> d2:46 var
+R4802:4815 Stdlib.ZArith.BinInt Z divide_add_r thm
+R4802:4815 Stdlib.ZArith.BinInt Z divide_add_r thm
+R4830:4843 Stdlib.ZArith.BinInt Z divide_mul_r thm
+R4830:4843 Stdlib.ZArith.BinInt Z divide_mul_r thm
+R4875:4879 Stdlib.ZArith.BinInt Z gcd def
+R4875:4879 Stdlib.ZArith.BinInt Z gcd def
+R4925:4929 Stdlib.ZArith.BinInt Z gcd def
+R4925:4929 Stdlib.ZArith.BinInt Z gcd def
+R4979:4983 Stdlib.ZArith.BinInt Z gcd def
+R4979:4983 Stdlib.ZArith.BinInt Z gcd def
+R5028:5032 Stdlib.ZArith.BinInt Z gcd def
+R5028:5032 Stdlib.ZArith.BinInt Z gcd def
+prf 5078:5087 <> lemma_17_6
+R5102:5102 Corelib.Numbers.BinNums <> Z ind
+binder 5098:5098 <> n:47
+R5136:5138 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5107:5111 Stdlib.ZArith.BinInt Z gcd def
+R5119:5121 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R5115:5117 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R5118:5118 Chapter17 <> n:47 var
+R5131:5133 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R5127:5129 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R5130:5130 Chapter17 <> n:47 var
+R5169:5178 Stdlib.ZArith.BinInt Z gcd_comm thm
+R5169:5178 Stdlib.ZArith.BinInt Z gcd_comm thm
+R5169:5178 Stdlib.ZArith.BinInt Z gcd_comm thm
+R5195:5197 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R5191:5193 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R5222:5224 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R5208:5211 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R5221:5221 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R5217:5219 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R5213:5215 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R5195:5197 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R5191:5193 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R5222:5224 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R5208:5211 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R5221:5221 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R5217:5219 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R5213:5215 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R5246:5258 Chapter17 <> gcd_switching thm
+R5246:5258 Chapter17 <> gcd_switching thm
+R5246:5258 Chapter17 <> gcd_switching thm
+R5246:5258 Chapter17 <> gcd_switching thm
+R5299:5307 Stdlib.ZArith.BinInt Z gcd_1_r thm
+R5299:5307 Stdlib.ZArith.BinInt Z gcd_1_r thm
+prf 5322:5331 <> lemma_17_7
+R5346:5346 Corelib.Numbers.BinNums <> Z ind
+binder 5342:5342 <> n:48
+R5381:5383 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5351:5355 Stdlib.ZArith.BinInt Z gcd def
+R5363:5365 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R5359:5361 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R5362:5362 Chapter17 <> n:48 var
+R5376:5378 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R5372:5374 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R5375:5375 Chapter17 <> n:48 var
+R5414:5423 Stdlib.ZArith.BinInt Z gcd_comm thm
+R5414:5423 Stdlib.ZArith.BinInt Z gcd_comm thm
+R5414:5423 Stdlib.ZArith.BinInt Z gcd_comm thm
+R5441:5443 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R5437:5439 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R5468:5470 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R5454:5457 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R5467:5467 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R5463:5465 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R5459:5461 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R5441:5443 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R5437:5439 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R5468:5470 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R5454:5457 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R5467:5467 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R5463:5465 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R5459:5461 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R5492:5504 Chapter17 <> gcd_switching thm
+R5492:5504 Chapter17 <> gcd_switching thm
+R5492:5504 Chapter17 <> gcd_switching thm
+R5492:5504 Chapter17 <> gcd_switching thm
+R5553:5555 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R5549:5551 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R5566:5569 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R5579:5579 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R5575:5577 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R5571:5573 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R5553:5555 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R5549:5551 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R5566:5569 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R5579:5579 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R5575:5577 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R5571:5573 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R5601:5610 Stdlib.ZArith.BinInt Z gcd_comm thm
+R5601:5610 Stdlib.ZArith.BinInt Z gcd_comm thm
+R5601:5610 Stdlib.ZArith.BinInt Z gcd_comm thm
+R5619:5634 Stdlib.ZArith.BinInt Z gcd_mul_diag_l thm
+R5619:5634 Stdlib.ZArith.BinInt Z gcd_mul_diag_l thm
+prf 5654:5665 <> lemma_17_8_a
+R5682:5682 Corelib.Numbers.BinNums <> Z ind
+binder 5676:5676 <> n:49
+binder 5678:5678 <> d:50
+R5687:5687 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R5694:5698 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R5689:5692 Stdlib.ZArith.BinInt <> ::Z_scope:x_'>='_x not
+R5688:5688 Chapter17 <> d:50 var
+R5699:5699 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R5705:5709 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R5701:5703 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R5700:5700 Chapter17 <> n:49 var
+R5710:5716 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R5724:5725 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R5723:5723 Corelib.Numbers.BinNums <> Z ind
+binder 5717:5717 <> q:51
+R5723:5723 Corelib.Numbers.BinNums <> Z ind
+binder 5719:5719 <> r:52
+R5739:5742 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R5727:5729 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5726:5726 Chapter17 <> n:49 var
+R5735:5737 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R5731:5733 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R5730:5730 Chapter17 <> d:50 var
+R5734:5734 Chapter17 <> q:51 var
+R5738:5738 Chapter17 <> r:52 var
+R5744:5747 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R5749:5751 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R5748:5748 Chapter17 <> r:52 var
+R5748:5748 Chapter17 <> r:52 var
+R5752:5752 Chapter17 <> d:50 var
+R5792:5827 QRT <> quotient_remainder_theorem_existence thm
+R5830:5830 Stdlib.ZArith.BinInt <> ::Z_scope:'-'_x not
+R5792:5827 QRT <> quotient_remainder_theorem_existence thm
+R5830:5830 Stdlib.ZArith.BinInt <> ::Z_scope:'-'_x not
+R5873:5879 Stdlib.Logic.Classical_Prop <> classic prfax
+R5883:5885 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5912:5912 Stdlib.ZArith.BinInt <> ::Z_scope:'-'_x not
+R5931:5933 Stdlib.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R5929:5929 Stdlib.ZArith.BinInt <> ::Z_scope:'-'_x not
+R5940:5942 Stdlib.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R5873:5879 Stdlib.Logic.Classical_Prop <> classic prfax
+R5883:5885 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5912:5912 Stdlib.ZArith.BinInt <> ::Z_scope:'-'_x not
+R5931:5933 Stdlib.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R5929:5929 Stdlib.ZArith.BinInt <> ::Z_scope:'-'_x not
+R5940:5942 Stdlib.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+prf 5965:5976 <> lemma_17_8_b
+R5993:5993 Corelib.Numbers.BinNums <> Z ind
+binder 5987:5987 <> n:53
+binder 5989:5989 <> d:54
+R5998:5998 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R6004:6008 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R6000:6002 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R5999:5999 Chapter17 <> d:54 var
+R6009:6015 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R6023:6024 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R6022:6022 Corelib.Numbers.BinNums <> Z ind
+binder 6016:6016 <> q:55
+R6022:6022 Corelib.Numbers.BinNums <> Z ind
+binder 6018:6018 <> r:56
+R6038:6041 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R6026:6028 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6025:6025 Chapter17 <> n:53 var
+R6034:6036 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R6030:6032 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R6029:6029 Chapter17 <> d:54 var
+R6033:6033 Chapter17 <> q:55 var
+R6037:6037 Chapter17 <> r:56 var
+R6043:6046 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R6048:6050 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R6047:6047 Chapter17 <> r:56 var
+R6047:6047 Chapter17 <> r:56 var
+R6051:6055 Stdlib.ZArith.BinInt Z abs def
+R6057:6057 Chapter17 <> d:54 var
+R6094:6129 QRT <> quotient_remainder_theorem_existence thm
+R6134:6134 Stdlib.ZArith.BinInt <> ::Z_scope:'-'_x not
+R6094:6129 QRT <> quotient_remainder_theorem_existence thm
+R6134:6134 Stdlib.ZArith.BinInt <> ::Z_scope:'-'_x not
+R6180:6180 Stdlib.ZArith.BinInt <> ::Z_scope:'-'_x not
+R6180:6180 Stdlib.ZArith.BinInt <> ::Z_scope:'-'_x not
+prf 6207:6224 <> division_algorithm
+R6241:6241 Corelib.Numbers.BinNums <> Z ind
+binder 6235:6235 <> n:57
+binder 6237:6237 <> d:58
+R6252:6255 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R6247:6250 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R6246:6246 Chapter17 <> d:58 var
+R6256:6262 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R6270:6271 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R6269:6269 Corelib.Numbers.BinNums <> Z ind
+binder 6263:6263 <> q:59
+R6269:6269 Corelib.Numbers.BinNums <> Z ind
+binder 6265:6265 <> r:60
+R6285:6288 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R6273:6275 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6272:6272 Chapter17 <> n:57 var
+R6281:6283 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R6277:6279 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R6276:6276 Chapter17 <> d:58 var
+R6280:6280 Chapter17 <> q:59 var
+R6284:6284 Chapter17 <> r:60 var
+R6290:6293 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R6295:6297 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R6294:6294 Chapter17 <> r:60 var
+R6294:6294 Chapter17 <> r:60 var
+R6298:6302 Stdlib.ZArith.BinInt Z abs def
+R6304:6304 Chapter17 <> d:58 var
+R6350:6353 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R6346:6348 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6339:6343 Stdlib.ZArith.BinInt Z abs def
+R6361:6363 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6354:6358 Stdlib.ZArith.BinInt Z abs def
+R6364:6364 Stdlib.ZArith.BinInt <> ::Z_scope:'-'_x not
+R6410:6445 QRT <> quotient_remainder_theorem_existence thm
+R6455:6466 Chapter17 <> lemma_17_8_b thm
+R6350:6353 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R6346:6348 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6339:6343 Stdlib.ZArith.BinInt Z abs def
+R6361:6363 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6354:6358 Stdlib.ZArith.BinInt Z abs def
+R6364:6364 Stdlib.ZArith.BinInt <> ::Z_scope:'-'_x not
+R6410:6445 QRT <> quotient_remainder_theorem_existence thm
+R6455:6466 Chapter17 <> lemma_17_8_b thm

@@ -1,0 +1,518 @@
+DIGEST 7f850a342c6edaabbe372745522d09aa
+FChapter10
+R15:21 Imports <> <> lib
+R23:26 Sets <> <> lib
+R44:51 Chapter9 <> <> lib
+R62:73 Sets SetNotations <> mod
+prf 126:137 <> lemma_10_1_a
+R142:146 Sets SetNotations ::set_scope:x_'∈'_x not
+R147:150 Sets SetNotations ::set_scope:'⦃'_x_','_x_','_'..'_','_x_'⦄' not
+R152:153 Sets SetNotations ::set_scope:'⦃'_x_','_x_','_'..'_','_x_'⦄' not
+R155:156 Sets SetNotations ::set_scope:'⦃'_x_','_x_','_'..'_','_x_'⦄' not
+R158:159 Sets SetNotations ::set_scope:'⦃'_x_','_x_','_'..'_','_x_'⦄' not
+R161:162 Sets SetNotations ::set_scope:'⦃'_x_','_x_','_'..'_','_x_'⦄' not
+R164:165 Sets SetNotations ::set_scope:'⦃'_x_','_x_','_'..'_','_x_'⦄' not
+R167:168 Sets SetNotations ::set_scope:'⦃'_x_','_x_','_'..'_','_x_'⦄' not
+R170:173 Sets SetNotations ::set_scope:'⦃'_x_','_x_','_'..'_','_x_'⦄' not
+ax 204:215 <> PI_int_bound
+R220:222 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x_'<'_x not
+R225:227 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x_'<'_x not
+R223:224 Stdlib.Reals.Rtrigo1 <> PI def
+R223:224 Stdlib.Reals.Rtrigo1 <> PI def
+prf 238:249 <> lemma_10_1_b
+R255:259 Sets SetNotations ::set_scope:x_'∉'_x not
+R260:263 Sets SetNotations ::set_scope:'⦃'_x_','_x_','_'..'_','_x_'⦄' not
+R265:266 Sets SetNotations ::set_scope:'⦃'_x_','_x_','_'..'_','_x_'⦄' not
+R268:269 Sets SetNotations ::set_scope:'⦃'_x_','_x_','_'..'_','_x_'⦄' not
+R271:272 Sets SetNotations ::set_scope:'⦃'_x_','_x_','_'..'_','_x_'⦄' not
+R274:275 Sets SetNotations ::set_scope:'⦃'_x_','_x_','_'..'_','_x_'⦄' not
+R277:278 Sets SetNotations ::set_scope:'⦃'_x_','_x_','_'..'_','_x_'⦄' not
+R280:281 Sets SetNotations ::set_scope:'⦃'_x_','_x_','_'..'_','_x_'⦄' not
+R283:286 Sets SetNotations ::set_scope:'⦃'_x_','_x_','_'..'_','_x_'⦄' not
+R253:254 Stdlib.Reals.Rtrigo1 <> PI def
+R309:320 Chapter10 <> PI_int_bound prfax
+R309:320 Chapter10 <> PI_int_bound prfax
+prf 350:361 <> lemma_10_1_c
+R367:371 Sets SetNotations ::set_scope:x_'∈'_x not
+R372:379 Stdlib.Sets.Ensembles <> Full_set ind
+R381:381 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R365:366 Stdlib.Reals.Rtrigo1 <> PI def
+R399:408 Stdlib.Sets.Ensembles <> Full_intro constr
+R399:408 Stdlib.Sets.Ensembles <> Full_intro constr
+prf 423:432 <> frac_not_Z
+R448:448 Corelib.Numbers.BinNums <> Z ind
+binder 444:444 <> x:3
+R458:458 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 452:452 <> a:4
+binder 454:454 <> b:5
+R462:462 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R503:507 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R463:469 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R472:473 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 470:471 <> z1:6
+R480:482 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x_'<'_x not
+R488:490 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x_'<'_x not
+R474:476 Stdlib.Reals.Rdefinitions <> IZR def
+R478:479 Chapter10 <> z1:6 var
+R484:486 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R483:483 Chapter10 <> a:4 var
+R487:487 Chapter10 <> b:5 var
+R484:486 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R483:483 Chapter10 <> a:4 var
+R487:487 Chapter10 <> b:5 var
+R491:493 Stdlib.Reals.Rdefinitions <> IZR def
+R498:500 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R496:497 Chapter10 <> z1:6 var
+R513:516 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R509:511 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R508:508 Chapter10 <> a:4 var
+R512:512 Chapter10 <> b:5 var
+R517:519 Stdlib.Reals.Rdefinitions <> IZR def
+R521:521 Chapter10 <> x:3 var
+R570:576 Stdlib.Logic.Classical_Prop <> classic prfax
+R580:582 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R613:619 Stdlib.Logic.Classical_Prop <> classic prfax
+R623:625 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R662:664 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R699:702 Stdlib.Reals.Rdefinitions <> Rdiv def
+R717:722 Stdlib.Reals.RIneq <> Rinv_0 thm
+R741:743 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x_'<'_x not
+R745:747 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x_'<'_x not
+R750:752 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R788:793 Stdlib.Reals.RIneq <> lt_IZR thm
+R803:808 Stdlib.Reals.RIneq <> IZR_lt thm
+R570:576 Stdlib.Logic.Classical_Prop <> classic prfax
+R580:582 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R613:619 Stdlib.Logic.Classical_Prop <> classic prfax
+R623:625 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R613:619 Stdlib.Logic.Classical_Prop <> classic prfax
+R623:625 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R662:664 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R717:722 Stdlib.Reals.RIneq <> Rinv_0 thm
+R717:722 Stdlib.Reals.RIneq <> Rinv_0 thm
+R741:743 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x_'<'_x not
+R745:747 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x_'<'_x not
+R750:752 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R788:793 Stdlib.Reals.RIneq <> lt_IZR thm
+R788:793 Stdlib.Reals.RIneq <> lt_IZR thm
+R662:664 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R717:722 Stdlib.Reals.RIneq <> Rinv_0 thm
+R741:743 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x_'<'_x not
+R745:747 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x_'<'_x not
+R750:752 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R788:793 Stdlib.Reals.RIneq <> lt_IZR thm
+R788:793 Stdlib.Reals.RIneq <> lt_IZR thm
+R662:664 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R717:722 Stdlib.Reals.RIneq <> Rinv_0 thm
+R717:722 Stdlib.Reals.RIneq <> Rinv_0 thm
+R741:743 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x_'<'_x not
+R745:747 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<'_x_'<'_x not
+R750:752 Stdlib.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R788:793 Stdlib.Reals.RIneq <> lt_IZR thm
+R788:793 Stdlib.Reals.RIneq <> lt_IZR thm
+R662:664 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R717:722 Stdlib.Reals.RIneq <> Rinv_0 thm
+R875:880 Stdlib.Reals.RIneq <> lt_IZR thm
+R875:880 Stdlib.Reals.RIneq <> lt_IZR thm
+R895:900 Stdlib.Reals.RIneq <> lt_IZR thm
+R895:900 Stdlib.Reals.RIneq <> lt_IZR thm
+sec 928:943 <> section_10_1_d_e
+var 952:952 section_10_1_d_e A
+R956:963 Stdlib.Sets.Ensembles <> Ensemble def
+R965:965 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 974:974 <> x:7
+R980:982 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R979:979 Chapter10 <> x:7 var
+var 992:992 section_10_1_d_e B
+R996:1003 Stdlib.Sets.Ensembles <> Ensemble def
+R1005:1005 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 1014:1014 <> x:8
+R1024:1027 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R1020:1022 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R1019:1019 Chapter10 <> x:8 var
+R1028:1034 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R1036:1037 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 1035:1035 <> y:9
+R1039:1041 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1038:1038 Chapter10 <> x:8 var
+R1042:1044 Stdlib.Reals.Rdefinitions <> IZR def
+R1046:1046 Chapter10 <> y:9 var
+prf 1058:1069 <> lemma_10_1_d
+R1076:1080 Sets SetNotations ::set_scope:x_'∈'_x not
+R1081:1081 Chapter10 <> section_10_1_d_e.A var
+R1074:1074 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R1104:1105 Stdlib.Sets.Ensembles <> In def
+R1108:1108 Chapter10 <> A vardef
+prf 1132:1143 <> lemma_10_1_e
+R1150:1154 Sets SetNotations ::set_scope:x_'∉'_x not
+R1155:1155 Chapter10 <> section_10_1_d_e.B var
+R1148:1148 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R1178:1179 Stdlib.Sets.Ensembles <> In def
+R1182:1182 Chapter10 <> B vardef
+R1242:1245 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R1238:1240 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R1246:1248 Stdlib.Reals.Rdefinitions <> IZR def
+R1242:1245 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R1238:1240 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R1246:1248 Stdlib.Reals.Rdefinitions <> IZR def
+R1268:1277 Chapter10 <> frac_not_Z thm
+R1268:1277 Chapter10 <> frac_not_Z thm
+R1326:1341 Chapter10 section_10_1_d_e <> sec
+sec 1376:1387 <> section_10_2
+var 1396:1396 section_10_2 A
+R1400:1407 Stdlib.Sets.Ensembles <> Ensemble def
+R1411:1413 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R1410:1410 Corelib.Numbers.BinNums <> Z ind
+R1414:1414 Corelib.Numbers.BinNums <> Z ind
+binder 1425:1425 <> p:10
+R1448:1448 Chapter10 <> p:10 var
+binder 1439:1439 <> x:11
+binder 1442:1442 <> y:12
+R1453:1453 Stdlib.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R1455:1457 Stdlib.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R1463:1463 Stdlib.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R1459:1461 Stdlib.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R1458:1458 Chapter10 <> x:11 var
+R1462:1462 Chapter10 <> y:12 var
+var 1473:1473 section_10_2 B
+R1477:1484 Stdlib.Sets.Ensembles <> Ensemble def
+R1488:1490 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R1487:1487 Corelib.Numbers.BinNums <> Z ind
+R1491:1491 Corelib.Numbers.BinNums <> Z ind
+binder 1501:1501 <> p:13
+R1524:1524 Chapter10 <> p:13 var
+binder 1515:1515 <> x:14
+binder 1518:1518 <> y:15
+R1538:1542 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R1530:1535 Stdlib.ZArith.BinInt Z Even def
+R1537:1537 Chapter10 <> x:14 var
+R1543:1548 Stdlib.ZArith.BinInt Z Even def
+R1550:1550 Chapter10 <> y:15 var
+prf 1563:1572 <> lemma_10_2
+R1577:1581 Sets SetNotations ::set_scope:x_'⊆'_x not
+R1576:1576 Chapter10 <> section_10_2.A var
+R1582:1582 Chapter10 <> section_10_2.B var
+R1605:1612 Stdlib.Sets.Ensembles <> Included def
+R1644:1645 Stdlib.Sets.Ensembles <> In def
+R1648:1648 Chapter10 <> A vardef
+R1651:1651 Chapter10 <> B vardef
+R1693:1705 Stdlib.ZArith.BinInt Z Even_or_Odd thm
+R1693:1705 Stdlib.ZArith.BinInt Z Even_or_Odd thm
+R1749:1754 Stdlib.ZArith.BinInt Z Even def
+R1758:1760 Stdlib.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R1749:1754 Stdlib.ZArith.BinInt Z Even def
+R1758:1760 Stdlib.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R1777:1777 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R1777:1777 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R1808:1812 Stdlib.ZArith.BinInt Z Odd def
+R1816:1818 Stdlib.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R1808:1812 Stdlib.ZArith.BinInt Z Odd def
+R1816:1818 Stdlib.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R1832:1841 Chapter6 <> odd_plus_Z thm
+R1832:1841 Chapter6 <> odd_plus_Z thm
+R1874:1883 Chapter6 <> odd_sign_Z thm
+R1874:1883 Chapter6 <> odd_sign_Z thm
+R1874:1883 Chapter6 <> odd_sign_Z thm
+R1874:1883 Chapter6 <> odd_sign_Z thm
+R1945:1947 Stdlib.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R1916:1931 Stdlib.ZArith.BinInt Z Even_Odd_False thm
+R1945:1947 Stdlib.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R1916:1931 Stdlib.ZArith.BinInt Z Even_Odd_False thm
+R1983:1988 Stdlib.ZArith.BinInt Z Even def
+R1992:1994 Stdlib.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R1983:1988 Stdlib.ZArith.BinInt Z Even def
+R1992:1994 Stdlib.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R2017:2017 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R2017:2017 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R2041:2051 Chapter6 <> even_plus_Z thm
+R2041:2051 Chapter6 <> even_plus_Z thm
+R2098:2107 Chapter6 <> odd_sign_Z thm
+R2098:2107 Chapter6 <> odd_sign_Z thm
+R2098:2107 Chapter6 <> odd_sign_Z thm
+R2137:2152 Stdlib.ZArith.BinInt Z Even_Odd_False thm
+R2137:2152 Stdlib.ZArith.BinInt Z Even_Odd_False thm
+R2186:2197 Chapter10 section_10_2 <> sec
+sec 2209:2220 <> section_10_3
+var 2229:2229 section_10_3 X
+R2233:2240 Stdlib.Sets.Ensembles <> Ensemble def
+R2242:2242 Corelib.Numbers.BinNums <> Z ind
+binder 2251:2251 <> x:16
+R2257:2261 Chapter8 <> :::x_'≡'_x_'(mod'_x_')' not
+R2264:2269 Chapter8 <> :::x_'≡'_x_'(mod'_x_')' not
+R2271:2271 Chapter8 <> :::x_'≡'_x_'(mod'_x_')' not
+R2256:2256 Chapter10 <> x:16 var
+var 2281:2281 section_10_3 Y
+R2285:2292 Stdlib.Sets.Ensembles <> Ensemble def
+R2294:2294 Corelib.Numbers.BinNums <> Z ind
+binder 2303:2303 <> y:17
+R2309:2313 Chapter8 <> :::x_'≡'_x_'(mod'_x_')' not
+R2315:2320 Chapter8 <> :::x_'≡'_x_'(mod'_x_')' not
+R2322:2322 Chapter8 <> :::x_'≡'_x_'(mod'_x_')' not
+R2308:2308 Chapter10 <> y:17 var
+prf 2334:2343 <> lemma_10_3
+R2348:2352 Sets SetNotations ::set_scope:x_'⊆'_x not
+R2347:2347 Chapter10 <> section_10_3.X var
+R2353:2353 Chapter10 <> section_10_3.Y var
+R2376:2383 Stdlib.Sets.Ensembles <> Included def
+R2406:2407 Stdlib.Sets.Ensembles <> In def
+R2410:2410 Chapter10 <> X vardef
+R2413:2413 Chapter10 <> Y vardef
+R2455:2464 Chapter8 <> Zmod_equiv def
+R2474:2481 Stdlib.ZArith.BinInt Z divide def
+R2497:2499 Stdlib.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R2493:2495 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R2497:2499 Stdlib.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R2493:2495 Stdlib.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R2523:2534 Chapter10 section_10_3 <> sec
+prf 2544:2555 <> lemma_10_4_a
+binder 2567:2567 <> U:18
+R2584:2591 Stdlib.Sets.Ensembles <> Ensemble def
+R2593:2593 Chapter10 <> U:18 var
+binder 2578:2578 <> A:19
+binder 2580:2580 <> B:20
+R2611:2616 Sets SetNotations ::set_scope:x_'⊆'_x not
+R2630:2630 Sets SetNotations ::set_scope:x_'⊆'_x not
+R2599:2599 Sets SetNotations ::set_scope:x_'′' not
+R2607:2610 Sets SetNotations ::set_scope:x_'′' not
+R2601:2605 Sets SetNotations ::set_scope:x_'⋂'_x not
+R2600:2600 Chapter10 <> A:19 var
+R2606:2606 Chapter10 <> B:20 var
+R2621:2625 Sets SetNotations ::set_scope:x_'⋃'_x not
+R2618:2620 Sets SetNotations ::set_scope:x_'′' not
+R2617:2617 Chapter10 <> A:19 var
+R2627:2629 Sets SetNotations ::set_scope:x_'′' not
+R2626:2626 Chapter10 <> B:20 var
+prf 2711:2722 <> lemma_10_4_b
+binder 2734:2734 <> U:21
+R2751:2758 Stdlib.Sets.Ensembles <> Ensemble def
+R2760:2760 Chapter10 <> U:21 var
+binder 2745:2745 <> A:22
+binder 2747:2747 <> B:23
+R2766:2766 Sets SetNotations ::set_scope:x_'⊆'_x not
+R2780:2785 Sets SetNotations ::set_scope:x_'⊆'_x not
+R2771:2775 Sets SetNotations ::set_scope:x_'⋃'_x not
+R2768:2770 Sets SetNotations ::set_scope:x_'′' not
+R2767:2767 Chapter10 <> A:22 var
+R2777:2779 Sets SetNotations ::set_scope:x_'′' not
+R2776:2776 Chapter10 <> B:23 var
+R2786:2786 Sets SetNotations ::set_scope:x_'′' not
+R2794:2797 Sets SetNotations ::set_scope:x_'′' not
+R2788:2792 Sets SetNotations ::set_scope:x_'⋂'_x not
+R2787:2787 Chapter10 <> A:22 var
+R2793:2793 Chapter10 <> B:23 var
+prf 2877:2888 <> lemma_10_4_c
+binder 2900:2900 <> U:24
+R2917:2924 Stdlib.Sets.Ensembles <> Ensemble def
+R2926:2926 Chapter10 <> U:24 var
+binder 2911:2911 <> A:25
+binder 2913:2913 <> B:26
+R2944:2947 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2961:2961 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2932:2932 Sets SetNotations ::set_scope:x_'′' not
+R2940:2943 Sets SetNotations ::set_scope:x_'′' not
+R2934:2938 Sets SetNotations ::set_scope:x_'⋂'_x not
+R2933:2933 Chapter10 <> A:25 var
+R2939:2939 Chapter10 <> B:26 var
+R2952:2956 Sets SetNotations ::set_scope:x_'⋃'_x not
+R2949:2951 Sets SetNotations ::set_scope:x_'′' not
+R2948:2948 Chapter10 <> A:25 var
+R2958:2960 Sets SetNotations ::set_scope:x_'′' not
+R2957:2957 Chapter10 <> B:26 var
+prf 3010:3019 <> lemma_10_5
+binder 3031:3031 <> U:27
+R3048:3055 Stdlib.Sets.Ensembles <> Ensemble def
+R3057:3057 Chapter10 <> U:27 var
+binder 3042:3042 <> X:28
+binder 3044:3044 <> Y:29
+R3063:3063 Sets SetNotations ::set_scope:x_'⊆'_x not
+R3079:3084 Sets SetNotations ::set_scope:x_'⊆'_x not
+R3065:3070 Sets SetNotations ::set_scope:x_'−'_x not
+R3078:3078 Sets SetNotations ::set_scope:x_'−'_x not
+R3064:3064 Chapter10 <> X:28 var
+R3072:3076 Sets SetNotations ::set_scope:x_'−'_x not
+R3071:3071 Chapter10 <> X:28 var
+R3077:3077 Chapter10 <> Y:29 var
+R3086:3090 Sets SetNotations ::set_scope:x_'⋂'_x not
+R3085:3085 Chapter10 <> X:28 var
+R3091:3091 Chapter10 <> Y:29 var
+prf 3172:3181 <> lemma_10_6
+binder 3193:3193 <> U:30
+R3208:3215 Stdlib.Sets.Ensembles <> Ensemble def
+R3217:3217 Chapter10 <> U:30 var
+binder 3204:3204 <> X:31
+R3232:3234 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3224:3228 Sets SetNotations ::set_scope:x_'⋃'_x not
+R3223:3223 Chapter10 <> X:31 var
+R3229:3231 Sets SetNotations ::set_scope:'∅' not
+R3235:3235 Chapter10 <> X:31 var
+sec 3268:3279 <> section_10_7
+var 3293:3293 section_10_7 n
+R3297:3297 Corelib.Numbers.BinNums <> Z ind
+var 3306:3306 section_10_7 A
+R3310:3317 Stdlib.Sets.Ensembles <> Ensemble def
+R3319:3319 Corelib.Numbers.BinNums <> Z ind
+binder 3328:3328 <> x:34
+R3333:3333 Stdlib.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R3335:3337 Stdlib.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R3339:3339 Stdlib.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R3334:3334 Chapter10 <> section_10_7.n var
+R3338:3338 Chapter10 <> x:34 var
+var 3348:3348 section_10_7 B
+R3352:3359 Stdlib.Sets.Ensembles <> Ensemble def
+R3361:3361 Corelib.Numbers.BinNums <> Z ind
+binder 3370:3370 <> x:35
+R3376:3380 Chapter8 <> :::x_'≡'_x_'(mod'_x_')' not
+R3382:3387 Chapter8 <> :::x_'≡'_x_'(mod'_x_')' not
+R3389:3389 Chapter8 <> :::x_'≡'_x_'(mod'_x_')' not
+R3375:3375 Chapter10 <> x:35 var
+R3388:3388 Chapter10 <> section_10_7.n var
+prf 3401:3410 <> lemma_10_7
+R3415:3417 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3414:3414 Chapter10 <> section_10_7.A var
+R3418:3418 Chapter10 <> section_10_7.B var
+R3440:3452 Sets <> set_equal_def thm
+R3440:3452 Sets <> set_equal_def thm
+R3496:3497 Stdlib.Sets.Ensembles <> In def
+R3500:3500 Chapter10 <> A vardef
+R3503:3503 Chapter10 <> B vardef
+R3573:3574 Stdlib.Sets.Ensembles <> In def
+R3577:3577 Chapter10 <> A vardef
+R3580:3580 Chapter10 <> B vardef
+R3637:3648 Chapter10 section_10_7 <> sec
+prf 3658:3669 <> lemma_10_8_a
+binder 3681:3681 <> U:36
+R3700:3707 Stdlib.Sets.Ensembles <> Ensemble def
+R3709:3709 Chapter10 <> U:36 var
+binder 3692:3692 <> A:37
+binder 3694:3694 <> B:38
+binder 3696:3696 <> C:39
+R3730:3734 Sets SetNotations ::set_scope:x_'⊆'_x not
+R3716:3721 Sets SetNotations ::set_scope:x_'−'_x not
+R3729:3729 Sets SetNotations ::set_scope:x_'−'_x not
+R3715:3715 Chapter10 <> A:37 var
+R3723:3727 Sets SetNotations ::set_scope:x_'⋂'_x not
+R3722:3722 Chapter10 <> B:38 var
+R3728:3728 Chapter10 <> C:39 var
+R3735:3735 Sets SetNotations ::set_scope:x_'⋃'_x not
+R3743:3749 Sets SetNotations ::set_scope:x_'⋃'_x not
+R3757:3757 Sets SetNotations ::set_scope:x_'⋃'_x not
+R3737:3741 Sets SetNotations ::set_scope:x_'−'_x not
+R3736:3736 Chapter10 <> A:37 var
+R3742:3742 Chapter10 <> B:38 var
+R3751:3755 Sets SetNotations ::set_scope:x_'−'_x not
+R3750:3750 Chapter10 <> A:37 var
+R3756:3756 Chapter10 <> C:39 var
+prf 3840:3851 <> lemma_10_8_b
+binder 3863:3863 <> U:40
+R3882:3889 Stdlib.Sets.Ensembles <> Ensemble def
+R3891:3891 Chapter10 <> U:40 var
+binder 3874:3874 <> A:41
+binder 3876:3876 <> B:42
+binder 3878:3878 <> C:43
+R3920:3924 Sets SetNotations ::set_scope:x_'⊆'_x not
+R3897:3897 Sets SetNotations ::set_scope:x_'⋃'_x not
+R3905:3911 Sets SetNotations ::set_scope:x_'⋃'_x not
+R3919:3919 Sets SetNotations ::set_scope:x_'⋃'_x not
+R3899:3903 Sets SetNotations ::set_scope:x_'−'_x not
+R3898:3898 Chapter10 <> A:41 var
+R3904:3904 Chapter10 <> B:42 var
+R3913:3917 Sets SetNotations ::set_scope:x_'−'_x not
+R3912:3912 Chapter10 <> A:41 var
+R3918:3918 Chapter10 <> C:43 var
+R3926:3931 Sets SetNotations ::set_scope:x_'−'_x not
+R3939:3939 Sets SetNotations ::set_scope:x_'−'_x not
+R3925:3925 Chapter10 <> A:41 var
+R3933:3937 Sets SetNotations ::set_scope:x_'⋂'_x not
+R3932:3932 Chapter10 <> B:42 var
+R3938:3938 Chapter10 <> C:43 var
+prf 4022:4033 <> lemma_10_8_c
+binder 4045:4045 <> U:44
+R4064:4071 Stdlib.Sets.Ensembles <> Ensemble def
+R4073:4073 Chapter10 <> U:44 var
+binder 4056:4056 <> A:45
+binder 4058:4058 <> B:46
+binder 4060:4060 <> C:47
+R4094:4096 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4080:4085 Sets SetNotations ::set_scope:x_'−'_x not
+R4093:4093 Sets SetNotations ::set_scope:x_'−'_x not
+R4079:4079 Chapter10 <> A:45 var
+R4087:4091 Sets SetNotations ::set_scope:x_'⋂'_x not
+R4086:4086 Chapter10 <> B:46 var
+R4092:4092 Chapter10 <> C:47 var
+R4097:4097 Sets SetNotations ::set_scope:x_'⋃'_x not
+R4105:4111 Sets SetNotations ::set_scope:x_'⋃'_x not
+R4119:4119 Sets SetNotations ::set_scope:x_'⋃'_x not
+R4099:4103 Sets SetNotations ::set_scope:x_'−'_x not
+R4098:4098 Chapter10 <> A:45 var
+R4104:4104 Chapter10 <> B:46 var
+R4113:4117 Sets SetNotations ::set_scope:x_'−'_x not
+R4112:4112 Chapter10 <> A:45 var
+R4118:4118 Chapter10 <> C:47 var
+sec 4154:4165 <> section_10_9
+var 4174:4175 section_10_9 Sn
+R4182:4184 Corelib.Init.Datatypes <> nat ind
+binder 4178:4178 <> n:48
+R4189:4196 Stdlib.Sets.Ensembles <> Ensemble def
+R4198:4198 Corelib.Numbers.BinNums <> Z ind
+R4215:4215 Corelib.Numbers.BinNums <> Z ind
+binder 4211:4211 <> m:49
+R4221:4224 Stdlib.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R4220:4220 Chapter10 <> m:49 var
+R4225:4232 Stdlib.ZArith.BinInt Z of_nat def
+R4234:4234 Chapter10 <> n:48 var
+var 4244:4253 section_10_9 Union_Sn_a
+R4260:4262 Corelib.Init.Datatypes <> nat ind
+binder 4256:4256 <> i:50
+R4267:4274 Stdlib.Sets.Ensembles <> Ensemble def
+R4276:4276 Corelib.Numbers.BinNums <> Z ind
+R4285:4293 Sets <> Union_f_n def
+R4298:4298 Chapter10 <> i:50 var
+R4295:4296 Chapter10 <> section_10_9.Sn var
+prf 4310:4321 <> lemma_10_9_a
+R4336:4338 Corelib.Init.Datatypes <> nat ind
+binder 4332:4332 <> n:51
+R4357:4359 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4345:4354 Chapter10 <> section_10_9.Union_Sn_a var
+R4356:4356 Chapter10 <> n:51 var
+R4360:4361 Chapter10 <> section_10_9.Sn var
+R4363:4363 Chapter10 <> n:51 var
+R4442:4451 Chapter10 <> Union_Sn_a vardef
+R4467:4477 Sets <> Union_f_n_S thm
+R4467:4477 Sets <> Union_f_n_S thm
+R4467:4477 Sets <> Union_f_n_S thm
+R4498:4510 Sets <> set_equal_def thm
+R4498:4510 Sets <> set_equal_def thm
+R4553:4564 Sets <> In_Union_def thm
+R4553:4564 Sets <> In_Union_def thm
+R4602:4603 Stdlib.Sets.Ensembles <> In def
+R4606:4607 Chapter10 <> Sn vardef
+R4651:4662 Sets <> In_Union_def thm
+R4651:4662 Sets <> In_Union_def thm
+var 4696:4705 section_10_9 Union_Sn_b
+R4709:4716 Stdlib.Sets.Ensembles <> Ensemble def
+R4718:4718 Corelib.Numbers.BinNums <> Z ind
+R4735:4735 Corelib.Numbers.BinNums <> Z ind
+binder 4731:4731 <> x:52
+R4740:4746 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R4754:4755 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R4751:4753 Corelib.Init.Datatypes <> nat ind
+binder 4747:4747 <> n:53
+R4757:4761 Sets SetNotations ::set_scope:x_'∈'_x not
+R4762:4763 Chapter10 <> section_10_9.Sn var
+R4765:4765 Chapter10 <> n:53 var
+R4756:4756 Chapter10 <> x:52 var
+prf 4777:4788 <> lemma_10_9_b
+R4802:4804 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4792:4801 Chapter10 <> section_10_9.Union_Sn_b var
+R4805:4812 Stdlib.Sets.Ensembles <> Full_set ind
+R4814:4814 Corelib.Numbers.BinNums <> Z ind
+R4836:4848 Sets <> set_equal_def thm
+R4836:4848 Sets <> set_equal_def thm
+R4891:4900 Stdlib.Sets.Ensembles <> Full_intro constr
+R4891:4900 Stdlib.Sets.Ensembles <> Full_intro constr
+R4934:4935 Stdlib.Sets.Ensembles <> In def
+R4938:4947 Chapter10 <> Union_Sn_b vardef
+R4950:4951 Chapter10 <> Sn vardef
+R4968:4975 Stdlib.ZArith.BinInt Z to_nat def
+R4968:4975 Stdlib.ZArith.BinInt Z to_nat def
+R4996:5007 Chapter10 section_10_9 <> sec
